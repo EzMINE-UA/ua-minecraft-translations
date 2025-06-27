@@ -1,0 +1,29 @@
+#Translated by EzMINE
+
+# Панелі
+xxlsolarpanels.machines.super_powerful_panel=Надпотужна сонячна панель
+xxlsolarpanels.machines.fantastic_panel=Фантастична сонячна панель
+xxlsolarpanels.machines.perfect_panel=Ідеальна сонячна панель
+xxlsolarpanels.machines.hles=Високоємнісне енергосховище
+
+# Блоки
+tile.lirium_ore.name=Руда лірію
+tile.lirium_block.name=Блок лірію
+tile.electro_lirium_block.name=Заряджений блок лірію
+tile.nether_star_block.name=Блок Незер зірки
+
+# Предмети
+item.lirium.name=Осколок лірію
+item.solar_core.name=Сонячне ядро
+item.advanced_solar_core=Покращене сонячне ядро
+item.perfect_solar_core=Ідеальне сонячне ядро
+
+# Інформація про руду
+lirium_ore.info1=Генерується в Пеклі на висоті
+lirium_ore.info2=від 12 до 26 блоків
+drop.info1=Мінімум: 1 Максимум: 3
+
+# GUI
+gui.text.maxStorage=Макс. запас енергії: %s
+gui.text.currentStorage=Поточний запас: %s
+gui.text.output=Вихід: %s Єу/тік

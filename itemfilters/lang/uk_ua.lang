@@ -1,0 +1,26 @@
+item.itemfilters.filter.name=Фільтр предметів
+item.itemfilters.missing.name=Відсутній предмет
+
+filter.itemfilters.always_true.name=Завжди істинний
+filter.itemfilters.always_true.filter=Підходить для всіх предметів
+
+filter.itemfilters.or.name=Фільтр АБО
+filter.itemfilters.or.filter=Потрібно, щоб збігався хоча б один
+
+filter.itemfilters.and.name=Фільтр І
+filter.itemfilters.and.filter=Усі мають збігатись
+
+filter.itemfilters.not.name=Фільтр НЕ
+filter.itemfilters.not.filter=Інвертує фільтр
+
+filter.itemfilters.xor.name=Фільтр АБО-НЕ
+filter.itemfilters.xor.filter=Один з двох, але не обидва
+
+filter.itemfilters.ore.name=Фільтр рудної системи
+filter.itemfilters.ore.filter=Використовує назви з Ore Dictionary, наприклад: 'ingotCopper' або 'cobblestone'
+
+filter.itemfilters.creative_tab.name=Фільтр вкладки креативу
+filter.itemfilters.creative_tab.filter=Використовує ID креативної вкладки
+
+filter.itemfilters.mod.name=Фільтр моду
+filter.itemfilters.mod.filter=Використовує ID моду

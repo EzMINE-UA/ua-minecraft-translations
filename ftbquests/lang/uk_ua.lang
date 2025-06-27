@@ -1,0 +1,438 @@
+#Translated by EzMINE
+ftbquests=FTB Quests
+
+tile.ftbquests.screen.missing_data=Пошкоджений блок / Відсутні дані!
+tile.ftbquests.screen.name=Екран завдань
+tile.ftbquests.screen.task_index=Індекс завдання
+tile.ftbquests.screen.size=Розмір
+tile.ftbquests.screen.skin=Оформлення
+tile.ftbquests.screen.indestructible=Неруйнівний
+tile.ftbquests.screen.input_only=Лише вхід
+tile.ftbquests.screen.input_mode_icon=Іконка вхідного режиму
+tile.ftbquests.screen.fullscreen=На весь екран
+tile.ftbquests.screen.hide_icons=Приховати іконки
+
+tile.ftbquests.progress_detector.name=Детектор прогресу квесту
+tile.ftbquests.progress_detector.object=ID об’єкта
+tile.ftbquests.progress_detector.level=Рівень вихідного сигналу
+
+tile.ftbquests.barrier.name=Бар’єр квесту
+tile.ftbquests.barrier.object=ID об’єкта
+
+tile.ftbquests.detector.task=Завдання
+tile.ftbquests.detector.notifications=Сповіщення
+
+tile.ftbquests.detector.redstone.name=Редстоун-детектор
+tile.ftbquests.detector.redstone.required_redstone=Необхідний рівень редстоуну
+
+tile.ftbquests.detector.player.name=Детектор гравця
+tile.ftbquests.detector.player.radius=Радіус
+tile.ftbquests.detector.player.offset_y=Зміщення по Y
+tile.ftbquests.detector.player.height=Висота
+
+tile.ftbquests.progress_screen.name=Екран прогресу
+
+tile.ftbquests.chest.name=Скриня квестів
+tile.ftbquests.chest.transfer_all=Автоперенесення всіх предметів
+tile.ftbquests.chest.input=Вхідний слот
+tile.ftbquests.chest.input_desc=Клади сюди предмети для виконання завдань
+tile.ftbquests.chest.output=Вихідний слот
+tile.ftbquests.chest.output_desc=Тут з’являються нагороди
+tile.ftbquests.chest.deprecated=Цей блок застарілий! Використовуй Колектор Нагород і Екран Завдань!
+
+tile.ftbquests.loot_crate_storage.name=Сховище скринь
+tile.ftbquests.loot_crate_opener.name=Відкривач скринь
+tile.ftbquests.loot_crate_opener.rightclick=Збережено предметів: %d
+tile.ftbquests.reward_collector.name=Колектор нагород
+tile.ftbquests.reward_collector.tooltip=Збирає нагороди з повторюваних квестів
+
+item.ftbquests.book.name=Книга квестів
+item.ftbquests.book.tooltip=ПКМ — відкрити вікно квестів
+item.ftbquests.book.disabled=Інтерфейс книги квестів вимкнено!
+item.ftbquests.lootcrate.name=Скриня з лутом
+item.ftbquests.lootcrate.tooltip_1=ПКМ — відкрити
+item.ftbquests.lootcrate.tooltip_2=Shift + ПКМ — відкрити всі в руці
+item.ftbquests.custom_icon.name=Користувацька іконка
+item.ftbquests.custom_icon.tooltip=ПКМ — встановити іконку та використовувати цей предмет у квестах
+
+ftbquests.rarity.common=Звичайний
+ftbquests.rarity.uncommon=Незвичний
+ftbquests.rarity.rare=Рідкісний
+ftbquests.rarity.epic=Епічний
+ftbquests.rarity.legendary=Легендарний
+
+ftbquests.raymatcher.block_id=ID Блоку
+ftbquests.raymatcher.block_entity_id=ID Сутності Блоку
+ftbquests.raymatcher.block_entity_class=Клас Сутності Блоку
+ftbquests.raymatcher.entity_id=ID Сутності
+ftbquests.raymatcher.entity_class=Клас Сутності
+
+itemGroup.ftbquests=FTB Квести
+sidebar_button.ftbquests.quests=Квести
+sidebar_button.ftbquests.quests.no_team=Приєднайся до команди, щоб виконувати квести!
+key.ftbquests.quests=Відкрити Квести
+
+ftbquests.unnamed=Без назви
+ftbquests.team=Команда
+ftbquests.progress=Прогрес
+ftbquests.title=Заголовок
+ftbquests.title.tooltip=Користувацький заголовок
+ftbquests.icon=Іконка
+ftbquests.icon.tooltip=Користувацька іконка
+ftbquests.tags=Теги
+ftbquests.tags.tooltip=Використовується для тем і подій KubeJS
+ftbquests.completion_command=Команда при завершенні
+ftbquests.dependencies=Залежності
+ftbquests.dependency=Залежність
+
+ftbquests.null=Немає
+ftbquests.disable_completion_toast=Вимкнути сповіщення про завершення
+ftbquests.file=Файл
+ftbquests.file.completed=Усі розділи завершено!
+ftbquests.file.allow_take_quest_blocks=Дозволити забирати квест-блоки
+ftbquests.file.allow_take_quest_blocks.tooltip=Дозволити отримання квест-блоків з GUI квестів
+ftbquests.file.emergency_items=Аварійні предмети
+ftbquests.file.emergency_items_cooldown=Затримка аварійних предметів
+ftbquests.file.emergency_items_cooldown.tooltip=Час очікування перед повторною видачею аварійних предметів
+ftbquests.file.defaults=Типові налаштування
+ftbquests.file.defaults.reward_team=Нагорода «Нагорода команди»
+ftbquests.file.defaults.consume_items=Завдання «Поглинання предметів»
+ftbquests.file.defaults.autoclaim_rewards=Нагорода «Автозабір»
+ftbquests.file.defaults.quest_shape=Форма квесту
+ftbquests.file.defaults.quest_disable_jei=Квест «Вимкнути рецепт JEI»
+ftbquests.file.drop_loot_crates=Сутності залишають скрині з лутом
+ftbquests.file.loot_crate_no_drop=Ймовірність відсутності луту зі скрині
+ftbquests.file.disable_gui=Вимкнути інтерфейс
+ftbquests.file.full_screen_quest_view=Перегляд квестів на весь екран
+ftbquests.file.grid_scale=Масштаб сітки
+
+ftbquests.loot.entitydrops=Дроп сутностей
+ftbquests.loot.entitytype.passive=Пасивна
+ftbquests.loot.entitytype.monster=Монстр
+ftbquests.loot.entitytype.boss=Бос
+
+ftbquests.chapter=Розділ
+ftbquests.chapters=Розділи
+ftbquests.chapter.completed=Розділ завершено!
+ftbquests.chapter.subtitle=Підзаголовок
+ftbquests.chapter.always_invisible=Завжди невидимий
+ftbquests.chapter.group=Група
+ftbquests.chapter.default_quest_shape=Типова форма квесту
+
+ftbquests.chapter.image=Зображення
+ftbquests.chapter.image.x=X
+ftbquests.chapter.image.y=Y
+ftbquests.chapter.image.width=Ширина
+ftbquests.chapter.image.height=Висота
+ftbquests.chapter.image.rotation=Обертання
+ftbquests.chapter.image.image=Зображення
+ftbquests.chapter.image.hover=Текст при наведенні
+ftbquests.chapter.image.click=Клік
+ftbquests.chapter.image.dev=Видимо лише в режимі редагування
+
+ftbquests.quest=Квест
+ftbquests.quests=Квести
+ftbquests.quest.completed=Квест виконано!
+ftbquests.quest.subtitle=Підзаголовок
+ftbquests.quest.description=Опис
+ftbquests.quest.x=X
+ftbquests.quest.y=Y
+ftbquests.quest.size=Розмір
+ftbquests.quest.hide=Приховати квест до появи залежностей
+ftbquests.quest.shape=Форма
+ftbquests.quest.shape.default=Типова
+ftbquests.quest.shape.circle=Коло
+ftbquests.quest.shape.square=Квадрат
+ftbquests.quest.shape.diamond=Ромб
+ftbquests.quest.shape.rsquare=Заокруглений квадрат
+ftbquests.quest.shape.pentagon=П’ятикутник
+ftbquests.quest.shape.hexagon=Шестикутник
+ftbquests.quest.shape.octagon=Восьмикутник
+ftbquests.quest.shape.heart=Серце
+ftbquests.quest.shape.gear=Шестерня
+ftbquests.quest.can_repeat=Можна повторювати
+ftbquests.quest.optional=Необов’язковий
+ftbquests.quest.tasks_ignore_dependencies=Завдання ігнорують залежності
+ftbquests.quest.tasks_ignore_dependencies.tooltip=Дозволяє починати завдання без завершення залежностей
+ftbquests.quest.dependency_requirement=Вимога залежності
+ftbquests.quest.dependency_requirement.tooltip=Ігнорується, якщо Мін. залежностей > 0
+ftbquests.quest.dependency_requirement.all_completed=Усі завершено
+ftbquests.quest.dependency_requirement.one_completed=Одна завершена
+ftbquests.quest.dependency_requirement.all_started=Усі початі
+ftbquests.quest.dependency_requirement.one_started=Одна почата
+ftbquests.quest.guide_page=Сторінка гіда
+ftbquests.quest.custom_click=Кастомна дія при кліку
+ftbquests.quest.hide_dependency_lines=Приховати лінії залежностей
+ftbquests.quest.min_required_dependencies=Мінімум залежностей
+ftbquests.quest.min_required_dependencies.tooltip=Якщо значення більше нуля — стає OR-квестом: потрібно лише частину залежностей
+ftbquests.quest.hide_text_until_complete=Приховати текст до завершення квесту
+ftbquests.quest.disable_jei=Вимкнути рецепт JEI
+ftbquests.quest.min_width=Мінімальна ширина вікна квесту
+ftbquests.quest.or_tasks=Логіка OR для завдань
+
+ftbquests.gui.edit_file=Редагувати файл
+ftbquests.gui.save_as_file=Зберегти як файл
+ftbquests.gui.export_spreadsheet=Експортувати в таблицю
+ftbquests.gui.saved_as_file=Збережено як %s
+ftbquests.gui.error=Помилка!
+ftbquests.gui.add_reward_all=Додати нагороду для всіх
+ftbquests.gui.select_quest_object=Обрати об'єкт квесту
+ftbquests.gui.select_task_type=Обрати тип завдання
+ftbquests.gui.select_reward_type=Обрати тип нагороди
+ftbquests.gui.reset_progress=Скинути прогрес
+ftbquests.gui.reset_progress_q=Скинути прогрес команди?
+ftbquests.gui.complete_instantly=Виконати миттєво
+ftbquests.gui.complete_instantly_q=Виконати це завдання миттєво?
+ftbquests.gui.add_dependencies=Додати вибране як залежності
+ftbquests.gui.remove_dependencies=Прибрати вибране з залежностей
+ftbquests.gui.add_dependencies_self=Додати як залежність до вибраного
+ftbquests.gui.remove_dependencies_self=Прибрати як залежність з вибраного
+ftbquests.gui.copy_id=Скопіювати ID
+ftbquests.gui.no_tasks=Немає завдань
+ftbquests.gui.no_rewards=Немає нагород
+ftbquests.gui.requires=Потребує
+ftbquests.gui.required_by=Потрібен для
+ftbquests.gui.collect_rewards=Отримати нагороди: %s
+ftbquests.gui.times_completed=Разів виконано
+ftbquests.gui.looping_dependencies=Циклічні залежності!
+ftbquests.gui.open_in_guide=Натисни тут, щоб дізнатися більше...
+ftbquests.gui.wiki=Відкрити Вікі
+ftbquests.gui.change_progress=Змінити прогрес
+ftbquests.gui.change_progress.reset=Скинути
+ftbquests.gui.change_progress.reset_deps=Скинути (+Залежності)
+ftbquests.gui.change_progress.complete=Завершити
+ftbquests.gui.change_progress.complete_deps=Завершити (+Залежності)
+ftbquests.gui.pin=Закріпити
+ftbquests.gui.unpin=Відкріпити
+ftbquests.gui.autopin.on=Автозакріплення: Увімкнено
+ftbquests.gui.autopin.off=Автозакріплення: Вимкнено
+ftbquests.gui.move_to_chapter=Перемістити в інший розділ
+ftbquests.gui.move_tooltip=Швидкий доступ: клік середньою кнопкою миші
+ftbquests.gui.reload_theme=Перезавантажити тему
+ftbquests.gui.view_dependencies=Переглянути залежності
+ftbquests.gui.view_dependants=Переглянути залежні квести
+ftbquests.gui.no_dependencies=Залежностей немає
+ftbquests.gui.no_dependants=Немає залежних
+ftbquests.gui.edit_text=Редагувати текст
+
+ftbquests.task=Завдання
+ftbquests.tasks=Завдання
+ftbquests.task.completed=Завдання виконано!
+ftbquests.task.click_to_submit=Натисни для здачі
+ftbquests.task.auto_detected=Предмети будуть виявлені автоматично
+ftbquests.task.click_to_submit_all=Натисни, щоб здати всі предмети
+ftbquests.task.max_input=Максимальне введення
+
+ftbquests.task.ftbquests.item=Предмет
+ftbquests.task.ftbquests.item.items=Список предметів
+ftbquests.task.ftbquests.item.count=Кількість
+ftbquests.task.ftbquests.item.consume_items=Споживати предмети
+ftbquests.task.ftbquests.item.ignore_damage=Ігнорувати знос
+ftbquests.task.ftbquests.item.nbt_mode=Режим NBT
+ftbquests.task.ftbquests.item.consume_true=Предмет споживається
+ftbquests.task.ftbquests.item.consume_false=Предмет не споживається
+ftbquests.task.ftbquests.item.hide_valid_items=Приховати валідні предмети
+ftbquests.task.ftbquests.item.valid_items=Валідні предмети:
+ftbquests.task.ftbquests.item.view_items=Натисни, щоб переглянути валідні предмети
+ftbquests.task.ftbquests.item.valid_for=Валідні предмети для %s
+ftbquests.task.ftbquests.item.click_recipe=Натисни, щоб переглянути рецепт(и)
+ftbquests.task.ftbquests.item.convert_oredict=Конвертувати в предмет з Ore Dictionary
+ftbquests.task.ftbquests.item.only_from_crafting=Виявляти лише при крафті
+
+ftbquests.task.ftbquests.fluid=Рідина
+ftbquests.task.ftbquests.fluid.fluid=Рідина
+ftbquests.task.ftbquests.fluid.fluid_nbt=NBT рідини
+ftbquests.task.ftbquests.fluid.amount=Кількість
+
+ftbquests.task.ftbquests.forge_energy=Енергія Forge
+ftbquests.task.ftbquests.forge_energy.value=FE / RF
+ftbquests.task.ftbquests.forge_energy.text=%d FE
+
+ftbquests.task.ftbquests.custom=Користувацьке
+
+ftbquests.task.ftbquests.xp=Рівні досвіду
+ftbquests.task.ftbquests.xp.value=Досвід
+ftbquests.task.ftbquests.xp.points=Очки
+ftbquests.task.ftbquests.xp.points.tooltip=Використовувати очки досвіду замість рівнів. Скористайся калькулятором для точного значення
+
+ftbquests.task.ftbquests.dimension=Відвідати вимір
+ftbquests.task.ftbquests.biome=Відвідати біом
+
+ftbquests.task.ftbquests.stat=Статистика
+ftbquests.task.ftbquests.stat.stat=Назва статистики
+ftbquests.task.ftbquests.stat.value=Значення
+
+ftbquests.task.ftbquests.kill=Вбити істоту
+ftbquests.task.ftbquests.kill.entity=Назва істоти
+ftbquests.task.ftbquests.kill.value=Кількість
+ftbquests.task.ftbquests.kill.title=Вбити: %sx %s
+
+ftbquests.task.ftbquests.location=Місцезнаходження
+ftbquests.task.ftbquests.location.dim=Вимір
+ftbquests.task.ftbquests.location.ignore_dim=Ігнорувати вимір
+ftbquests.task.ftbquests.location.x=X
+ftbquests.task.ftbquests.location.y=Y
+ftbquests.task.ftbquests.location.z=Z
+ftbquests.task.ftbquests.location.w=W
+ftbquests.task.ftbquests.location.h=H
+ftbquests.task.ftbquests.location.d=D
+
+ftbquests.task.ftbquests.checkmark=Пташка
+ftbquests.task.ftbquests.advancement=Досягнення
+ftbquests.task.ftbquests.advancement.criterion=Критерій
+
+ftbquests.task.ftbquests.observation=Спостереження
+ftbquests.task.ftbquests.observation.type=Тип
+ftbquests.task.ftbquests.observation.match=Збіг
+ftbquests.task.ftbquests.observation.properties=Властивості
+ftbquests.task.ftbquests.observation.timer=Таймер
+
+ftbquests.task.ftbquests.interaction=Взаємодія
+ftbquests.task.ftbquests.interaction.type=Тип
+ftbquests.task.ftbquests.interaction.match=Збіг
+ftbquests.task.ftbquests.interaction.properties=Властивості
+
+ftbquests.task.ftbquests.buildcraft_mj=Енергія BuildCraft
+ftbquests.task.ftbquests.buildcraft_mj.value=mJ
+ftbquests.task.ftbquests.buildcraft_mj.text=%d MJ
+
+ftbquests.task.ftbquests.ic2_energy=Енергія IC2
+ftbquests.task.ftbquests.ic2_energy.value=EU
+ftbquests.task.ftbquests.ic2_energy.text=%d EU
+
+ftbquests.task.ftbquests.botania_mana=Мана Botania
+ftbquests.task.ftbquests.botania_mana.value=Мана
+ftbquests.task.ftbquests.botania_mana.show_numbers=Показувати значення
+ftbquests.task.ftbquests.botania_mana.text=%d Мани
+
+ftbquests.task.ftbquests.emc=EMC
+
+ftbquests.task.ftbquests.gamestage=Етап гри
+
+ftbquests.task.ftbquests.npc_quest=Завдання CustomNPCs
+ftbquests.task.ftbquests.npc_quest.id=ID завдання
+ftbquests.task.ftbquests.npc_quest.check_active=Перевірити, чи активне завдання
+
+ftbquests.task.ftbquests.npc_dialog=Діалог CustomNPCs
+ftbquests.task.ftbquests.npc_dialog.id=ID діалогу
+
+ftbquests.task.ftbquests.npc_faction=Фракція CustomNPCs
+ftbquests.task.ftbquests.npc_faction.id=ID фракції
+ftbquests.task.ftbquests.npc_faction.required_points=Потрібно очок
+ftbquests.task.ftbquests.npc_faction.mode=Режим підрахунку
+
+ftbquests.task.ftbquests.reskillable=Навичка Reskillable
+ftbquests.task.ftbquests.reskillable.skill=Назва навички
+ftbquests.task.ftbquests.reskillable.skill_level=Рівень навички
+ftbquests.task.ftbquests.reskillable.skillyouneed=Потрібна навичка
+
+ftbquests.reward=Нагорода
+ftbquests.rewards=Нагороди
+ftbquests.reward.team_reward=Нагорода для команди
+ftbquests.reward.emergency=Аварійний предмет
+ftbquests.reward.autoclaim=Автоматичне отримання
+ftbquests.reward.autoclaim.default=Типово
+ftbquests.reward.autoclaim.disabled=Вимкнено
+ftbquests.reward.autoclaim.enabled=Увімкнено
+ftbquests.reward.autoclaim.no_toast=Увімкнено, без сповіщення
+ftbquests.reward.autoclaim.invisible=Увімкнено, невидимо
+
+ftbquests.reward.claim_all=Отримати всі нагороди
+ftbquests.reward.collected=Нагороду отримано!
+ftbquests.reward.random_bonus=Випадковий бонус
+
+ftbquests.reward.ftbquests.item=Предмет
+ftbquests.reward.ftbquests.item.count=Кількість
+ftbquests.reward.ftbquests.item.only_one=Лише один
+ftbquests.reward.ftbquests.item.only_one.tooltip=Якщо в інвентарі вже є такий предмет, не видається. NBT ігнорується.
+
+ftbquests.reward.ftbquests.choice=Вибір нагороди
+ftbquests.reward.ftbquests.random=Випадкова нагорода
+ftbquests.reward.ftbquests.loot=Нагорода з луту
+ftbquests.reward.ftbquests.custom=Користувацька
+
+ftbquests.reward.ftbquests.xp=Досвід
+ftbquests.reward.ftbquests.xp_levels=Рівні досвіду
+
+ftbquests.reward.ftbquests.command=Команда
+ftbquests.reward.ftbquests.command.player=Виконати як гравець
+
+ftbquests.reward.ftbquests.advancement=Досягнення
+ftbquests.reward.ftbquests.advancement.criterion=Критерій
+ftbquests.reward.ftbquests.advancement.criterion.tooltip=Необов’язково: встанови, якщо треба видати лише один критерій
+
+ftbquests.reward.ftbquests.toast=Сповіщення
+ftbquests.reward.ftbquests.toast.description=Опис
+
+ftbquests.reward.ftbquests.gamestage=Етап гри
+ftbquests.reward.ftbquests.gamestage.silent=Без сповіщення
+ftbquests.reward.ftbquests.gamestage.remove=Вилучити
+
+ftbquests.reward.ftbquests.npc_quest=Завдання CustomNPCs
+ftbquests.reward.ftbquests.npc_quest.id=ID завдання
+
+ftbquests.reward.ftbquests.npc_faction=Фракція CustomNPCs
+ftbquests.reward.ftbquests.npc_faction.id=ID фракції
+ftbquests.reward.ftbquests.npc_faction.points=Очки
+ftbquests.reward.ftbquests.npc_faction.add=Додати
+
+ftbquests.reward.ftbquests.npc_mail=Пошта CustomNPCs
+ftbquests.reward.ftbquests.npc_mail.subject=Тема
+ftbquests.reward.ftbquests.npc_mail.sender=Відправник
+ftbquests.reward.ftbquests.npc_mail.message=Повідомлення
+ftbquests.reward.ftbquests.npc_mail.time=Час
+ftbquests.reward.ftbquests.npc_mail.been_read=Прочитано
+ftbquests.reward.ftbquests.npc_mail.quest_id=ID завдання CustomNPCs
+ftbquests.reward.ftbquests.npc_mail.quest_title=Назва завдання CustomNPCs
+ftbquests.reward.ftbquests.npc_mail.items=Предмети
+ftbquests.reward.ftbquests.npc_mail.time_past=Минуло часу
+
+ftbquests.reward_table=Таблиця нагород
+ftbquests.reward_table.hide_tooltip=Приховати підказку
+ftbquests.reward_table.use_title=Використовувати заголовок
+ftbquests.reward_table.edit=Редагувати таблицю нагород
+ftbquests.reward_tables=Таблиці нагород
+ftbquests.reward_table.nothing=Нічого
+ftbquests.reward_table.and_more=...та ще %d
+ftbquests.reward_table.empty_weight=Вага порожнечі
+ftbquests.reward_table.loot_size=Розмір здобичі
+ftbquests.reward_table.weight=Вага
+ftbquests.reward_table.set_weight=Задати вагу
+ftbquests.reward_table.enable_loot_crate=Скарбничка
+ftbquests.reward_table.loot_crate.id=ID
+ftbquests.reward_table.loot_crate.item_name=Назва предмета
+ftbquests.reward_table.loot_crate.color=Колір
+ftbquests.reward_table.loot_crate.glow=Світіння
+ftbquests.reward_table.loot_crate.passive_weight=Вага (пасивна)
+ftbquests.reward_table.loot_crate.monster_weight=Вага (монстр)
+ftbquests.reward_table.loot_crate.boss_weight=Вага (бос)
+ftbquests.reward_table.used_in=Використано в %d нагородах квестів
+
+ftbquests.leaderboard_progress=Прогрес FTB Quests
+jei.ftbquests.lootcrates=Скарбнички
+jei.ftbquests.lootcrates.chance=Шанс: %s
+jei.ftbquests.lootcrates.no_chance=Шанс відсутній: %s
+jei.ftbquests.lootcrates.dropped_by=Випадає з:
+
+commands.ftbquests.usage=/ftbquests [підкоманда]
+commands.ftbquests.editing_mode.usage=/ftbquests editing_mode [true|false|toggle] [гравець]
+commands.ftbquests.editing_mode.enabled=Режим редагування увімкнено для %s
+commands.ftbquests.editing_mode.disabled=Режим редагування вимкнено для %s
+commands.ftbquests.change_progress.usage=/ftbquests change_progress <тип> <команда|*> [ID об’єкта]
+commands.ftbquests.change_progress.invalid_id=Неправильний ID об’єкта!
+commands.ftbquests.change_progress.text=Прогрес змінено!
+commands.ftbquests.change_team_rewards.usage=/ftbquests change_team_rewards <*|розділ> <true|false>
+commands.ftbquests.change_team_rewards.invalid_id=Неправильний ID розділу!
+commands.ftbquests.change_team_rewards.text=Змінено налаштування командної нагороди для %d на %s
+commands.ftbquests.change_consumable.usage=/ftbquests change_consumable <*|розділ> <true|false>
+commands.ftbquests.change_consumable.text=Змінено налаштування споживаного завдання для %d на %s
+commands.ftbquests.import_rewards_from_chest.usage=/ftbquests import_rewards_from_chest <таблиця_нагород> [вага] [замінити]
+commands.ftbquests.import_rewards_from_chest.invalid_id=Неправильний ID таблиці нагород!
+commands.ftbquests.import_rewards_from_chest.text=Імпортовано %d предметів у %s
+commands.ftbquests.weigh_from_emc.usage=/ftbquests weigh_from_emc <таблиця_нагород> [вага_за_відсутності_EMC]
+commands.ftbquests.weigh_from_emc.invalid_id=Неправильний ID таблиці нагород!
+commands.ftbquests.weigh_from_emc.text=Змінено вагу нагород за EMC у %s
+commands.ftbquests.export_rewards_to_chest.usage=/ftbquests export_rewards_to_chest <таблиця_нагород>
+commands.ftbquests.export_rewards_to_chest.text=Експортовано %s / %s предметів із '%s'
+commands.ftbquests.auto_pin.usage=/ftbquests auto_pin
+commands.ftbquests.generate_chapter_with_all_items_in_game.usage=/ftbquests generate_chapter_with_all_items_in_game

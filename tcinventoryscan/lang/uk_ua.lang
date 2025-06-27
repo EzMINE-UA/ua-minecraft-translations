@@ -1,0 +1,4 @@
+tcinventoryscan:scanning=Сканування
+tcinventoryscan:thaumometerTooltip=Сканування інвентарю доступне
+tcinventoryscan:thaumometerTooltipMore=Наведіть на предмети, тримаючи Таумометр на курсорі, щоб їх просканувати.
+tcinventoryscan:serverNotInstalled=На цьому сервері не встановлено Thaumcraft Inventory Scanning. Функцію буде вимкнено.

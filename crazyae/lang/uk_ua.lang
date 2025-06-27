@@ -1,0 +1,401 @@
+#Translate by EzMINE
+#PARSE_ESCAPES
+itemGroup.crazyae=CrazyAE
+item.crazyae.invalid.name=Недійсний або вимкнений предмет
+
+# Чарунки
+item.crazyae.storage_cell_256k.name=§c256k§r ME Комірка зберігання
+item.crazyae.storage_cell_1mb.name=§61MB§r ME Комірка зберігання
+item.crazyae.storage_cell_4mb.name=§e4MB§r ME Комірка зберігання
+item.crazyae.storage_cell_16mb.name=§a16MB§r ME Комірка зберігання
+item.crazyae.storage_cell_64mb.name=§264MB§r ME Комірка зберігання
+item.crazyae.storage_cell_256mb.name=§b256MB§r ME Комірка зберігання
+item.crazyae.storage_cell_1gb.name=§11GB§r ME Комірка зберігання
+item.crazyae.storage_cell_2gb.name=§d2GB§r ME Комірка зберігання
+
+item.crazyae.energy_cell_1k.name=§61k§r Енергокомірка
+item.crazyae.energy_cell_4k.name=§e4k§r Енергокомірка
+item.crazyae.energy_cell_16k.name=§a16k§r Енергокомірка
+item.crazyae.energy_cell_64k.name=§b64k§r Енергокомірка
+item.crazyae.energy_cell_256k.name=§c256k§r Енергокомірка
+item.crazyae.energy_cell_1mb.name=§61MB§r Енергокомірка
+item.crazyae.energy_cell_4mb.name=§e4MB§r Енергокомірка
+item.crazyae.energy_cell_16mb.name=§a16MB§r Енергокомірка
+item.crazyae.energy_cell_64mb.name=§264MB§r Енергокомірка
+item.crazyae.energy_cell_256mb.name=§b256MB§r Енергокомірка
+item.crazyae.energy_cell_1gb.name=§11GB§r Енергокомірка
+item.crazyae.energy_cell_2gb.name=§d2GB§r Енергокомірка
+
+item.crazyae.mana_cell_1k.name=§61k§r ME Манакомірка
+item.crazyae.mana_cell_4k.name=§e4k§r ME Манакомірка
+item.crazyae.mana_cell_16k.name=§a16k§r ME Манакомірка
+item.crazyae.mana_cell_64k.name=§b64k§r ME Манакомірка
+item.crazyae.mana_cell_256k.name=§c256k§r ME Манакомірка
+item.crazyae.mana_cell_1mb.name=§61MB§r ME Манакомірка
+item.crazyae.mana_cell_4mb.name=§e4MB§r ME Манакомірка
+item.crazyae.mana_cell_16mb.name=§a16MB§r ME Манакомірка
+item.crazyae.mana_cell_64mb.name=§264MB§r ME Манакомірка
+item.crazyae.mana_cell_256mb.name=§b256MB§r ME Манакомірка
+item.crazyae.mana_cell_1gb.name=§11GB§r ME Манакомірка
+item.crazyae.mana_cell_2gb.name=§d2GB§r ME Манакомірка
+
+item.crazyae.fluid_storage_cell_256k.name=§c256k§r ME Рідинна комірка
+item.crazyae.fluid_storage_cell_1mb.name=§61MB§r ME Рідинна комірка
+item.crazyae.fluid_storage_cell_4mb.name=§e4MB§r ME Рідинна комірка
+item.crazyae.fluid_storage_cell_16mb.name=§a16MB§r ME Рідинна комірка
+item.crazyae.fluid_storage_cell_64mb.name=§264MB§r ME Рідинна комірка
+item.crazyae.fluid_storage_cell_256mb.name=§b256MB§r ME Рідинна комірка
+item.crazyae.fluid_storage_cell_1gb.name=§11GB§r ME Рідинна комірка
+item.crazyae.fluid_storage_cell_2gb.name=§d2GB§r ME Рідинна комірка
+
+item.crazyae.improved_portable_cell.name=§61MB§r Портативна комірка
+item.crazyae.advanced_portable_cell.name=§e4MB§r Портативна комірка
+item.crazyae.perfect_portable_cell.name=§a16MB§r Портативна комірка
+
+# Матеріали
+item.crazyae.material.cell_part_256k.name=§c256k§r ME Компонент зберігання
+item.crazyae.material.cell_part_1mb.name=§61MB§r ME Компонент зберігання
+item.crazyae.material.cell_part_4mb.name=§e4MB§r ME Компонент зберігання
+item.crazyae.material.cell_part_16mb.name=§a16MB§r ME Компонент зберігання
+item.crazyae.material.cell_part_64mb.name=§264MB§r ME Компонент зберігання
+item.crazyae.material.cell_part_256mb.name=§b256MB§r ME Компонент зберігання
+item.crazyae.material.cell_part_1gb.name=§11GB§r ME Компонент зберігання
+item.crazyae.material.cell_part_2gb.name=§d2GB§r ME Компонент зберігання
+item.crazyae.material.cell_part_8gb.name=§a8GB§r ME Компонент зберігання
+item.crazyae.material.cell_part_32gb.name=§532GB§r ME Компонент зберігання
+item.crazyae.material.cell_part_128gb.name=§4128GB§r ME Компонент зберігання
+
+item.crazyae.material.energy_part_1k.name=§61k§r Енергокомпонент
+item.crazyae.material.energy_part_4k.name=§e4k§r Енергокомпонент
+item.crazyae.material.energy_part_16k.name=§a16k§r Енергокомпонент
+item.crazyae.material.energy_part_64k.name=§b64k§r Енергокомпонент
+item.crazyae.material.energy_part_256k.name=§c256k§r Енергокомпонент
+item.crazyae.material.energy_part_1mb.name=§61MB§r Енергокомпонент
+item.crazyae.material.energy_part_4mb.name=§e4MB§r Енергокомпонент
+item.crazyae.material.energy_part_16mb.name=§a16MB§r Енергокомпонент
+item.crazyae.material.energy_part_64mb.name=§264MB§r Енергокомпонент
+item.crazyae.material.energy_part_256mb.name=§b256MB§r Енергокомпонент
+item.crazyae.material.energy_part_1gb.name=§11GB§r Енергокомпонент
+item.crazyae.material.energy_part_2gb.name=§d2GB§r Енергокомпонент
+
+item.crazyae.material.mana_part_1k.name=§61k§r ME Манакомпонент
+item.crazyae.material.mana_part_4k.name=§e4k§r ME Манакомпонент
+item.crazyae.material.mana_part_16k.name=§a16k§r ME Манакомпонент
+item.crazyae.material.mana_part_64k.name=§b64k§r ME Манакомпонент
+item.crazyae.material.mana_part_256k.name=§c256k§r ME Манакомпонент
+item.crazyae.material.mana_part_1mb.name=§61MB§r ME Манакомпонент
+item.crazyae.material.mana_part_4mb.name=§e4MB§r ME Манакомпонент
+item.crazyae.material.mana_part_16mb.name=§a16MB§r ME Манакомпонент
+item.crazyae.material.mana_part_64mb.name=§264MB§r ME Манакомпонент
+item.crazyae.material.mana_part_256mb.name=§b256MB§r ME Манакомпонент
+item.crazyae.material.mana_part_1gb.name=§11GB§r ME Манакомпонент
+item.crazyae.material.mana_part_2gb.name=§d2GB§r ME Манакомпонент
+
+item.crazyae.material.cell_part_fluid_256k.name=§c256k§r ME Компонент зберігання рідини
+item.crazyae.material.cell_part_fluid_1mb.name=§61MB§r ME Компонент зберігання рідини
+item.crazyae.material.cell_part_fluid_4mb.name=§e4MB§r ME Компонент зберігання рідини
+item.crazyae.material.cell_part_fluid_16mb.name=§a16MB§r ME Компонент зберігання рідини
+item.crazyae.material.cell_part_fluid_64mb.name=§264MB§r ME Компонент зберігання рідини
+item.crazyae.material.cell_part_fluid_256mb.name=§b256MB§r ME Компонент зберігання рідини
+item.crazyae.material.cell_part_fluid_1gb.name=§11GB§r ME Компонент зберігання рідини
+item.crazyae.material.cell_part_fluid_2gb.name=§d2GB§r ME Компонент зберігання рідини
+
+item.crazyae.material.fluixilized_ingot.name=§5Флуіксований кристал§r
+
+# Предмети
+item.crazyae.quantum_wireless_booster.name=Квантовий бездротовий підсилювач
+item.crazyae.material.quantum_processor.name=Квантовий процесор
+item.crazyae.material.mana_processor.name=Манагенератор
+item.crazyae.material.energy_processor.name=Енергопроцесор
+item.crazyae.mana_connector.name=Манагерметик
+item.crazyae.gui_colorizer.name=GUI-фарбувальник
+
+item.crazyae.material.elventrade_blank_pattern.name=Заготовка схеми Ельфійського обміну
+item.crazyae.material.manapool_blank_pattern.name=Заготовка схеми Басейну мани
+item.crazyae.material.petal_blank_pattern.name=Заготовка схеми Пелюсткового столу
+item.crazyae.material.runealtar_blank_pattern.name=Заготовка схеми Вівтаря рун
+item.crazyae.material.puredaisy_blank_pattern.name=Заготовка схеми Чистої ромашки
+item.crazyae.material.teraplate_blank_pattern.name=Заготовка схеми Плити агломерації
+item.crazyae.material.brewery_blank_pattern.name=Заготовка схеми Алхімлабораторії
+
+item.crazyae.elventrade_encoded_pattern.name=Закодована схема Ельфійського обміну
+item.crazyae.manapool_encoded_pattern.name=Закодована схема Басейну мани
+item.crazyae.petal_encoded_pattern.name=Закодована схема Пелюсткового столу
+item.crazyae.runealtar_encoded_pattern.name=Закодована схема Вівтаря рун
+item.crazyae.puredaisy_encoded_pattern.name=Закодована схема Чистої ромашки
+item.crazyae.teraplate_encoded_pattern.name=Закодована схема Плити агломерації
+item.crazyae.brewery_encoded_pattern.name=Закодована схема Алхімлабораторії
+
+item.crazyae.creative_mana_cell.name=Креативна ME Манакомірка
+item.crazyae.creative_energy_cell.name=Креативна ME Енергокомірка
+
+# Підказки
+tooltip.crazyae.colorizer_desc.name=Дозволяє змінювати кольори GUI/тексту в інтерфейсах CrazyAE.
+tooltip.crazyae.mana_connector_desc.name=З’єднує басейн мани з шиною імпорту/експорту мани.
+tooltip.crazyae.linked_with_mana_pool_at_pos.name=Під'єднано до басейну мани на x=%s, y=%s, z=%s.
+tooltip.crazyae.mana_connector_lets_connect_to_bus.name=Клікніть по шині імпорту/експорту мани, щоб з’єднати.
+
+# Частини (Parts)
+item.crazyae.part.improved_import_bus.name=Поліпшена шина імпорту ME
+item.crazyae.part.improved_export_bus.name=Поліпшена шина експорту ME
+
+item.crazyae.part.improved_export_fluid_bus.name=Поліпшена шина експорту рідин ME
+item.crazyae.part.improved_import_fluid_bus.name=Поліпшена шина імпорту рідин ME
+
+item.crazyae.part.mana_import_bus.name=Шина імпорту мани ME
+item.crazyae.part.mana_export_bus.name=Шина експорту мани ME
+item.crazyae.part.mana_term.name=Термінал мани ME
+
+item.crazyae.part.energy_term.name=Термінал енергії ME
+item.crazyae.part.part_drive.name=Сховище частин ME
+item.crazyae.part.patterns_iface.name=§8Інтерфейс шаблонів ME§r
+item.crazyae.part.perfect_iface.name=§cДосконалий інтерфейс ME§r
+
+item.crazyae.part.energy_export_bus.name=Шина експорту енергії ME
+item.crazyae.part.energy_import_bus.name=Шина імпорту енергії ME
+
+item.crazyae.part.part_patterns_iface.name=§8Інтерфейс шаблонів ME§r
+item.crazyae.part.part_perfect_iface.name=§cДосконалий інтерфейс ME§r
+
+# Поліпшення (Upgrades)
+item.crazyae.upgrade.stacks.name=Карта стеків
+item.crazyae.upgrade.improved_speed.name=Карта швидкості (поліпшена)
+item.crazyae.upgrade.advanced_speed.name=Карта швидкості (покращена)
+
+# Блоки (Tiles)
+tile.crazyae.crafting_accelerator_4x.name=§d4x§r Модуль допоміжного крафту
+tile.crazyae.crafting_accelerator_16x.name=§516x§r Модуль допоміжного крафту
+tile.crazyae.crafting_accelerator_64x.name=§164x§r Модуль допоміжного крафту
+tile.crazyae.crafting_accelerator_256x.name=§d256x§r Модуль допоміжного крафту
+tile.crazyae.crafting_accelerator_1024x.name=§c1024x§r Модуль допоміжного крафту
+tile.crazyae.crafting_accelerator_4096x.name=§44096x§r Модуль допоміжного крафту
+tile.crazyae.crafting_accelerator_16384x.name=§416384x§r Модуль допоміжного крафту
+tile.crazyae.crafting_accelerator_65536x.name=§465536x§r Модуль допоміжного крафту
+tile.crazyae.crafting_accelerator_262144x.name=§e262144x§r Модуль допоміжного крафту
+tile.crazyae.crafting_accelerator_1048576x.name=§a1048576x§r Модуль допоміжного крафту
+tile.crazyae.crafting_accelerator_4194304x.name=§d4194304x§r Модуль допоміжного крафту
+tile.crazyae.crafting_accelerator_creative.name=§8Креативний§r Модуль допоміжного крафту
+
+tile.crazyae.crafting_storage_256k.name=§c256k§r Крафт-комірка
+tile.crazyae.crafting_storage_1mb.name=§61MB§r Крафт-комірка
+tile.crazyae.crafting_storage_4mb.name=§e4MB§r Крафт-комірка
+tile.crazyae.crafting_storage_16mb.name=§a16MB§r Крафт-комірка
+tile.crazyae.crafting_storage_64mb.name=§264MB§r Крафт-комірка
+tile.crazyae.crafting_storage_256mb.name=§b256MB§r Крафт-комірка
+tile.crazyae.crafting_storage_1gb.name=§11GB§r Крафт-комірка
+tile.crazyae.crafting_storage_2gb.name=§52GB§r Крафт-комірка
+tile.crazyae.crafting_storage_8gb.name=§28GB§r Крафт-комірка
+tile.crazyae.crafting_storage_32gb.name=§d32GB§r Крафт-комірка
+tile.crazyae.crafting_storage_128gb.name=§6128GB§r Крафт-комірка
+tile.crazyae.crafting_storage_creative.name=§8Креативна§r Крафт-комірка
+
+tile.crazyae.improved_energy_cell.name=§cПокращена Енергокомірка§r
+tile.crazyae.advanced_energy_cell.name=§aПотужна Енергокомірка§r
+tile.crazyae.perfect_energy_cell.name=§9Досконала Енергокомірка§r
+tile.crazyae.quantum_energy_cell.name=Квантова Енергокомірка
+
+tile.crazyae.improved_molecular_assembler.name=Покращений Молекулярний Збирач
+tile.crazyae.improved_drive.name=Покращений МЕ Дискотримач
+tile.crazyae.improved_io_port.name=Покращений Порт Вводу/Виводу МЕ
+tile.crazyae.improved_crank.name=Покращена Дерев’яна Ручка
+tile.crazyae.crafting_units_combiner.name=Комбінатор Крафтових Модулів МЕ
+tile.crazyae.big_crystal_charger.name=Покращений Зарядник Кристалів МЕ
+
+tile.crazyae.basic_solar_panel.name=§3Базова§r МЕ Сонячна Панель
+tile.crazyae.improved_solar_panel.name=§5Покращена§r МЕ Сонячна Панель
+tile.crazyae.advanced_solar_panel.name=§dПотужна§r МЕ Сонячна Панель
+tile.crazyae.perfect_solar_panel.name=§cДосконала§r МЕ Сонячна Панель
+
+tile.crazyae.patterns_interface.name=§8Інтерфейс Шаблонів МЕ§r
+tile.crazyae.perfect_interface.name=§cДосконалий Інтерфейс МЕ§r
+
+tile.crazyae.improved_condenser.name=§6Покращений Конденсатор§r
+
+tile.crazyae.quantum_channels_multiplier.name=Множник Квантових Каналів
+tile.crazyae.quantum_channels_multiplier_creative.name=Креативне Джерело Нескінченних Каналів
+
+tile.crazyae.mechanical_elventrade.name=Механічна Ельфійська Торгівля
+tile.crazyae.mechanical_manapool.name=Механічне Озеро Мани
+tile.crazyae.mechanical_runealtar.name=Механічний Вівтар Рун
+tile.crazyae.mechanical_petal.name=Механічна Пелюстка
+tile.crazyae.mechanical_puredaisy.name=Механічна Чиста Ромашка
+tile.crazyae.mechanical_teraplate.name=Механічна Плита Аґломерації
+tile.crazyae.mechanical_brewery.name=Механічна Варильня
+
+tile.crazyae.quantum_cpu.name=Квантовий Процесор
+tile.crazyae.quantum_cpu_host.name=Квантовий Хост Процесора
+tile.crazyae.quantum_interface.name=Квантовий Інтерфейс
+
+tile.crazyae.trashcan_item.name=Смітник для Предметів
+tile.crazyae.trashcan_fluid.name=Смітник для Рідин
+tile.crazyae.trashcan_energy.name=Смітник для Енергії
+tile.crazyae.trashcan_mana.name=Смітник для Мани
+
+tile.crazyae.perfect_inscriber.name=Досконалий Штампер
+
+
+
+#Resource
+tile.crazyae.fluixilized_block.name=§5Флуіксилізований блок§r
+
+# GUI's Title
+gui.crazyae.big_crystal_charger.name=Покращений зарядник кристалів ME
+gui.crazyae.improved_mac_gui.name=Покращений Молекулярний Збирач
+gui.crazyae.improved_drive_gui.name=Покращений накопичувач ME
+
+gui.crazyae.imp_import_bus.name=Покращений імпортний модуль ME
+gui.crazyae.imp_export_bus.name=Покращений експортний модуль ME
+
+gui.crazyae.imp_fluid_import_bus.name=Покращений рідинний імпорт ME
+gui.crazyae.imp_fluid_export_bus.name=Покращений рідинний експорт ME
+
+gui.crazyae.pattern_interface.name=Інтерфейс шаблонів ME
+gui.crazyae.perfect_interface.name=Ідеальний інтерфейс ME
+
+gui.crazyae.mana_terminal.name=Термінал мани ME
+gui.crazyae.mana_import_bus.name=Імпорт мани ME
+gui.crazyae.mana_export_bus.name=Експорт мани ME
+
+gui.crazyae.energy_terminal.name=Термінал енергії ME
+gui.crazyae.energy_import_bus.name=Імпорт енергії ME
+gui.crazyae.energy_export_bus.name=Експорт енергії ME
+
+gui.crazyae.energy_settings_page.name=Макс. кількість енергії за тікт:
+
+gui.crazyae.link_with_mana_connector.name=Цей модуль потрібно з’єднати
+gui.crazyae.link_with_mana_connector2.name=з блоком мани за допомогою
+gui.crazyae.link_with_mana_connector3.name="З’єднувача мани".
+gui.crazyae.linked_with_mana_pool.name=З’єднано з блоком на координатах:
+gui.crazyae.mana_amt_to_max.name=Мана в блоці:
+
+gui.crazyae.gui_colorizer_gui.name=Кольоризатор інтерфейсу
+gui.crazyae.gui_colorizer_text.name=Кольоризатор тексту
+
+gui.crazyae.open_pattern_storage.name=Відкрити сховище шаблонів
+
+gui.crazyae.mechanical_elventrade.name=Механічний ельфійський обмін
+gui.crazyae.mechanical_manapool.name=Механічний басейн мани
+gui.crazyae.mechanical_runealtar.name=Механічний вівтар рун
+gui.crazyae.mechanical_petal.name=Механічний квітковий вівтар
+gui.crazyae.mechanical_puredaisy.name=Механічна Чиста ромашка
+gui.crazyae.mechanical_teraplate.name=Механічна агломераційна плита
+gui.crazyae.mechanical_brewery.name=Механічна пивоварня
+
+gui.crazyae.quantum_interface.name=Квантовий інтерфейс
+
+gui.crazyae.perfect_inscriber.name=Ідеальний штампер
+
+gui.crazyae.patterns_inv_gui.name=Сховище шаблонів
+
+gui.crazyae.ef_energy.name=Енергія EF
+gui.crazyae.fe_energy.name=Енергія FE/RF
+gui.crazyae.se_energy.name=Енергія SE
+gui.crazyae.qe_energy.name=Енергія QE
+gui.crazyae.eu_energy.name=Енергія EU
+
+gui.crazyae.energy_used.name=Використано енергії
+gui.crazyae.items_used.name=Використано предметів
+gui.crazyae.mana_used.name=Використано мани
+gui.crazyae.fluid_used.name=Використано рідини
+
+gui.crazyae.trashcan.name=Смітник
+
+gui.crazyae.used.name=використано
+gui.crazyae.page.name=Сторінка
+
+
+# GUI's Tooltip
+
+gui.tooltip.crazyae.cu_place_all_accelerators_here.name=Слоти для прискорювачів
+gui.tooltip.crazyae.cu_place_all_crafting_storages_here.name=Слоти для блоків крафтового зберігання
+
+gui.tooltip.crazyae.progress.name=Прогрес:
+
+gui.tooltip.crazyae.this_device_supports.name=Цей пристрій підтримує:\n
+
+gui.crazyae.colorizer_gui_gui_to_text.name=Відкрити кольоризатор тексту
+gui.crazyae.colorizer_gui_text_to_gui.name=Відкрити кольоризатор інтерфейсу
+gui.crazyae.open_energy_settings_page.name=Налаштування
+
+gui.crazyae.copy_to_clipboard.name=Скопіювати в буфер
+gui.crazyae.paste_from_clipboard.name=Вставити з буфера
+
+gui.crazyae.restore_defaults.name=Відновити стандартні
+
+gui.crazyae.button_pattern_fast_place.name=Розмістити шаблон крафту\nв %s
+
+gui.crazyae.checkbox_qwap_text.name=Доступ з усіх вимірів
+
+gui.crazyae.highlight_mana_block.name=Підсвітити блок мани
+gui.crazyae.mana_block_highlighted_in.name=Блок мани підсвічено на x=%s y=%s z=%s
+gui.crazyae.mana_block_highlighted_in_another_dimension_with_pos.name=Блок мани в іншому вимірі %s (%s), координати: x=%s y=%s z=%s — підсвітити неможливо
+gui.crazyae.mana_block_highlighted_in_another_dimension.name=Блок мани в іншому вимірі, підсвітити неможливо
+gui.crazyae.colorizing_disabled.name=Кольоризація вимкнена у конфігурації
+
+gui.crazyae.quantum_cpu.name=Квантовий процесор
+
+gui.crazyae.clear_inv_items_nbt.name=Очистити NBT у всіх предметів\nв сітці крафту
+
+gui.crazyae.craft_started_at.name=Крафт почато о
+gui.crazyae.initiator.name=Ініціатор
+
+gui.crazyae.open_crafting_block_list.name=Відкрити інвентар крафтових блоків
+
+# Tooltips 2
+
+tooltip.crazyae.shift_for_details.name=Утримуйте Shift для деталей
+tooltip.crazyae.ctrl_for_precise_details.name=Утримуйте Ctrl для точного підрахунку
+
+tooltip.crazyae.passive_generation_day.name=Генерація вдень:
+tooltip.crazyae.passive_generation_night.name=Генерація вночі:
+tooltip.crazyae.max_solar_capacity.name=Місткість:
+tooltip.crazyae.require_channel.name=Потрібен канал
+
+tooltip.crazyae.qcm_desc.name=Збільшує пропускну здатність кабелів:\nКожен квантовий множник дає %s каналів для звичайних\nі %s для щільних кабелів, споживаючи %s AE/т.
+
+tooltip.crazyae.auto_pickup.name=Автопідбір —
+tooltip.crazyae.auto_pickup_how_to_enable.name=Натисніть SHIFT+ПКМ для перемикання автопідбору.
+tooltip.crazyae.auto_pickup_tip.name=Фільтрація за зразком у Робочому столі чарунок.
+
+gui.tooltip.crazyae.energy_cell_formatting_hint.name=Щоб налаштувати чарунку в Робочому столі чарунок, покладіть будь-який енергокабель\nобраного типу в чарунку.
+
+tooltip.crazyae.enabled_lowercase.name=увімкнено
+tooltip.crazyae.disabled_lowercase.name=вимкнено
+tooltip.crazyae.enabled.name=Увімкнено
+tooltip.crazyae.disabled.name=Вимкнено
+
+tooltip.crazyae.mana_connector_block_linked.name=З’єднання виконано успішно.
+tooltip.crazyae.mana_connector_block_saved.name=Басейн мани успішно збережено.
+tooltip.crazyae.mana_connector_clear.name=З’єднувач мани скинуто.
+
+tooltip.crazyae.quantum_cpu_warning.name=Цей процесор працює лише з Квантовим інтерфейсом.
+tooltip.crazyae.quantum_interface_warning.name=Цей інтерфейс працює лише з Квантовим процесором.
+
+
+#Internal
+
+item.crazyae.mana_as_aestack.name=Мана
+item.crazyae.ef_energy_as_aestack.name=Енергія EF
+item.crazyae.fe_energy_as_aestack.name=Енергія FE/RF
+item.crazyae.se_energy_as_aestack.name=Енергія SE
+item.crazyae.qe_energy_as_aestack.name=Енергія QE
+item.crazyae.eu_energy_as_aestack.name=Енергія EU
+gui.tooltip.crazyae.mana.name=Мана
+gui.tooltip.crazyae.ef_energy.name=Енергія EF
+gui.tooltip.crazyae.fe_energy.name=Енергія FE/RF
+gui.tooltip.crazyae.se_energy.name=Енергія SE
+gui.tooltip.crazyae.qe_energy.name=Енергія QE
+gui.tooltip.crazyae.stored_mana.name=Збережено мани: %s
+gui.tooltip.crazyae.stored_item.name=Збережено %s: %s
+gui.tooltip.crazyae.stored.name=Збережено:
+
+#Misc
+
+gui.crazyae.update_found.name=[CrazyAE] §lЗнайдено нову версію:§r
+gui.crazyae.download_link.name=[CrazyAE] §oНатисни тут, щоб відкрити сторінку завантаження.§r
+gui.crazyae.disable_updates_tip.name=[CrazyAE] Також можна вимкнути перевірку оновлень у конфігурації CrazyAE.
+
+tooltip.crazyae.require_mana_per_job.name=Потрібно %s мани за завдання
+tooltip.crazyae.require_mana_per_tick.name=Споживання мани: %s/т
+tooltip.crazyae.require_ae_per_job.name=Потрібно %s AE за завдання
+tooltip.crazyae.require_ae_per_tick.name=Споживання AE: %s/т

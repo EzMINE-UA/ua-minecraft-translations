@@ -1,0 +1,630 @@
+#en_US
+
+gui.thermalexpansion.device.factorizer.modeCombine=Режим: Поєднати
+gui.thermalexpansion.device.factorizer.modeSplit=Режим: Розділити
+
+gui.thermalexpansion.device.item_buffer.decInput=Зменшення введення за допомогою
+gui.thermalexpansion.device.item_buffer.decOutput=Зменшити вихід за допомогою
+gui.thermalexpansion.device.item_buffer.incInput=Збільшити вхід за допомогою
+gui.thermalexpansion.device.item_buffer.incOutput=Збільшити вихід за допомогою
+
+gui.thermalexpansion.device.mob_catcher.modeAll=Захоплювати всіх
+gui.thermalexpansion.device.mob_catcher.modeFriendly=Захоплювати лише пасивних
+gui.thermalexpansion.device.mob_catcher.modeHostile=Захоплювати лише ворожих
+
+gui.thermalexpansion.jei.centrifuge.mobChance=Базовий шанс
+gui.thermalexpansion.jei.centrifuge.mobNotice=До переліченої суми може бути створений.
+gui.thermalexpansion.jei.factorizer.modeCombine=Поєднувати
+gui.thermalexpansion.jei.factorizer.modeSplit=Розкол
+gui.thermalexpansion.jei.transposer.modeEmpty=Порожній
+gui.thermalexpansion.jei.transposer.modeFill=Наповнювати
+
+gui.thermalexpansion.machine.crafter.clearRecipe=Чіткий рецепт
+gui.thermalexpansion.machine.crafter.setRecipe=Встановіть рецепт
+
+gui.thermalexpansion.machine.enchanter.modeLocked=Слот Аркани заблокований
+gui.thermalexpansion.machine.enchanter.modeUnlocked=Слот Аркани розблоковано
+
+gui.thermalexpansion.machine.insolator.modeLocked=Заблокований слот для добрив
+gui.thermalexpansion.machine.insolator.modeUnlocked=Розблокований слот для добрив
+
+gui.thermalexpansion.machine.smelter.modeLocked=Слот металургійного флюсу заблоковано
+gui.thermalexpansion.machine.smelter.modeUnlocked=Слот металургійного флюсу розблоковано
+
+gui.thermalexpansion.machine.transposer.modeEmpty=Режим: порожній
+gui.thermalexpansion.machine.transposer.modeFill=Режим: Наповнення
+gui.thermalexpansion.machine.transposer.modeLocked=Режим заблокований (машина активна)
+
+gui.thermalexpansion.storage.cell.decRecv=Зменшити вхід RF на
+gui.thermalexpansion.storage.cell.decSend=Зменшити вихід RF на
+gui.thermalexpansion.storage.cell.incRecv=Збільшити вхід RF на
+gui.thermalexpansion.storage.cell.incSend=Збільшити вихід RF на
+
+info.thermalexpansion.augment.0=Модуль
+
+info.thermalexpansion.augment.dynamoBoiler.0=Покращення генератора: вихідна спеціалізація
+info.thermalexpansion.augment.dynamoBoiler.a.0=Модифікує генератор у паровий котел.
+info.thermalexpansion.augment.dynamoBoiler.a.1=Підвищує фактичну ефективність палива.
+info.thermalexpansion.augment.dynamoBoiler.b.0=Регулювання генерації недоступне.
+info.thermalexpansion.augment.dynamoBoiler.c.0=Замість RF генерується пар.
+
+info.thermalexpansion.augment.dynamoCoilDuct.0=Генератори: доступність бокових сторін
+info.thermalexpansion.augment.dynamoCoilDuct.a.0=Дозволяє вставити та видобути через котушку.
+
+info.thermalexpansion.augment.dynamoCompressionBiofuel.0=Генератор стиснення: спеціалізація
+info.thermalexpansion.augment.dynamoCompressionBiofuel.a.0=Значно підвищує виробництво енергії та ефективність.
+info.thermalexpansion.augment.dynamoCompressionBiofuel.b.0=Може бути використаний лише §2§оГрассолін§r§4.
+
+info.thermalexpansion.augment.dynamoCompressionCoolant.0=Генератор стиснення: спеціалізація
+info.thermalexpansion.augment.dynamoCompressionCoolant.a.0=Охолоджувач більше не витрачається під час роботи.
+info.thermalexpansion.augment.dynamoCompressionCoolant.b.0=Потрібна наявність охолоджувача.
+info.thermalexpansion.augment.dynamoCompressionCoolant.c.0=Сильніші охолоджувачі підвищують ефективність.
+
+info.thermalexpansion.augment.dynamoCompressionFuel.0=Генератор стиснення: спеціалізація
+info.thermalexpansion.augment.dynamoCompressionFuel.a.0=Значно збільшує виробництво електроенергії та ефективність.
+info.thermalexpansion.augment.dynamoCompressionFuel.b.0=Може бути використаний лише §e§oРафіноване паливо§r§4.
+
+info.thermalexpansion.augment.dynamoEfficiency.0=Генератори: підвищеної ефективністі
+info.thermalexpansion.augment.dynamoEfficiency.a.0=Більше енергії (RF) виробляється паливом.
+
+info.thermalexpansion.augment.dynamoEnervationEnchant.0=Генератор виснаження: спеціалізація
+info.thermalexpansion.augment.dynamoEnervationEnchant.a.0=Дозволяє використовувати зачаровані предмети як паливо.
+info.thermalexpansion.augment.dynamoEnervationEnchant.a.1=Значно збільшує виробництво електроенергії та ефективність.
+info.thermalexpansion.augment.dynamoEnervationEnchant.b.0=Можна використовувати лише зачаровані предмети.
+info.thermalexpansion.augment.dynamoEnervationEnchant.c.0=Елементи знищуються в цьому процесі.
+
+info.thermalexpansion.augment.dynamoMagmaticCoolant.0=Магматичний генератор: Спеціалізація
+info.thermalexpansion.augment.dynamoMagmaticCoolant.a.0=Значно збільшує виробництво електроенергії та ефективність.
+info.thermalexpansion.augment.dynamoMagmaticCoolant.b.0=Для роботи потрібна охолоджуюча рідина.
+info.thermalexpansion.augment.dynamoMagmaticCoolant.c.0=Більш сильні охолоджувачі призводять до підвищення ефективності.
+
+info.thermalexpansion.augment.dynamoNumismaticGem.0=Нумізматичний генератор: Спеціалізація
+info.thermalexpansion.augment.dynamoNumismaticGem.a.0=Дозволяє використовувати різні дорогоцінні речі як паливо.
+info.thermalexpansion.augment.dynamoNumismaticGem.a.1=Значно збільшує виробництво електроенергії та ефективність.
+info.thermalexpansion.augment.dynamoNumismaticGem.b.0=Можна використовувати лише дорогоцінні речі.
+
+info.thermalexpansion.augment.dynamoPower.0=Генератори: підвищеної ефективності
+info.thermalexpansion.augment.dynamoPower.a.0=Збільшує виробництво електроенергії (RF/T).
+
+info.thermalexpansion.augment.dynamoReactantElemental.0=Реагентний генератор: Спеціалізація
+info.thermalexpansion.augment.dynamoReactantElemental.a.0=Значно збільшує виробництво електроенергії та ефективність.
+info.thermalexpansion.augment.dynamoReactantElemental.b.0=Можна провести лише елементарні реакції.
+
+info.thermalexpansion.augment.dynamoSteamTurbine.0=Паровий генератор: Спеціалізація
+info.thermalexpansion.augment.dynamoSteamTurbine.a.0=Значно збільшує виробництво електроенергії.
+info.thermalexpansion.augment.dynamoSteamTurbine.c.0=Вода повинна бути надана із зовнішнього джерела.
+
+info.thermalexpansion.augment.dynamoThrottle.0=Генератори: розширене регулювання потужності
+info.thermalexpansion.augment.dynamoThrottle.a.0=Запобігає втратам RF через насичення котушки потоку.
+
+info.thermalexpansion.augment.machineBrewerReagent.0=Алхімічний імбуер: Ефективність
+info.thermalexpansion.augment.machineBrewerReagent.a.0=Надає шанс не споживати реагент.
+info.thermalexpansion.augment.machineBrewerReagent.b.0=Потрібна додаткова енергія за операцію.
+
+info.thermalexpansion.augment.machineCentrifugeMobs.0=Центрифужний сепаратор: Спеціалізація
+info.thermalexpansion.augment.machineCentrifugeMobs.a.0=Дозволяє «обробляти» Морби.
+info.thermalexpansion.augment.machineCentrifugeMobs.a.1=Морби випадають з мобів.
+info.thermalexpansion.augment.machineCentrifugeMobs.b.0=Тільки морб може бути "оброблений".
+info.thermalexpansion.augment.machineCentrifugeMobs.c.0=Не всі моби сумісні.
+
+info.thermalexpansion.augment.machineChargerRepair.0=Енергетичний інфузер: Спеціалізація
+info.thermalexpansion.augment.machineChargerRepair.a.0=Дозволяє відремонтувати пошкоджені предмети.
+info.thermalexpansion.augment.machineChargerRepair.b.0=Більше не буде заряджатися.
+info.thermalexpansion.augment.machineChargerRepair.c.0=Есенція досвіду повинна бути надана.
+
+info.thermalexpansion.augment.machineChargerThroughput.0=Енергетичний інфузер: Спеціалізація
+info.thermalexpansion.augment.machineChargerThroughput.a.0=Дозволяє дуже швидко заряджати перезаряджувані предмети.
+info.thermalexpansion.augment.machineChargerThroughput.c.0=Не може перевищувати швидкість зарядки самого предмета.
+
+info.thermalexpansion.augment.machineChargerWireless.0=Енергетичний інфузер: Спеціалізація
+info.thermalexpansion.augment.machineChargerWireless.a.0=Дозволяє швидку бездротову зарядку конденсаторів потоку.
+info.thermalexpansion.augment.machineChargerWireless.b.0=Більше не приймає, не обробляє й не заряджає предмети.
+info.thermalexpansion.augment.machineChargerWireless.c.0=Не може перевищувати швидкість заряду самого конденсатора потоку.
+
+info.thermalexpansion.augment.machineCompactorCoin.0=Ущільнювач: Спеціалізація
+info.thermalexpansion.augment.machineCompactorCoin.a.0=Дозволяє створювати валюту.
+info.thermalexpansion.augment.machineCompactorCoin.a.1=Валюта може бути обміняна на товари та послуги.
+info.thermalexpansion.augment.machineCompactorCoin.c.0=Машина не виготовляє пластини.
+
+info.thermalexpansion.augment.machineCompactorGear.0=Ущільнювач: Спеціалізація
+info.thermalexpansion.augment.machineCompactorGear.a.0=Дозволяє ефективно створити передачі.
+info.thermalexpansion.augment.machineCompactorGear.a.1=Шестерні використовуються для побудови численних речей.
+info.thermalexpansion.augment.machineCompactorGear.c.0=Машина не виготовляє пластини.
+
+info.thermalexpansion.augment.machineCrafterInput.0=Послідовний фабрикатор: функціональність  
+info.thermalexpansion.augment.machineCrafterInput.a.0=Додає інтелектуальне авто-введення предметів  
+info.thermalexpansion.augment.machineCrafterInput.c.0=Для кожної комірки крафту виділено по два слоти
+
+info.thermalexpansion.augment.machineCrafterTank.0=Послідовний фабрикатор: функціональність 
+info.thermalexpansion.augment.machineCrafterTank.a.0=Додає рідинний резервуар в машину.
+info.thermalexpansion.augment.machineCrafterTank.a.1=Рідина в резервуарі може використовуватися в рецептах.
+info.thermalexpansion.augment.machineCrafterTank.c.0=Не всі рецепти сумісні.
+
+info.thermalexpansion.augment.machineCrucibleAlloy.0=Магматичний-тигель: Спеціалізація
+info.thermalexpansion.augment.machineCrucibleAlloy.a.0=Магматичний-тигель: Спеціалізація
+info.thermalexpansion.augment.machineCrucibleAlloy.b.0=Магматичний-тигель: Спеціалізація
+
+info.thermalexpansion.augment.machineCrucibleLava.0=Магматичний-тигель: Спеціалізація
+info.thermalexpansion.augment.machineCrucibleLava.a.0=Значно збільшує швидкість виробництва лави.
+info.thermalexpansion.augment.machineCrucibleLava.b.0=Можна створювати лише лаву.
+
+info.thermalexpansion.augment.machineEnchanterEmpowered.0=Арканний зачарувальник: спеціалізація
+info.thermalexpansion.augment.machineEnchanterEmpowered.a.0=Фокується та вирівнює таємні енергії для максимальної сили зачарування.
+info.thermalexpansion.augment.machineEnchanterEmpowered.b.0=Потрібні додаткові ресурси.
+
+info.thermalexpansion.augment.machineExtruderNoWater.0=Вулканічний екструдер: спеціалізація
+info.thermalexpansion.augment.machineExtruderNoWater.a.0=Вода більше не споживається для роботи.
+
+info.thermalexpansion.augment.machineExtruderSedimentary.0=Вулканічний екструдер: спеціалізація
+info.thermalexpansion.augment.machineExtruderSedimentary.a.0=Дозволяє створити осадові породи.
+info.thermalexpansion.augment.machineExtruderSedimentary.c.0=Неможливо створити магматичну скелю.
+
+info.thermalexpansion.augment.machineFurnaceFood.0=Редстоунова піч: Спеціалізація
+info.thermalexpansion.augment.machineFurnaceFood.a.0=Отримайте додаткову їжу при приготуванні.
+info.thermalexpansion.augment.machineFurnaceFood.b.0=Можна обробити лише продукти харчування.
+
+info.thermalexpansion.augment.machineFurnaceOre.0=Редстоунова піч: Спеціалізація
+info.thermalexpansion.augment.machineFurnaceOre.a.0=Отримати додатковий вихід при виплавці руд.
+info.thermalexpansion.augment.machineFurnaceOre.b.0=Можна обробити лише руди.
+info.thermalexpansion.augment.machineFurnaceOre.b.1=Потрібна додаткова енергія за роботу.
+
+info.thermalexpansion.augment.machineFurnacePyrolysis.0=Редстоунова піч: Спеціалізація
+info.thermalexpansion.augment.machineFurnacePyrolysis.a.0=Дозволяє виконувати піроліз та виробляти креозот.
+info.thermalexpansion.augment.machineFurnacePyrolysis.b.0=Можна обробити лише певні елементи.
+info.thermalexpansion.augment.machineFurnacePyrolysis.b.1=Швидкість обробки значно знижується.
+
+info.thermalexpansion.augment.machineInsolatorFertilizer.0=Фітогенний інсолятор: Ефективність
+info.thermalexpansion.augment.machineInsolatorFertilizer.a.0=Надає шанс не споживати добрива.
+info.thermalexpansion.augment.machineInsolatorFertilizer.b.0=Потрібна додаткова енергія за роботу.
+
+info.thermalexpansion.augment.machineInsolatorMonoculture.0=Фітогенний інсолятор: Спеціалізація
+info.thermalexpansion.augment.machineInsolatorMonoculture.a.0=Неудобрені матеріали не витрачаються, що покращує автоматизацію.
+info.thermalexpansion.augment.machineInsolatorMonoculture.a.1=Надає незначний шанс не споживати добрива.
+info.thermalexpansion.augment.machineInsolatorMonoculture.b.0=Потрібна додаткова енергія за роботу.
+info.thermalexpansion.augment.machineInsolatorMonoculture.b.1=Шанс вторинного виходу суттєво зменшується.
+
+info.thermalexpansion.augment.machineInsolatorTree.0=Фітогенний інсолятор: функціональність
+info.thermalexpansion.augment.machineInsolatorTree.a.0=Дозволяє вирощувати дерева.
+info.thermalexpansion.augment.machineInsolatorTree.c.0=Не всі саджанці сумісні.
+
+info.thermalexpansion.augment.machinePower.0=Машини: Швидкість обробки
+info.thermalexpansion.augment.machinePower.a.0=Збільшує максимальне використання потужності.
+info.thermalexpansion.augment.machinePower.b.0=Потрібна додаткова енергія за роботу.
+
+info.thermalexpansion.augment.machinePulverizerGeode.0=Подрібнювач: Спеціалізація
+info.thermalexpansion.augment.machinePulverizerGeode.a.0=Дозволяє витягувати геоди(кам'яні кулі) з певних руд.
+info.thermalexpansion.augment.machinePulverizerGeode.b.0=Потрібна додаткова енергія за роботу.
+
+info.thermalexpansion.augment.machinePulverizerPetrotheum.0=Подрібнювач: Спеціалізація
+info.thermalexpansion.augment.machinePulverizerPetrotheum.a.0=Збільшує кількість ресурсів з руд.
+info.thermalexpansion.augment.machinePulverizerPetrotheum.b.0=Потрібна додаткова енергія за роботу.
+info.thermalexpansion.augment.machinePulverizerPetrotheum.c.0=Потрібно постачати тектонічний Петротеум.
+
+info.thermalexpansion.augment.machineRefineryBio.0=Перегінний апарат: спеціалізація
+info.thermalexpansion.augment.machineRefineryBio.a.0=Значно підвищує ефективність перетворення для біопалива.
+info.thermalexpansion.augment.machineRefineryBio.b.0=Потрібна додаткова енергія за роботу.
+
+info.thermalexpansion.augment.machineRefineryFossil.0=Перегінний апарат: спеціалізація
+info.thermalexpansion.augment.machineRefineryFossil.a.0=Значно підвищує ефективність перетворення для твердого палива.
+info.thermalexpansion.augment.machineRefineryFossil.b.0=Потрібна додаткова енергія за роботу.
+
+info.thermalexpansion.augment.machineRefineryPotion.0=Перегінний апарат: спеціалізація
+info.thermalexpansion.augment.machineRefineryPotion.a.0=Дозволяє вдосконалювати зілля.
+info.thermalexpansion.augment.machineRefineryPotion.b.0=Можна обробити лише зілля.
+
+info.thermalexpansion.augment.machineSawmillTapper.0=Пилорама: Спеціалізація
+info.thermalexpansion.augment.machineSawmillTapper.a.0=Дозволяє витягувати рідини з дощок.
+info.thermalexpansion.augment.machineSawmillTapper.b.0=Потрібна додаткова енергія за роботу.
+
+info.thermalexpansion.augment.machineSecondary.0=Машини: вторинний вихід
+info.thermalexpansion.augment.machineSecondary.a.0=Збільшує шанси на вторинний продукт.
+info.thermalexpansion.augment.machineSecondary.b.0=Потрібна додаткова енергія за роботу.
+
+info.thermalexpansion.augment.machineSecondaryNull.0=Машини: вторинний нановості
+info.thermalexpansion.augment.machineSecondaryNull.a.0=Знищує зайві вторинні результати.
+info.thermalexpansion.augment.machineSecondaryNull.b.0=Дійсно. Вони просто зникають. Пропав.
+
+info.thermalexpansion.augment.machineSmelterFlux.0=Індукційна плавильня: Ефективність
+info.thermalexpansion.augment.machineSmelterFlux.a.0=Дає шанс не витрачати металургійний флюс.
+info.thermalexpansion.augment.machineSmelterFlux.b.0=Потрібна додаткова енергія за роботу.
+
+info.thermalexpansion.augment.machineSmelterPyrotheum.0=Індукційна плавильня: Ефективність
+info.thermalexpansion.augment.machineSmelterPyrotheum.a.0=Збільшує кількість ресурсів з руд.
+info.thermalexpansion.augment.machineSmelterPyrotheum.b.0=Потрібна додаткова енергія за роботу.
+info.thermalexpansion.augment.machineSmelterPyrotheum.c.0=Потрібно постачати палаючий піротеум.
+
+info.thermalexpansion.augment.noticeAdvanced=Ще Не Реалізовано
+info.thermalexpansion.augment.noticeCreative=Вимагає творчого блоку.
+info.thermalexpansion.augment.noticeEnder=Вимагає резонансного блоку.
+info.thermalexpansion.augment.noticeMode=Можна встановити лише одну спеціалізацію.
+
+info.thermalexpansion.apparatus.activator=Робить більше, ніж може пояснити підказка.
+info.thermalexpansion.apparatus.breaker=Розбиває блоки. Просто і зрозуміло.
+info.thermalexpansion.apparatus.collector=Збирає предмети з певної області.
+
+info.thermalexpansion.capacitor.a.0=Зберігає RF. Може заряджати обладнання та предмети.
+info.thermalexpansion.capacitor.b.0=§eНатисніть (%s), щоб змінити режим зарядки.§r
+info.thermalexpansion.capacitor.c.0=Використовуйте, утримуючи Shift, щоб увімкнути.
+info.thermalexpansion.capacitor.c.1=Використовуйте, утримуючи Shift, щоб вимкнути.
+info.thermalexpansion.capacitor.d.0=Зарядка обладнання
+info.thermalexpansion.capacitor.d.1=Зарядка інвентарю
+info.thermalexpansion.capacitor.d.2=Зарядка всіх предметів
+
+info.thermalexpansion.coolant=Охолоджуюча рідина
+
+info.thermalexpansion.device.diffuser=Поширює ефекти зілля на ділянку.
+info.thermalexpansion.device.factorizer=Поєднує та розбирає різні предмети.
+info.thermalexpansion.device.fisher=Ловить рибу та інших мешканців водойм.
+info.thermalexpansion.device.fluid_buffer=Збереження та передача рідини.
+info.thermalexpansion.device.heat_sink=Покращує експлуатаційну швидкість сусідніх блоків.
+info.thermalexpansion.device.item_buffer=Збереження та передача предметів.
+info.thermalexpansion.device.item_collector=Збирає предмети в районі.
+info.thermalexpansion.device.lexicon=Трансмутує елементи серед еквівалентних форм.
+info.thermalexpansion.device.mob_catcher=Захоплює мобів поблизу.
+info.thermalexpansion.device.nullifier=Видаляє речі з існування.
+info.thermalexpansion.device.tapper=Витягує рідини з дерева.
+info.thermalexpansion.device.water_gen=Тягне воду з оточення.
+info.thermalexpansion.device.xp_collector=Збирає досвід у області.
+
+info.thermalexpansion.dynamo.0=Генерує енергію (потік RF).
+info.thermalexpansion.dynamo.compression=Потребує рідке паливо та охолоджувач.
+info.thermalexpansion.dynamo.enervation=Витягує флюкс з різних об'єктів.
+info.thermalexpansion.dynamo.magmatic=Потребує гарячі рідини.
+info.thermalexpansion.dynamo.numismatic=Потребує... валюту?
+info.thermalexpansion.dynamo.reactant=Потребує рідке паливо та твердий реагент.
+info.thermalexpansion.dynamo.steam=Потребує воду та тверде паливо.
+
+info.thermalexpansion.florb.a.0=Вміщає 1000 mB більшості рідин.
+info.thermalexpansion.florb.b.0=Вміщає 1000 mB більшості гарячих рідин.
+info.thermalexpansion.florb.c.0=Заповніть за допомогою §e§oFluid Transposer§r§7.
+info.thermalexpansion.florb.c.1=Так, його можна кинути.
+info.thermalexpansion.florb.d.0=Ця рідина легша за повітря.
+info.thermalexpansion.florb.d.1=Флорб пролетить далі.
+
+info.thermalexpansion.level.0=Основний
+info.thermalexpansion.level.1=Загартований
+info.thermalexpansion.level.2=Посилений
+info.thermalexpansion.level.3=Сигналум
+info.thermalexpansion.level.4=Резонант
+info.thermalexpansion.level.creative=Творчий
+
+info.thermalexpansion.morb.a.0=Тримає мобів у стазисі.
+info.thermalexpansion.morb.a.1=Цей морб багаторазовий.
+info.thermalexpansion.morb.b.0=Киньте на моба, щоб захопити його.
+info.thermalexpansion.morb.b.1=Киньте, щоб звільнити захопленого мобі.
+info.thermalexpansion.morb.b.2=Цей Морб містить загального моба.
+
+info.thermalexpansion.machine.brewer=Заварює зілля.
+info.thermalexpansion.machine.centrifuge=Розділяє елементи на складові частини.
+info.thermalexpansion.machine.charger=Заряджає предмети з RF.
+info.thermalexpansion.machine.compactor=Стискає предмети.
+info.thermalexpansion.machine.crafter=Предмети крафту.
+info.thermalexpansion.machine.crucible=Розплавляє предмети в рідину.
+info.thermalexpansion.machine.enchanter=Створює магічні томи та сувої.
+info.thermalexpansion.machine.extruder=Змішує гарячі та холодні рідини.
+info.thermalexpansion.machine.furnace=Предмети виплавки.
+info.thermalexpansion.machine.insolator=Наповнює рослини «сонцем» та RF.
+info.thermalexpansion.machine.precipitator=Заморожує рідини в тверді речовини.
+info.thermalexpansion.machine.pulverizer=Роздавлює предмети.
+info.thermalexpansion.machine.refinery=Перетворює рідини на інші продукти.
+info.thermalexpansion.machine.sawmill=Забезпечує додаткові пиломатеріали.
+info.thermalexpansion.machine.smelter=Спеціальні сплави та метали. Два входи.
+info.thermalexpansion.machine.transposer=Керує рідинами та їхніми ємностями.
+
+info.thermalexpansion.reservoir.a.0=Зберігання та передача рідини. Може заправити обладнання.
+info.thermalexpansion.reservoir.a.1=Використовувється для заповнення рідиною.
+info.thermalexpansion.reservoir.a.2=Використовувується для спорожнення рідини.
+info.thermalexpansion.reservoir.b.0=§eНатисніть (%s), щоб змінити дію при використанні.§r
+info.thermalexpansion.reservoir.c.0=Використовуйте, утримуючи Shift, для активації.
+info.thermalexpansion.reservoir.c.1=Використовуйте, утримуючи Shift, для деактивації.
+info.thermalexpansion.reservoir.d.0=При використанні: заповнити
+info.thermalexpansion.reservoir.d.1=При використанні: спорожнити
+info.thermalexpansion.reservoir.d.2=Обладнання для заправки
+
+info.thermalexpansion.satchel.a.0=Зберігають та збирають предмети. Можна зафіксувати вміст.
+info.thermalexpansion.satchel.a.1=Використовуйте на інвентарі утримуючи Shift, щоб перенести в нього.
+info.thermalexpansion.satchel.a.2=Використовуйте утримуючи Shift для налаштування.
+info.thermalexpansion.satchel.a.c=Зберігає необмежену кількість одного предмета. Можна зафіксувати вміст.
+info.thermalexpansion.satchel.a.v=Видаляє предмет з існування. Можна зафіксувати вміст.
+info.thermalexpansion.satchel.b.0=§bНатисніть (%s), щоб увімкнути автозбір.§r
+info.thermalexpansion.satchel.b.1=§eНатисніть (%s), щоб вимкнути автозбір.§r
+info.thermalexpansion.satchel.c.0=Автозбір вимкнено
+info.thermalexpansion.satchel.c.1=Автозбір увімкнено
+
+info.thermalexpansion.storage.cache=Зберігає велику кількість предметів.
+info.thermalexpansion.storage.cell=Зберігає велику кількість потоку редстоуну.
+info.thermalexpansion.storage.strongbox=Зберігає предмети. Можна зафіксувати вміст.
+info.thermalexpansion.storage.tank=Зберігає велику кількість рідини.
+
+item.thermalexpansion.augment.apparatusDepth.name=Глибина апарата (у розробці)
+item.thermalexpansion.augment.apparatusRadius.name=Радіус апарата (у розробці)
+
+item.thermalexpansion.augment.dynamoBoiler.name=Перетворення на бойлер
+item.thermalexpansion.augment.dynamoCoilDuct.name=Канали передавальної котушки
+item.thermalexpansion.augment.dynamoCompressionBiofuel.name=Агітаційний колектор
+item.thermalexpansion.augment.dynamoCompressionCoolant.name=Замкнене охолодження
+item.thermalexpansion.augment.dynamoCompressionFuel.name=Свічки запалювання
+item.thermalexpansion.augment.dynamoEfficiency.name=Каталізатор пального
+item.thermalexpansion.augment.dynamoEnervationEnchant.name=Роз’єднувальний екстрактор
+item.thermalexpansion.augment.dynamoMagmaticCoolant.name=Ізоентропний резервуар
+item.thermalexpansion.augment.dynamoNumismaticGem.name=Калібрування самоцвітів
+item.thermalexpansion.augment.dynamoPower.name=Допоміжна передавальна котушка
+item.thermalexpansion.augment.dynamoReactantElemental.name=Елементальний каталізатор
+item.thermalexpansion.augment.dynamoSteamTurbine.name=Перетворення на турбіну
+item.thermalexpansion.augment.dynamoThrottle.name=Обмежувач збуджувального поля
+
+item.thermalexpansion.augment.machineBrewerReagent.name=Відновлення реагентів
+item.thermalexpansion.augment.machineCentrifugeMobs.name=Апарат естабуляції
+item.thermalexpansion.augment.machineChargerRepair.name=Відновлення флюксу
+item.thermalexpansion.augment.machineChargerThroughput.name=Концентратор флюкс-з’єднань
+item.thermalexpansion.augment.machineChargerWireless.name=Параболічне флюкс-з’єднання
+item.thermalexpansion.augment.machineCompactorCoin.name=Нумізматичний прес
+item.thermalexpansion.augment.machineCompactorGear.name=Штамп для шестерень
+item.thermalexpansion.augment.machineCrafterInput.name=Перевірка шаблону
+item.thermalexpansion.augment.machineCrafterTank.name=Флюїдне виробництво
+item.thermalexpansion.augment.machineCrucibleLava.name=Піроконвективний контур
+item.thermalexpansion.augment.machineFurnaceFood.name=Камера тривекції
+item.thermalexpansion.augment.machineFurnaceOre.name=Флюкс-анодизатори
+item.thermalexpansion.augment.machineFurnacePyrolysis.name=Піролізне перетворення
+item.thermalexpansion.augment.machineEnchanterEmpowered.name=Фокус рекомбінації
+item.thermalexpansion.augment.machineExtruderNoWater.name=Пірокластичне вприскування
+item.thermalexpansion.augment.machineExtruderSedimentary.name=Осадова депозиція
+item.thermalexpansion.augment.machineInsolatorFertilizer.name=Відновлення добрив
+item.thermalexpansion.augment.machineInsolatorMonoculture.name=Цикл монокультури
+item.thermalexpansion.augment.machineInsolatorTree.name=Інфузор саджанців
+item.thermalexpansion.augment.machinePower.name=Допоміжна приймальна котушка
+item.thermalexpansion.augment.machinePulverizerGeode.name=Геодовий барабан
+item.thermalexpansion.augment.machinePulverizerPetrotheum.name=Тектонічний ініціатор
+item.thermalexpansion.augment.machineRefineryBio.name=Біокаталітична димова труба
+item.thermalexpansion.augment.machineRefineryFossil.name=Ректифікаційна колона
+item.thermalexpansion.augment.machineRefineryPotion.name=Алхімічний реторта
+item.thermalexpansion.augment.machineSawmillTapper.name=Воронка для смоли
+item.thermalexpansion.augment.machineSmelterFlux.name=Металургійне відновлення
+item.thermalexpansion.augment.machineSmelterPyrotheum.name=Піро-концентратор
+item.thermalexpansion.augment.machineSecondary.name=Допоміжне сито
+item.thermalexpansion.augment.machineSecondaryNull.name=Камера обнулення
+
+item.thermalexpansion.capacitor.creative.name=Флюс конденсатор (творчий)
+item.thermalexpansion.capacitor.standard0.name=Флюс конденсатор (базовий)
+item.thermalexpansion.capacitor.standard1.name=Флюс конденсатор (загартовано)
+item.thermalexpansion.capacitor.standard2.name=Флюс конденсатор (посилений)
+item.thermalexpansion.capacitor.standard3.name=Флюс конденсатор (сигналумний)
+item.thermalexpansion.capacitor.standard4.name=Флюс конденсатор (резонуючий)
+
+item.thermalexpansion.florb.standard.name=Флорб
+item.thermalexpansion.florb.magmatic.name=Магматичний Флорб
+
+item.thermalexpansion.morb.reusable.name=Морб багаторазового використання
+item.thermalexpansion.morb.standard.name=Морб
+
+item.thermalexpansion.frame.frameApparatus.name=Каркас апарату
+item.thermalexpansion.frame.frameCell.name=Каркас енергетичної комірки
+item.thermalexpansion.frame.frameCell1.name=Загартований каркас комірки
+item.thermalexpansion.frame.frameCell2.name=Посилений каркас комірки (порожній)
+item.thermalexpansion.frame.frameCell3.name=Каркас комірки Сигналумний (порожній)
+item.thermalexpansion.frame.frameCell4.name=Каркас комірки Резонуючий (порожній)
+item.thermalexpansion.frame.frameCell2Filled.name=Посилений каркас комірки (заповнений)
+item.thermalexpansion.frame.frameCell3Filled.name=Каркас комірки Сигналумний (заповнений)
+item.thermalexpansion.frame.frameCell4Filled.name=Каркас комірки Резонуючий (заповнений)
+item.thermalexpansion.frame.frameDevice.name=Каркас пристрою
+item.thermalexpansion.frame.frameLight.name=Каркас освітлювача
+item.thermalexpansion.frame.frameMachine.name=Каркас машини
+
+item.thermalexpansion.reservoir.creative.name=Резервуар (креативний)
+item.thermalexpansion.reservoir.standard0.name=Резервуар (базовий)
+item.thermalexpansion.reservoir.standard1.name=Резервуар (загартовано)
+item.thermalexpansion.reservoir.standard2.name=Резервуар (посилений)
+item.thermalexpansion.reservoir.standard3.name=Резервуар (сигналумний)
+item.thermalexpansion.reservoir.standard4.name=Резервуар (резонуючий)
+
+item.thermalexpansion.satchel.creative.name=Сумка (Креативна)
+item.thermalexpansion.satchel.name=Сумка
+item.thermalexpansion.satchel.standard0.name=Сумка (Базова)
+item.thermalexpansion.satchel.standard1.name=Сумка (Загартована)
+item.thermalexpansion.satchel.standard2.name=Сумка (Посилена)
+item.thermalexpansion.satchel.standard3.name=Сумка (Сигналумна)
+item.thermalexpansion.satchel.standard4.name=Сумка (Резонуюча)
+item.thermalexpansion.satchel.void.name=Сумка (Пустотна)
+
+itemGroup.thermalexpansion.creativeTab=Thermal Expansion
+itemGroup.thermalexpansion.creativeTabFlorbs=Thermal Expansion: Флорби
+itemGroup.thermalexpansion.creativeTabMorbs=Thermal Expansion: Морби
+itemGroup.thermalexpansion.creativeTabItems=Thermal Expansion: Предмети
+
+tab.thermalexpansion.apparatus.activator.0=Ріже! Меле! Виливає, кидає, сипле!
+tab.thermalexpansion.apparatus.activator.1=Може випадково, а може й ні. Може нишком, а може й відкрито.
+tab.thermalexpansion.apparatus.activator.2=Підступно універсальний!
+tab.thermalexpansion.apparatus.breaker.0=Ламає все, що бачить!
+tab.thermalexpansion.apparatus.breaker.1=Не стій перед ним обличчям.
+tab.thermalexpansion.apparatus.collector.0=Підбирає предмети навколо.
+tab.thermalexpansion.apparatus.collector.1=Усе, що не прибите — його!
+tab.thermalexpansion.apparatus.collector.2=Мабуть, не буде красти з твого інвентаря. Мабуть.
+
+
+tab.thermalexpansion.device.diffuser.0=Розповсюджує зілля в навколишній області.
+tab.thermalexpansion.device.diffuser.1=Тривалість зілля зменшена порівняно з питтям.
+tab.thermalexpansion.device.diffuser.2=Деякі реагенти підсилюють ефект.
+tab.thermalexpansion.device.factorizer.0=Об’єднує або розділяє предмети на менші або більші форми.
+tab.thermalexpansion.device.factorizer.1=Натисни кнопку, щоб змінити режим.
+tab.thermalexpansion.device.factorizer.2=Переформатуй свій склад!
+tab.thermalexpansion.device.fisher.0=Захоплює різну водну живність. Використовуй наживку для збільшення продуктивності.
+tab.thermalexpansion.device.fisher.1=Потрібно розмістити у водоймі.
+tab.thermalexpansion.device.fisher.2=Повішай свою вудочку.
+tab.thermalexpansion.device.fluid_buffer.0=Зберігає та передає рідини. Може автоматично витягати.
+tab.thermalexpansion.device.fluid_buffer.1=Це як воронка, тільки для рідин!
+tab.thermalexpansion.device.fluid_buffer.2=Утримуй Shift або Ctrl для точної настройки кількостей.
+tab.thermalexpansion.device.heat_sink.0=Охолоджує сусідні блоки, покращуючи їхню швидкість.
+tab.thermalexpansion.device.heat_sink.1=Просто заповни охолоджувачем і дивись, як працює!
+tab.thermalexpansion.device.heat_sink.2=Охолоджувачі мають різну ефективність.
+tab.thermalexpansion.device.item_buffer.0=Зберігає та передає предмети. Може автоматично витягати.
+tab.thermalexpansion.device.item_buffer.1=Краще, ніж воронка, чесно!
+tab.thermalexpansion.device.item_buffer.2=Утримуй Shift або Ctrl для точної настройки кількостей.
+tab.thermalexpansion.device.item_buffer.3=Наведи з порожніми руками, утримуючи Shift, щоб налаштувати фільтрацію.
+tab.thermalexpansion.device.item_buffer_filter.0=Налаштуй, які предмети прийматиме цей блок.
+tab.thermalexpansion.device.item_buffer_filter.1=Дивись, значно краще за воронку.
+tab.thermalexpansion.device.item_collector.0=Підбирає предмети з навколишньої зони.
+tab.thermalexpansion.device.item_collector.1=Можна налаштувати, що саме підбирати.
+tab.thermalexpansion.device.item_collector.2=Так, цей блок всмоктує.
+tab.thermalexpansion.device.item_collector.3=Наведи з порожніми руками, утримуючи Shift, щоб налаштувати фільтрацію.
+tab.thermalexpansion.device.item_collector_filter.0=Налаштуй, які предмети цей блок буде підбирати.
+tab.thermalexpansion.device.item_collector_filter.1=Технічно кажучи, він не повністю всмоктує.
+tab.thermalexpansion.device.lexicon.0=Трансмутує еквівалентні предмети.
+tab.thermalexpansion.device.lexicon.1=Розмісти бажані предмети в масив трансмутації.
+tab.thermalexpansion.device.lexicon.2=Предмети можуть бути обмежені вищими силами.
+tab.thermalexpansion.device.mob_catcher.0=Захоплює мобів поблизу за допомогою морбів.
+tab.thermalexpansion.device.mob_catcher.1=Натисни кнопку, щоб змінити пріоритет захоплення.
+tab.thermalexpansion.device.mob_catcher.2=Треба зловити їх усіх!
+tab.thermalexpansion.device.nullifier.0=Відправляє все у /dev/null!
+tab.thermalexpansion.device.nullifier.1=Це жахливе місце; навіть рідини не можуть втекти.
+tab.thermalexpansion.device.tapper.0=Викачує рідини з прилеглих дерев. Використовуй добрива для підвищення продуктивності.
+tab.thermalexpansion.device.tapper.1=Не кожне дерево буде продуктивним.
+tab.thermalexpansion.device.tapper.2=Поклади сокиру.
+tab.thermalexpansion.device.water_gen.0=Добуває воду з навколишнього середовища.
+tab.thermalexpansion.device.water_gen.1=Розмісти у водоймі для пришвидшення процесу.
+tab.thermalexpansion.device.water_gen.2=Не втопись.
+tab.thermalexpansion.device.xp_collector.0=Збирає досвід з навколишньої області.
+tab.thermalexpansion.device.xp_collector.1=Досвід перетворюється у зручну рідинну форму.
+tab.thermalexpansion.device.xp_collector.2=Деякі каталізатори підвищать продуктивність.
+
+tab.thermalexpansion.dynamo.0=Швидкість генерації змінюється залежно від попиту на енергію.
+tab.thermalexpansion.dynamo.compression.0=Генерує RF, використовуючи рідке паливо та охолоджувачі.
+tab.thermalexpansion.dynamo.compression.1=Потужніші охолоджувачі дають вищу ефективність.
+tab.thermalexpansion.dynamo.enervation.0=Видобуває RF безпосередньо з природних джерел або предметів, що його зберігають.
+tab.thermalexpansion.dynamo.magmatic.0=Генерує RF з надзвичайно гарячих рідин.
+tab.thermalexpansion.dynamo.numismatic.0=Генерує RF через економічний арбітраж.
+tab.thermalexpansion.dynamo.numismatic.1=Можливо, це портал в альтернативний вимір чистої жадібності.
+tab.thermalexpansion.dynamo.numismatic.2=Не ускладнюй — просто вставляй монети.
+tab.thermalexpansion.dynamo.reactant.0=Генерує RF через алхімічні реакції.
+tab.thermalexpansion.dynamo.reactant.1=Потрібен твердий реагент і рідке паливо.
+tab.thermalexpansion.dynamo.steam.0=Генерує RF із пари.
+tab.thermalexpansion.dynamo.steam.1=Тверде паливо і вода можуть бути використані для створення пари.
+
+tab.thermalexpansion.machine.brewer.0=Заварює зілля та настоює рідини.
+tab.thermalexpansion.machine.brewer.1=Можеш поставити кілька в ряд.
+tab.thermalexpansion.machine.brewer.2=Пляшечки не входять у комплект.
+tab.thermalexpansion.machine.centrifuge.0=Розділяє предмети на складові частини.
+tab.thermalexpansion.machine.centrifuge.1=Деякі предмети дають ще й рідину.
+tab.thermalexpansion.machine.centrifuge.2=Крути, щоб виграти!
+tab.thermalexpansion.machine.charger.0=Заряджає сумісні предмети енергією.
+tab.thermalexpansion.machine.charger.1=Швидкість заряджання може залежати від предмета.
+tab.thermalexpansion.machine.charger.2=Відчуй вібрацію.
+tab.thermalexpansion.machine.compactor.0=Стискає предмети, змінюючи їхню форму.
+tab.thermalexpansion.machine.compactor.1=Корисно для створення просунутих компонентів.
+tab.thermalexpansion.machine.compactor.2=Більш делікатний, ніж подрібнювач.
+tab.thermalexpansion.machine.crafter.0=Встав предмети в сітку, щоб задати рецепт крафту.
+tab.thermalexpansion.machine.crafter.1=Натисни кнопку підтвердження — і йди пити чай.
+tab.thermalexpansion.machine.crafter.2=Деякі рецепти можуть бути недійсні.
+tab.thermalexpansion.machine.crucible.0=Перетворює тверді матеріали на рідину!
+tab.thermalexpansion.machine.crucible.1=Дуже корисно для створення складних блоків.
+tab.thermalexpansion.machine.crucible.2=Тримай подалі від дітей і домашніх улюбленців.
+tab.thermalexpansion.machine.enchanter.0=Накладає зачарування на книги й інші речі.
+tab.thermalexpansion.machine.enchanter.1=Допомагає добути потрібне зачарування.
+tab.thermalexpansion.machine.enchanter.2=Лівий слот можна заблокувати для певного предмета.
+tab.thermalexpansion.machine.enchanter.3=Ось вона — маготехнологія!
+tab.thermalexpansion.machine.extruder.0=Змішує воду та лаву, створюючи породу.
+tab.thermalexpansion.machine.extruder.1=Отримаєш вибраний тип блоку, якщо є достатньо рідин.
+tab.thermalexpansion.machine.extruder.2=Фізика Minecraft — найкраща!
+tab.thermalexpansion.machine.furnace.0=Переплавляє речі за допомогою Redstone Flux.
+tab.thermalexpansion.machine.furnace.1=Мінімальні витрати енергії для приготування їжі.
+tab.thermalexpansion.machine.furnace.2=Ням-ням.
+tab.thermalexpansion.machine.insolator.0=Живить рослини поживами й світлом за допомогою Redstone Flux.
+tab.thermalexpansion.machine.insolator.1=Не зовсім "органічне" фермерство.
+tab.thermalexpansion.machine.insolator.2=Лівий слот можна заблокувати для певного предмета.
+tab.thermalexpansion.machine.insolator.3=Світиться славно!
+tab.thermalexpansion.machine.precipitator.0=Використовує Redstone Flux, щоб заморожувати рідини!
+tab.thermalexpansion.machine.precipitator.1=Отримаєш вибраний блок, якщо є потрібна рідина.
+tab.thermalexpansion.machine.precipitator.2=Сніжкова битва починається!
+tab.thermalexpansion.machine.pulverizer.0=Подрібнює речі в інші речі.
+tab.thermalexpansion.machine.pulverizer.1=Корисно для переробки руд або трансформації предметів.
+tab.thermalexpansion.machine.pulverizer.2=Зворотній процес зазвичай неможливий.
+tab.thermalexpansion.machine.refinery.0=Очищає різні рідини.
+tab.thermalexpansion.machine.refinery.1=Деякі рідини залишають твердий залишок.
+tab.thermalexpansion.machine.refinery.2=Продукти можуть бути непридатними до пиття.
+tab.thermalexpansion.machine.sawmill.0=Розпилює колоди на дошки й переробляє деревину.
+tab.thermalexpansion.machine.sawmill.1=Максимум користі з одного дерева.
+tab.thermalexpansion.machine.sawmill.2=Бережи пальці.
+tab.thermalexpansion.machine.smelter.0=Переплавляє метали та інші матеріали, що вимагають високих температур.
+tab.thermalexpansion.machine.smelter.1=Корисно для обробки руд і складних блоків.
+tab.thermalexpansion.machine.smelter.2=Лівий слот можна заблокувати для певного предмета.
+tab.thermalexpansion.machine.smelter.3=Жодної їжі тут не готуй.
+tab.thermalexpansion.machine.transposer.0=Наповнює або спорожнює рідинні ємності.
+tab.thermalexpansion.machine.transposer.1=Натисни кнопку, щоб змінити режим.
+tab.thermalexpansion.machine.transposer.2=Зазвичай оборотний процес.
+
+tab.thermalexpansion.storage.cache.0=
+tab.thermalexpansion.storage.cache.1=
+
+tab.thermalexpansion.storage.cell.0=Зберігає RF.
+tab.thermalexpansion.storage.cell.1=Утримуй Shift та/або Ctrl для точного регулювання енергії.
+
+tab.thermalexpansion.storage.enchant=Можна зачарувати для збільшення ємності.
+
+tab.thermalexpansion.storage.satchel.0=Це торба. Дозволяє носити більше речей.
+tab.thermalexpansion.storage.satchel.1=Деякі предмети зберігати не буде.
+
+tab.thermalexpansion.storage.satchel_c.0=Ну, типу торба. Копіює все, що туди кладеш.
+tab.thermalexpansion.storage.satchel_c.1=Деякі предмети зберігати не буде.
+tab.thermalexpansion.storage.satchel_c.2="Креативна" — як режим. Не надто розумна.
+
+tab.thermalexpansion.storage.satchel_filter.0=Налаштуй, які предмети ця торба буде автоматично підбирати.
+tab.thermalexpansion.storage.satchel_filter.1=Поверни контроль над інвентарем!
+
+tab.thermalexpansion.storage.satchel_v.0=Ну, типу торба. Все, що покладеш — зникає назавжди.
+tab.thermalexpansion.storage.satchel_v.1=Включно з тим, що підбирається автоматично.
+tab.thermalexpansion.storage.satchel_v.2=Обережно з руками!
+
+tab.thermalexpansion.storage.strongbox.0=Це коробка! Зберігає речі. Ну, майже всі.
+
+tab.thermalexpansion.storage.tank.0=Це бак! Зберігає рідину.
+tab.thermalexpansion.storage.tank.1=Може автоматично виводити рідину знизу.
+
+tile.thermalexpansion.apparatus.breaker.name=Руйнувальний апарат
+tile.thermalexpansion.apparatus.collector.name=Апарат збору
+
+tile.thermalexpansion.device.diffuser.name=Декоктивний дифузор
+tile.thermalexpansion.device.factorizer.name=Факторизатор
+tile.thermalexpansion.device.fisher.name=Водяний пасткор
+tile.thermalexpansion.device.fluid_buffer.name=Розподілювач рідини
+tile.thermalexpansion.device.heat_sink.name=Тепловий медіатор
+tile.thermalexpansion.device.item_buffer.name=Розподілювач предметів
+tile.thermalexpansion.device.item_collector.name=Вакууматор
+tile.thermalexpansion.device.lexicon.name=Лексичний трансмутатор
+tile.thermalexpansion.device.mob_catcher.name=Капсулятор істот
+tile.thermalexpansion.device.nullifier.name=Нулліфікатор
+tile.thermalexpansion.device.tapper.name=Деревний екстрактор
+tile.thermalexpansion.device.water_gen.name=Аквакумулятор
+tile.thermalexpansion.device.xp_collector.name=Конденсатор досвіду
+
+tile.thermalexpansion.dynamo.compression.name=Компресійний генератор  
+tile.thermalexpansion.dynamo.enervation.name=Генератор виснаження
+tile.thermalexpansion.dynamo.magmatic.name=Магматичний генератор  
+tile.thermalexpansion.dynamo.numismatic.name=Нумізматичний генератор  
+tile.thermalexpansion.dynamo.reactant.name=Реагентний генератор
+tile.thermalexpansion.dynamo.steam.name=Паровий генератор  
+tile.thermalexpansion.dynamo=Генератор
+
+tile.thermalexpansion.machine.brewer.name=Алхімічний Настойник  
+tile.thermalexpansion.machine.centrifuge.name=Центрифужний Сепаратор  
+tile.thermalexpansion.machine.charger.name=Енергетичний Інфузор  
+tile.thermalexpansion.machine.compactor.name=Прес  
+tile.thermalexpansion.machine.crafter.name=Послідовний Фабрикатор  
+tile.thermalexpansion.machine.crucible.name=Магматичний Котел  
+tile.thermalexpansion.machine.enchanter.name=Магічний Енсорселятор  
+tile.thermalexpansion.machine.extruder.name=Вулканічний Екструдер
+tile.thermalexpansion.machine.furnace.name=Редстоунова Піч  
+tile.thermalexpansion.machine.insolator.name=Фітогенний Інсолятор  
+tile.thermalexpansion.machine.precipitator.name=Льодовиковий Кристалізатор
+tile.thermalexpansion.machine.pulverizer.name=Подрібнювач  
+tile.thermalexpansion.machine.refinery.name=Фракціонувальна Колонна  
+tile.thermalexpansion.machine.sawmill.name=Лісопилка  
+tile.thermalexpansion.machine.smelter.name=Індукційна Плавильня  
+tile.thermalexpansion.machine.transposer.name=Рідинний Транспозер
+
+tile.thermalexpansion.light.lumium_lamp.name=Люмінісцентна Лампа  
+tile.thermalexpansion.light.illuminator.name=Світлокам’яний Світильник
+tile.thermalexpansion.light.radiant_lamp.name=Сяюча Люмінісцентна Лампа  
+
+tile.thermalexpansion.storage.cache.name=Кеш  
+tile.thermalexpansion.storage.cell.name=Енергетична Комірка  
+tile.thermalexpansion.storage.strongbox.name=Сейф  
+tile.thermalexpansion.storage.tank.name=Портативний Резервуар  

@@ -1,0 +1,60 @@
+#Translated by EzMINE
+
+# Блоки
+tile.ae2stuff.grower.name=Камера Росту Кристалів
+tile.ae2stuff.inscriber.name=Покращений Штампер
+tile.ae2stuff.wireless.name=Бездротовий З'єднувач
+
+# Предмети
+item.ae2stuff.wireless_kit.name=Набір Налаштування З'єднувача
+item.ae2stuff.visualiser.name=Інструмент Візуалізації Мережі
+
+# Помилки
+ae2stuff.error.not_connected=Мережа не під'єднана
+
+# WAILA та TOP
+ae2stuff.waila.sleep.true=Сплячий режим
+ae2stuff.waila.sleep.false=Працює
+ae2stuff.waila.power=%s / %s AE
+
+ae2stuff.waila.wireless.connected=Підключено до %s,%s,%s
+ae2stuff.top.wireless.connected=Підключено до
+ae2stuff.waila.wireless.notconnected=Не підключено
+ae2stuff.waila.wireless.channels=Канали: %s
+ae2stuff.top.wireless.channels=Канали:
+ae2stuff.waila.wireless.power=Споживання: %s AE/тік
+ae2stuff.top.wireless.power=Споживання:
+ae2stuff.waila.wireless.name=Назва: %s
+ae2stuff.top.wireless.name=Назва:
+
+# GUI
+ae2stuff.gui.lock.on=Заблоковано — не можна видалити автоматично
+ae2stuff.gui.lock.off=Розблоковано — можна видалити автоматично
+ae2stuff.gui.lock.note=Якщо немає активного процесу й середній слот порожній
+
+ae2stuff.gui.recipes=Рецепти
+
+# Інструмент з'єднання
+ae2stuff.wireless.tool.empty=Клікніть по з'єднувачу для прив'язки
+ae2stuff.wireless.tool.bound1=Прив'язано до %s,%s,%s
+ae2stuff.wireless.tool.bound2=Клікніть по іншому з'єднувачу для підключення
+ae2stuff.wireless.tool.connected=Підключено до %s,%s,%s
+ae2stuff.wireless.tool.failed=Підключення не вдалося
+ae2stuff.wireless.tool.dimension=Обидва з'єднувачі мають бути в одній вимірності
+ae2stuff.wireless.tool.noexist=Прив'язаний з'єднувач не існує
+ae2stuff.wireless.tool.security.network=Порушення безпеки — мережі не можна поєднати
+ae2stuff.wireless.tool.security.player=Порушення безпеки — у вас немає прав на зміну цієї мережі
+
+# Візуалізатор
+ae2stuff.visualiser.bound=Візуалізація мережі на %s,%s,%s
+ae2stuff.visualiser.mode=Режим:
+ae2stuff.visualiser.set=Режим змінено на %s
+ae2stuff.visualiser.mode.full=Показати все
+ae2stuff.visualiser.mode.nodes=Показати вузли
+ae2stuff.visualiser.mode.channels=Показати канали
+ae2stuff.visualiser.mode.nonum=Показати канали та вузли
+ae2stuff.visualiser.mode.p2p=Показати P2P-з'єднання
+
+# Творча вкладка
+itemGroup.bdew.ae2stuff=AE2 Stuff (неофіційне)
+

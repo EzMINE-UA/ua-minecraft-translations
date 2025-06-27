@@ -1,0 +1,2081 @@
+####################
+# CORE
+####################
+
+death.engine.clockwork.player=%1$s зазнав нападу вільної пружини. %2$s був необережним годинникарем.
+death.engine.clockwork=%1$s зазнав нападу вільної пружини.
+
+for.beverage.effect.alcoholic=Алкогольне
+for.beverage.effect.antidote=Протиотрута
+
+for.chat.cannotmemorizeagain=Ви вже запам’ятали цю інформацію.
+
+for.chat.command.aliases=Аліаси: %s
+for.chat.command.list=Доступні підкоманди:
+for.chat.command.permlevel=Рівень дозволів: %s
+for.chat.command.noperms=У вас немає прав на використання цієї команди.
+
+for.chat.command.forestry.help=Різні команди для Forestry
+for.chat.command.forestry.format=Формат: /%s <підкоманда>
+
+for.chat.command.forestry.version.desc=- %s : Інформація про версію
+for.chat.command.forestry.version.help=Показує поточну версію
+for.chat.command.forestry.version.format=Формат: /%s
+
+for.chat.command.forestry.plugins.desc=- %s : Список плагінів Forestry
+for.chat.command.forestry.plugins.help=Показує всі плагіни Forestry. Зелені — активні, червоні — неактивні.
+for.chat.command.forestry.plugins.format=Формат: /%s
+
+for.chat.command.forestry.plugins.info.desc=- %s : Інформація про конкретний плагін
+for.chat.command.forestry.plugins.info.help=Показує інформацію про конкретний плагін
+for.chat.command.forestry.plugins.info.format=Формат: /%s <plugin-name>
+
+for.chat.help=Напишіть '%s' для допомоги.
+for.chat.memorizednote=Ви запам’ятали записку й позбулися зім’ятого клаптика паперу.
+for.chat.plugins.error=Немає інформації для плагіна %s.
+for.chat.version=Forestry %1$s для Minecraft %2$s (Остання: %3$s).
+
+for.circuit.dampener.1=Понижувач вогню  
+for.circuit.dampener.1.description.1=Знижує максимальну потужність до 10 RF/т  
+for.circuit.dampener.1.description.2=Зберігає витрати палива  
+for.circuit.electric.boost.1=Електричне підсилення I  
+for.circuit.electric.boost.1.description.1=Збільшує вихід на 10 RF/т  
+for.circuit.electric.boost.1.description.2=Збільшує споживання на 4 EU/т  
+for.circuit.electric.boost.2=Електричне підсилення II  
+for.circuit.electric.boost.2.description.1=Збільшує вихід на 20 RF/т  
+for.circuit.electric.boost.2.description.2=Збільшує споживання на 7 EU/т  
+for.circuit.electric.choke.1=Електричний гальмо  
+for.circuit.electric.choke.1.description.1=Знижує вихід на 5 RF/т  
+for.circuit.electric.choke.1.description.2=Знижує споживання на 1 EU/т  
+for.circuit.electric.efficiency.1=Електрична ефективність  
+for.circuit.electric.efficiency.1.description.1=Знижує споживання на 1 EU/т  
+for.circuit.machine.speed.boost.1=Прискорення машини I  
+for.circuit.machine.speed.boost.1.description.1=Збільшує швидкість на 12.5%  
+for.circuit.machine.speed.boost.1.description.2=Збільшує споживання енергії на 5%  
+for.circuit.machine.speed.boost.2=Прискорення машини II  
+for.circuit.machine.speed.boost.2.description.1=Збільшує швидкість на 25%  
+for.circuit.machine.speed.boost.2.description.2=Збільшує споживання енергії на 10%  
+for.circuit.machine.efficiency.1=Ефективність машини  
+for.circuit.machine.efficiency.1.description.1=Знижує споживання енергії на 10%  
+
+for.circuit.layout.dummy.name=Недоступний
+for.circuit.layout.dummy.usage=Нічого
+
+for.circuit.layout.engine.tin.name=Електродвигун
+for.circuit.layout.engine.tin.usage=В електродвигунах
+
+for.circuit.layout.farms.managed.name=Керована ферма
+for.circuit.layout.farms.managed.usage=Керовані ферми
+
+for.circuit.layout.farms.manual.name=Ручна ферма
+for.circuit.layout.farms.manual.usage=Ручні ферми
+
+for.errors.circuit_mismatch.desc=Невідповідність макету
+for.errors.circuit_mismatch.help=Кількість ламп не збігається з розміром плати.
+
+for.errors.forced_cooldown.desc=Примусове охолодження
+for.errors.forced_cooldown.help=Двигун перегрівся, йде охолодження.
+
+for.errors.is_raining.desc=Йде дощ
+for.errors.is_raining.help=Робота можлива лише за відсутності дощу.
+
+for.errors.no_circuit_board.desc=Відсутня плата
+for.errors.no_circuit_board.help=Вставте плату, щоб припаяти обрані лампи до неї.
+
+for.errors.no_circuit_layout.desc=Макети не знайдені
+for.errors.no_circuit_layout.help=Макети недоступні відповідно до поточних налаштувань гри.
+
+for.errors.no_disposal.desc=Неможливо утилізувати відходи
+for.errors.no_disposal.help=Недостатньо місця для вивантаження відходів.
+
+for.errors.no_drone.desc=Немає трутня
+for.errors.no_drone.help=Для спарювання потрібен трутень.
+
+for.errors.no_energy_net.desc=Немає електроенергії
+for.errors.no_energy_net.help=У вашому світі електрика не працює. (Встановіть IndustrialCraft².)
+
+for.errors.no_power.desc=Немає енергії
+for.errors.no_power.help=Цьому механізму потрібна енергія RF.
+
+for.errors.no_flower.desc=Немає квітів
+for.errors.no_flower.help=Бджоли не знайшли відповідні квіти.
+
+for.errors.no_fuel.desc=Немає пального
+for.errors.no_fuel.help=Поповніть запас пального в механізмі.
+
+for.errors.no_heat.desc=Не прогрітий
+for.errors.no_heat.help=Заправте резервуар нагрівача.
+
+for.errors.no_honey.desc=Потрібен мед
+for.errors.no_honey.help=Цьому пристрою потрібна крапля меду або нектару.
+
+for.errors.no_queen.desc=Немає королеви
+for.errors.no_queen.help=Покладіть у вулик королеву або принцесу з трутнем.
+
+for.errors.no_recipe.desc=Немає рецепта
+for.errors.no_recipe.help=Немає відповідного рецепта для наданих ресурсів.
+
+for.errors.no_recipient.desc=Немає адресата
+for.errors.no_recipient.help=Щоб надіслати лист, потрібно вказати адресата.
+
+for.errors.no_resource.desc=Немає ресурсів
+for.errors.no_resource.help=Потрібно більше ресурсів для продовження роботи.
+
+for.errors.no_sky.desc=Немає доступу до неба
+for.errors.no_sky.help=Очистіть простір над механізмом.
+
+for.errors.no_space.desc=Немає місця в інвентарі
+for.errors.no_space.help=Очистіть інвентар цього механізму.
+
+for.errors.no_space_tank.desc=Немає місця в резервуарі
+for.errors.no_space_tank.help=Очистіть резервуар цього механізму.
+
+for.errors.no_specimen.desc=Немає зразка
+for.errors.no_specimen.help=Надайте зразок для аналізу.
+
+for.errors.no_stamps.desc=Потрібні марки
+for.errors.no_stamps.help=Для відправлення потрібно більше марок.
+
+for.errors.no_paper.desc=Потрібен папір
+for.errors.no_paper.help=Потрібно більше паперу для надсилання листів.
+
+for.errors.no_supplies.desc=Потрібні припаси
+for.errors.no_supplies.help=Потрібні припаси для надсилання.
+
+for.errors.no_trade.desc=Немає торгового набору
+for.errors.no_trade.help=Для обміну потрібні предмети для надсилання й отримання.
+
+for.errors.not_alpha_numeric.desc=Тільки літери й цифри
+for.errors.not_alpha_numeric.help=Цей рядок має складатися лише з літер і цифр.
+
+for.errors.not_day.desc=Не денний час
+for.errors.not_day.help=Робота можлива лише вдень.
+
+for.errors.not_gloomy.desc=Недостатньо темно
+for.errors.not_gloomy.help=Потрібен нижчий рівень освітлення.
+
+for.errors.not_lucid.desc=Недостатньо світло
+for.errors.not_lucid.help=Потрібен вищий рівень освітлення.
+
+for.errors.not_night.desc=Не нічний час
+for.errors.not_night.help=Робота можлива лише вночі.
+
+for.errors.not_postpaid.desc=Потрібні марки
+for.errors.not_postpaid.help=Додайте більше марок для оплати пересилки.
+
+for.errors.not_raining.desc=Немає дощу
+for.errors.not_raining.help=Робота можлива тільки під час дощу.
+
+for.errors.not_unique.desc=Неунікальний
+for.errors.not_unique.help=Цей рядок має бути унікальним. Виберіть інший.
+
+for.errors.unknown.desc=Невідома помилка
+for.errors.unknown.help=Вітаємо, ви знайшли баг.
+
+for.flowers.cacti=Кактуси
+for.flowers.end=Край
+for.flowers.gourd=Гарбузові
+for.flowers.jungle=Ліани та папороті
+for.flowers.mushrooms=Гриби
+for.flowers.nether=Наріст Нижнього світу
+for.flowers.vanilla=Квіти
+for.flowers.wheat=Пшениця
+for.flowers.snow=Зимові
+
+fluid.bio.ethanol=Етанол
+fluid.biomass=Біомаса
+fluid.glass=Рідке скло
+fluid.for.honey=Мед
+fluid.ice=Дроблений лід
+fluid.juice=Фруктовий сік
+fluid.short.mead=Питний мед
+fluid.milk=Молоко
+fluid.seed.oil=Рослинна олія
+
+tile.forestry.fluid.bio.ethanol.name=Етанол
+tile.forestry.fluid.biomass.name=Біомаса
+tile.forestry.fluid.glass.name=Рідке скло
+tile.forestry.fluid.for.honey.name=Мед
+tile.forestry.fluid.ice.name=Дроблений лід
+tile.forestry.fluid.juice.name=Фруктовий сік
+tile.forestry.fluid.short.mead.name=Питний мед
+tile.forestry.fluid.milk.name=Молоко
+tile.forestry.fluid.seed.oil.name=Рослинна олія
+
+for.gui.access=Доступ
+for.gui.active=Активно
+for.gui.addressee.player=Гравець
+for.gui.addressee.trader=Торгова станція
+
+for.gui.alyzer.authority=Говорить
+for.gui.alyzer.classification=Класифікація
+for.gui.alyzer.extinct=Вимерлий
+for.gui.alyzer.nodescription=Енциклопедія Minecraftia не може надати запис для цього зразка.
+for.gui.alyzer.overview=Доступні аналізи
+
+for.gui.area=Територія
+for.gui.arid=Суха
+for.gui.beach=Пляж
+
+for.gui.portablealyzer=Портативний генетичний аналізатор  
+for.gui.portablealyzer.help=Покладіть бджолу, саджанець, метелика чи інший екземпляр і додайте мед або медову росу як заспокійливе.  
+
+for.gui.beealyzer.artificial=Штучне походження  
+for.gui.beealyzer.behaviour=Поведінка  
+for.gui.beealyzer.generations=%s поколінь у неволі  
+for.gui.beealyzer.mutations=Можливі мутації  
+for.gui.beealyzer.natural=Природне походження  
+for.gui.beealyzer.produce=Можливий продукт  
+for.gui.beealyzer.specialty=Можлива спеціалізація  
+
+for.gui.database.tab.active_species.name=Активні види  
+for.gui.database.tab.inactive_species.name=Неактивні види  
+for.gui.database.tab.products.name=Продукти  
+for.gui.database.tab.mutations.name=Мутації  
+for.gui.database.mutations.further=Подальші мутації  
+for.gui.database.mutations.resultant=Результатні мутації  
+for.gui.database.support=Цей екземпляр наразі не інтегрований у базу даних.  
+
+for.gui.blank=Порожньо
+for.gui.cave=Печерна
+for.gui.climate=Температура
+for.gui.cold=Холодна
+for.gui.crop=Жердина
+for.gui.currentBiome=Поточний біом
+for.gui.currentOutput=Поточна потужність
+for.gui.damp=Волога
+for.gui.derelict=Покинутий
+for.gui.desert=Пустеля
+for.gui.didyouknow=А чи знали ви
+for.gui.diurnal=Денна
+for.gui.drones=Трутнів
+for.gui.effect=Ефект
+for.gui.empty=Порожньо
+for.gui.emptysocket=Гніздо для друкованої плати
+for.gui.energy=Енергія
+for.gui.environment=Середовище
+for.gui.evolution=Еволюція
+for.gui.fecundated=Запліднений
+for.gui.fertility=Плідність
+for.gui.fireresist=Вогнестійкість
+for.gui.flowers=Тип квітів
+for.gui.flyer=стійкий літун
+for.gui.flyer.tooltip=стійкий літун
+for.gui.general=Загальне
+forestry.allele.gigantic=Гігантська
+for.gui.heat=Нагрів
+for.gui.hellish=Пекельна
+for.gui.hot=Гаряча
+for.gui.humidity=Вологість
+for.gui.humidtol=Стійкість до вологості
+for.gui.hybrid=Гібрид
+for.gui.icy=Крижана
+for.gui.imprinter.cheater=(Ви шахрай!)
+for.gui.imprinter.name=ІМПРИНТЕР ГЕНОМУ
+for.gui.inactive=Неактивно
+for.gui.life=тривалість життя
+for.gui.lifespan=Тривалість життя
+for.gui.normal=Звичайна
+
+for.gui.escritoire.probe=Дослідити зразки
+for.gui.escritoire.instructions=Покладіть генетичний зразок у центр, щоб почати. Також покладіть кілька в ліві слоти для допомоги у вивченні.
+for.gui.escritoire.attempt.number=Спроба № %s
+
+
+for.gui.escritoire.notes.level1.1=Я знайшов цікавий зразок під час подорожі.
+for.gui.escritoire.notes.level1.2=Цей дивакуватий об'єкт потребує подальшого дослідження.
+for.gui.escritoire.notes.level1.3=У захваті я одразу ж взявся за дослідження.
+
+for.gui.escritoire.notes.level2.1=Я був вражений химерною природою цього зразка.
+for.gui.escritoire.notes.level2.2=Зразок смикнувся, коли я роздивлявся його уважніше.
+for.gui.escritoire.notes.level2.3=Дивні знаки знизу вразили мене.
+for.gui.escritoire.notes.level2.4=Про це говоритиме спільнота, щойно я завершу дослідження.
+
+for.gui.escritoire.notes.level3.1=Після деяких роздумів я відкрив новий цікавий напрямок.
+for.gui.escritoire.notes.level3.2=Я почухав потилицю над цим відкриттям і засумнівався в усьому.
+for.gui.escritoire.notes.level3.3=Я подумав, що мої очі мене зраджують, але ні.
+for.gui.escritoire.notes.level3.4=Недоступна раніше точка змусила мене поставити під сумнів класифікацію зразка.
+
+for.gui.escritoire.notes.level4.1=Мої крики відчаю змусили хатнього робітника заглянути до мого кабінету з тривогою.
+for.gui.escritoire.notes.level4.2=У божевіллі та на межі відчаю я розірвав усі свої нотатки!
+for.gui.escritoire.notes.level4.3=Це... просто не має жодного сенсу!
+for.gui.escritoire.notes.level4.4=Цього просто не може бути. Раніше воно такого не робило!
+for.gui.escritoire.notes.level4.5=Кувалда ледве лишила вм'ятину, тож я пішов по пилку.
+for.gui.escritoire.notes.level4.6=Клянусь, воно дивиться на мене своїми жахливими, малесенькими, намистоподібними очима.
+for.gui.escritoire.notes.level4.7=Воно сміється? Я чув сміх? Хто тут сміється?
+
+for.gui.escritoire.notes.success.1=Еврика!
+for.gui.escritoire.notes.success.2=Диво! Моє ім’я увійде в історію!
+for.gui.escritoire.notes.success.3=Мої колеги будуть вражені!
+for.gui.escritoire.notes.success.4=Усі заздритимуть мені!
+for.gui.escritoire.notes.success.5=Так!
+
+for.gui.escritoire.notes.failure.1=Усе втрачено.
+for.gui.escritoire.notes.failure.2=Я спалив усі свої нотатки.
+for.gui.escritoire.notes.failure.3=Навіщо? На початку все так добре йшло...
+for.gui.escritoire.notes.failure.4=Провал. Знову.
+for.gui.escritoire.notes.failure.5=О, ні...
+
+for.gui.mail.foreveryattached=за кожен прикріплений
+for.gui.mail.from=Від
+for.gui.mail.nametrader=Назвіть вашу торгову станцію
+for.gui.mail.nothing.to.trade=У торгової станції нічого для торгівлі.
+for.gui.mail.no.trader=Торгова станція з цим ім’ям недоступна.
+for.gui.mail.pleasesend=Будь ласка, надішліть
+for.gui.mail.to=Кому
+for.gui.mail.receive=Отримувати
+for.gui.mail.send=Надсилати
+
+for.gui.maxenergy=Максимальна енергія
+for.gui.maxenergyreceive=Максимальна вхідна енергія
+for.gui.maxspeed=Максимальна
+for.gui.metabolism=Метаболізм
+for.gui.nether=Нижній Світ
+for.gui.nocturnal=Нічна
+for.gui.noeffect=Без ефекту
+for.gui.owner=Власник
+for.gui.page=Сторінка
+
+for.gui.pipe.filter.anything=Будь-що
+for.gui.pipe.filter.bee=Будь-які бджоли
+for.gui.pipe.filter.cave=Печерні
+for.gui.pipe.filter.closed=Закрито
+for.gui.pipe.filter.drone=Трутні
+for.gui.pipe.filter.flyer=Літальні
+for.gui.pipe.filter.item=Предмети
+for.gui.pipe.filter.nocturnal=Нічні
+for.gui.pipe.filter.princess=Принцеси
+for.gui.pipe.filter.pure_breed=Чистопородні
+for.gui.pipe.filter.pure_cave=Чистопородні печерні
+for.gui.pipe.filter.pure_flyer=Чистопородні літальні
+for.gui.pipe.filter.pure_nocturnal=Чистопородні нічні
+for.gui.pipe.filter.queen=Королеви
+
+for.gui.plains=Рівнини
+for.gui.pollination=Швидкість запилення
+for.gui.princesses=Принцес
+for.gui.produce=Продукція
+for.gui.queens=Королев
+
+forestry.allele.normal=Звичайний
+forestry.allele.average=Середній
+
+forestry.allele.slowest=Найповільніший
+forestry.allele.slower=Дуже повільний
+forestry.allele.slow=Повільний
+forestry.allele.fast=Швидкий
+forestry.allele.faster=Дуже швидкий
+forestry.allele.fastest=Найшвидший
+
+forestry.allele.smallest=Найменший
+forestry.allele.smaller=Дуже малий
+forestry.allele.small=Малий
+forestry.allele.large=Великий
+forestry.allele.larger=Дуже великий
+forestry.allele.largest=Найбільший
+
+forestry.allele.lowest=Найнижчий
+forestry.allele.lower=Дуже низький
+forestry.allele.low=Низький
+forestry.allele.high=Високий
+forestry.allele.higher=Дуже високий
+forestry.allele.highest=Найвищий
+
+forestry.allele.tolerance.both1=Обидва 1
+forestry.allele.tolerance.both2=Обидва 2
+forestry.allele.tolerance.both3=Обидва 3
+forestry.allele.tolerance.both4=Обидва 4
+forestry.allele.tolerance.both5=Обидва 5
+forestry.allele.tolerance.down1=Нижче 1
+forestry.allele.tolerance.down2=Нижче 2
+forestry.allele.tolerance.down3=Нижче 3
+forestry.allele.tolerance.down4=Нижче 4
+forestry.allele.tolerance.down5=Нижче 5
+forestry.allele.tolerance.none=Немає
+forestry.allele.tolerance.up1=Вище 1
+forestry.allele.tolerance.up2=Вище 2
+forestry.allele.tolerance.up3=Вище 3
+forestry.allele.tolerance.up4=Вище 4
+forestry.allele.tolerance.up5=Вище 5
+
+forestry.allele.lifespan.shortest=Найкоротший
+forestry.allele.lifespan.shorter=Дуже короткий
+forestry.allele.lifespan.short=Короткий
+forestry.allele.lifespan.shortened=Укорочений
+forestry.allele.lifespan.normal=Звичайний
+forestry.allele.lifespan.elongated=Подовжений
+forestry.allele.lifespan.long=Довгий
+forestry.allele.lifespan.longer=Дуже довгий
+forestry.allele.lifespan.longest=Найдовший
+
+for.gui.size=Розмір
+for.gui.slots=Слоти: %USED/%SIZE
+for.gui.species=Вид
+for.gui.speciescount=Кількість видів
+for.gui.speed=Швидкість виробництва
+for.gui.stored=Запасено
+for.gui.temperature=Температура
+for.gui.temptol=Стійкість до температури
+for.gui.tooltip.tmi=Утримуйте Shift для деталей
+for.gui.triple=Потрійний
+for.gui.unknown=Невідомий геном
+for.gui.warm=Теплий
+for.gui.water=Вода
+for.gui.worker=робочий
+
+for.hints.apiaristsuit.desc=Повний костюм пасічника захищає вас від усіх негативних ефектів від бджіл.
+for.hints.apiaristsuit.tag=Захист від бджіл!
+
+for.hints.beebiomes.desc=Бджоли працюють лише в тих біомах, які підходять їхньому виду. Використовуйте аналізатор бджіл і визначник ареалу, щоб дізнатися їх вимоги.
+for.hints.beebiomes.tag=Обирайте свій біом!
+
+for.hints.beebreeding.desc=Схрещуйте трутнів і принцес різних видів, щоб отримати нові.
+for.hints.beebreeding.tag=Розводьте своїх бджіл!
+
+for.hints.beeflowers.desc=Кожній бджолі потрібен певний тип квітів поруч. Деякі з них можуть бути досить екзотичними.
+for.hints.beeflowers.tag=Бджолам потрібні квіти
+
+for.hints.beejubilance.desc=Тільки задоволені бджоли вироблятимуть особливу продукцію. Перевірте, чи вони у відповідному кліматі.
+for.hints.beejubilance.tag=Зробіть своїх бджіл щасливими!
+
+for.hints.cooldownloss.desc=Двигуни в режимі примусового охолодження втрачають значну частину накопиченої енергії.
+for.hints.cooldownloss.tag=Охолодження = втрата енергії!
+
+for.hints.crating.desc=Головне завдання столяра — стискати надлишки ресурсів. Більшість блоків і предметів можна упаковувати.
+for.hints.crating.tag=Упаковуйте свої надлишки!
+
+for.hints.energybuffer.desc=Двигуни можуть накопичувати трохи енергії, якщо її немає куди передати.
+for.hints.energybuffer.tag=Накопичення енергії!
+
+for.hints.energyunit.desc=Потужність двигунів вимірюється в RF/тік — "Редстоун Флюкс за тік". У кожній секунді 20 тіків.
+for.hints.energyunit.tag=Скажіть Redstone Flux!
+
+for.hints.enginebronzefuels.desc=Біогазовий двигун підтримує багато видів пального: біомаса, рослинна олія, мед, молоко і навіть вода!
+for.hints.enginebronzefuels.tag=Використовуйте різне пальне!
+
+for.hints.enginebronzeheatloss.desc=Хоча двигун може працювати на воді, це дуже неефективно і витрачає лаву.
+for.hints.enginebronzeheatloss.tag=Обережно з водою!
+
+for.hints.enginebronzeoutput.desc=Залежно від пального, біогазовий двигун має вихідну потужність від 10 до 50 RF/тік.
+for.hints.enginebronzeoutput.tag=Обирайте пальне з розумом!
+
+for.hints.enginebronzewaste.desc=На відміну від торф’яних, вимкнені біогазові двигуни не витрачають пальне.
+for.hints.enginebronzewaste.tag=Економія пального
+
+for.hints.enginecopperfuels.desc=Торф’яний двигун працює на звичайному торфі, але смолистий торф дає вдвічі більше потужності.
+for.hints.enginecopperfuels.tag=Пальне має значення!
+
+for.hints.enginecopperwaste.desc=Вимкнений торф’яний двигун продовжить спалювати залишки торфу, але без генерації енергії.
+for.hints.enginecopperwaste.tag=Не марнуйте пальне!
+
+for.hints.enginetinbatteries.desc=Батареї дозволяють запустити електродвигун без підключення до мережі.
+for.hints.enginetinbatteries.tag=Заряджайте батареї!
+
+for.hints.enginetinchoke.desc=Електродвигуни можна оснастити платами, які знижують потужність на 10 RF/тік і споживання енергії.
+for.hints.enginetinchoke.tag=Керуйте потужністю!
+
+for.hints.flowerjungle.desc=До джунглевих квітів належать папороть і лоза.
+for.hints.flowerjungle.tag=Які квіти в джунглях?
+
+for.hints.flowernether.desc=До квітів Нижнього світу належить адський наріст.
+for.hints.flowernether.tag=Квіти Пекла?
+
+for.hints.forcedcooldown.desc=Двигуни можуть перегрітися, якщо енергія не споживається. При досягненні температури плавлення вмикається примусове охолодження.
+for.hints.forcedcooldown.tag=Обережно: перегрів!
+
+for.hints.generatorfuels.desc=Біогенератори працюють на біомасі й біопаливі. Найефективніше — біопаливо.
+for.hints.generatorfuels.tag=Експериментуйте з паливом!
+
+for.hints.honeyfood.desc=З меду й іншої бджолиної продукції можна зробити безліч страв.
+for.hints.honeyfood.tag=Їжа з меду!
+
+for.hints.manualpeat.desc=Торф можна добувати автоматично за допомогою торф’яника або вручну до того моменту.
+for.hints.manualpeat.tag=Торф’яник не обов’язковий!
+
+for.hints.moistenerproducts.desc=Увлажнювач може створювати замшілий камінь і кам’яні цеглини, якщо надати потрібні інгредієнти.
+for.hints.moistenerproducts.tag=Хочете трохи моху?
+
+for.hints.nopowerrequired.desc=Цей пристрій не потребує енергії для роботи.
+for.hints.nopowerrequired.tag=Без енергії
+
+for.hints.peatharvest.desc=Болотна земля, що торкається води (навіть по діагоналі), з часом дозріє до торфу. Збирайте лопатою.
+for.hints.peatharvest.tag=Збирайте торф!
+
+for.hints.pipette.desc=Щоб очистити резервуар механізму від залишків рідини, клацніть по ньому піпеткою.
+for.hints.pipette.tag=Чистіть резервуари піпеткою
+
+for.hints.postage.desc=Для надсилання листів потрібні марки. Базова плата — 1n, кожен додатковий стак додає ще 1n.
+for.hints.postage.tag=Платіть листоноші
+
+for.hints.powerraintank.desc=Навіть без живлення дощозбірник накопичує воду. Але для її розливу потрібна енергія.
+for.hints.powerraintank.tag=Розлив = енергія!
+
+for.hints.shortmead.desc=Ваш бродильний апарат може варити не тільки біомасу — з медової роси та меду виходить питний мед.
+for.hints.shortmead.tag=Отримайте енергетик!
+
+for.hints.usesofash.desc=Золу можна використати для створення мінерального добрива і смолистого торфу.
+for.hints.usesofash.tag=Використовуйте золу!
+
+for.item.crated.grammar=У ящику: %s
+for.item.crated.unknown=Ящик з невідомим вмістом
+
+for.no=Ні
+
+for.researchNote.chance.highest=НАЙВИЩИЙ
+for.researchNote.chance.higher=ДУЖЕ ВИСОКИЙ
+for.researchNote.chance.high=ВИСОКИЙ
+for.researchNote.chance.normal=ЗВИЧАЙНИЙ
+for.researchNote.chance.low=НИЗЬКИЙ
+for.researchNote.chance.lowest=НАЙНИЖЧИЙ
+for.researchNote.error.0=Неможливо розшифрувати розмиті каракулі.
+for.researchNote.error.1=Записка стала нечитабельною і тепер вона марна.
+for.researchNote.discovered.0=§aВиди досліджено!
+for.researchNote.discovered.1=§e'%1$s'§7 (%2$s)
+for.researchNote.discovery.0=§aМутацію досліджено!
+for.researchNote.discovery.1=§e'%SPEC1'§7 і §e'%SPEC2'§7.
+for.researchNote.discovery.2=Шанс на успіх: §9%s§7.
+for.researchNote.discovery.3=Нові види: §d'%s'§7.
+
+for.mutation.condition.biome.single=Виникає у біомі %s.  
+for.mutation.condition.biome.multiple=Виникає у біомах типу: %s  
+for.mutation.condition.daytime.day=Вдень.  
+for.mutation.condition.daytime.night=Вночі.  
+for.mutation.condition.humidity.range=Потребує вологість між %LOW та %HIGH.  
+for.mutation.condition.humidity.single=Потребує вологість %s.  
+for.mutation.condition.temperature.range=Потребує температуру між %LOW та %HIGH.  
+for.mutation.condition.temperature.single=Потребує температуру %s.  
+for.mutation.condition.resource=Потребує %s як основу.  
+for.mutation.condition.date=Виникає між %START та %END.  
+
+
+for.storage.backpack.mode.locked=(ЗАЧИНЕНО)
+for.storage.backpack.mode.receiving=(ОТРИМАННЯ)
+for.storage.backpack.mode.resupply=(ПОПОВНЕННЯ)
+
+for.trigger.hasMail=Є листи
+for.trigger.hasWork=Є робота
+for.trigger.lowFuel=Паливо
+for.trigger.lowGermlings=Розсада
+for.trigger.lowInput=Вхід
+for.trigger.lowPaper=Папір
+for.trigger.lowResources=Ресурси
+for.trigger.lowStamps=Марки
+for.trigger.mailBuffer=Буфер
+for.trigger.missingDrone=Відсутній трутень
+for.trigger.missingQueen=Відсутня королева або принцеса
+for.trigger.noFrames=Немає рамок
+
+for.yes=Так
+
+item.for.ambrosia.name=Амброзія
+item.for.apatite.name=Апатит
+
+item.for.adventurer_bag.name=Наплічник авантюриста
+item.for.adventurer_bagT2.name=Тканий наплічник авантюриста
+item.for.apiarist_bag.name=Наплічник пасічника
+item.for.apiarist_boots.name=Чоботи пасічника
+item.for.apiarist_chest.name=Куртка пасічника
+item.for.apiarist_helmet.name=Маска пасічника
+item.for.apiarist_legs.name=Штани пасічника
+
+item.for.ash.name=Зола
+tile.for.ash_block_0.name=Блок золи
+tile.for.ash_block_1.name=Блок золи
+tile.for.ash_block_2.name=Блок золи
+tile.for.ash_block_3.name=Блок золи
+
+item.for.habitat_locator.name=Локатор середовища  
+
+item.for.cart.beehouse.name=Вагонетка з вуликом  
+item.for.cart.apiary.name=Вагонетка з пасікою  
+
+
+item.for.beealyzer.name=Аналізатор бджіл
+item.for.habitat_locator.name=Локатор біому
+
+item.for.bee_combs.cocoa.name=Какао-соти
+item.for.bee_combs.darkened.name=Потемнілі соти
+item.for.bee_combs.dripping.name=Капаючі соти
+item.for.bee_combs.frozen.name=Мерзлі соти
+item.for.bee_combs.honey.name=Медові соти
+item.for.bee_combs.irradiated.name=Опромінені соти
+item.for.bee_combs.mellow.name=Дозрілі соти
+item.for.bee_combs.mossy.name=Мохові соти
+item.for.bee_combs.mysterious.name=Таємничі соти
+item.for.bee_combs.omega.name=Омега-соти
+item.for.bee_combs.parched.name=Пересохлі соти
+item.for.bee_combs.powdery.name=Рихлі соти
+item.for.bee_combs.reddened.name=Почервонілі соти
+item.for.bee_combs.silky.name=Шовковисті соти
+item.for.bee_combs.simmering.name=Киплячі соти
+item.for.bee_combs.stringy.name=Тягучі соти
+item.for.bee_combs.wheaten.name=Пшеничні соти
+
+item.for.beeswax.name=Бджолиний віск
+
+item.for.beverage.meadCurative.name=Цілющий мед
+item.for.beverage.meadShort.name=Питний мед
+
+item.for.biome_finder.name=Локатор біому
+item.for.bituminous_peat.name=Смолистий торф
+item.for.broken_bronze_pickaxe.name=Зламане кайло
+item.for.broken_bronze_shovel.name=Зламана лопата
+item.for.bronze_pickaxe.name=Кирка виживальника
+item.for.bronze_shovel.name=Лопата виживальника
+item.for.builder_bag.name=Наплічник будівельника
+item.for.builder_bagT2.name=Тканий наплічник будівельника
+
+item.for.can.empty.name=Банка
+item.for.can.grammar=Банка %s
+
+item.for.carton.name=Картон
+
+item.for.circuitboard.basic.name=Базова друкована плата
+item.for.circuitboard.enhanced.name=Покращена друкована плата
+item.for.circuitboard.intricate.name=Складна друкована плата
+item.for.circuitboard.refined.name=Удосконалена друкована плата
+
+item.for.crafting_material.dissipation_charge.name=Розсіювальний заряд
+item.for.crafting_material.ice_shard.name=Крижаний уламок
+item.for.crafting_material.pulsating_dust.name=Пульсуючий пил
+item.for.crafting_material.pulsating_mesh.name=Пульсуюча сітка
+item.for.crafting_material.scented_paneling.name=Просочене облицювання
+item.for.crafting_material.silk_wisp.name=Клок шовку
+item.for.crafting_material.woven_silk.name=Тканий шовк
+
+item.for.crate.name=Ящик
+item.for.decaying_wheat.name=Згнила пшениця
+item.for.digger_bag.name=Наплічник землекопа
+item.for.digger_bagT2.name=Тканий наплічник землекопа
+
+item.for.fertilizer_bio.name=Компост
+item.for.fertilizer_compound.name=Мінеральне добриво
+item.for.forester_bag.name=Наплічник лісника
+item.for.forester_bagT2.name=Тканий наплічник лісника
+
+item.for.frame_impregnated.name=Просочена рамка
+item.for.frame_proven.name=Перевірена рамка
+item.for.frame_untreated.name=Необроблена рамка
+
+item.for.durability=Міцність: %,d  
+item.for.uses=Використань: %,d  
+
+item.for.bee.modifier.production=Виробництво: %.2fx  
+item.for.bee.modifier.genetic.decay=Генетичний розпад: %.2fx  
+
+item.for.fruits.cherry.name=Вишня
+item.for.fruits.chestnut.name=Каштан
+item.for.fruits.dates.name=Фінік
+item.for.fruits.lemon.name=Лимон
+item.for.fruits.papaya.name=Папая
+item.for.fruits.plum.name=Слива
+item.for.fruits.walnut.name=Грецький горіх
+
+item.for.gear_bronze.name=Бронзова шестерня
+item.for.gear_copper.name=Мідна шестерня
+item.for.gear_tin.name=Олов’яна шестерня
+
+item.for.hardened_machine.name=Укріплений корпус
+
+item.for.honeydew.name=Медяна роса
+
+item.for.portable_alyzer.name=Портативний аналізатор  
+item.for.portable_alyzer.tooltip=Портативний генетичний аналізатор для бджіл, саджанців і метеликів.  
+item.for.portable_alyzer.charges=%s заряджень  
+
+item.for.honey_drop.charged.name=Заряджена крапля
+item.for.honey_drop.honey.name=Крапля меду
+item.for.honey_drop.omega.name=Омега-крапля
+item.for.honeyed_slice.name=Бутерброд з медом
+
+item.for.honey_pot.name=Горщик меду
+item.for.hunter_bag.name=Наплічник мисливця
+item.for.hunter_bagT2.name=Тканий наплічник мисливця
+
+item.for.impregnated_casing.name=Просочений корпус
+item.for.imprinter.name=Імпринтер
+item.for.infuser.name=Наповнювач
+
+item.for.ingot_bronze.name=Бронзовий злиток
+item.for.ingot_copper.name=Мідний злиток
+item.for.ingot_tin.name=Олов’яний злиток
+
+item.for.iodine_capsule.name=Капсула йоду
+item.for.iodine_capsule.tooltip=Використайте на Барабані дощу ;), щоб викликати дощ.  
+item.for.kit_pickaxe.name=Збірне кайло
+item.for.kit_shovel.name=Збірна лопата
+item.for.letters.name=Лист
+
+item.for.miner_bag.name=Наплічник шахтаря
+item.for.miner_bagT2.name=Тканий наплічник шахтаря
+
+item.for.mouldy_wheat.name=Запліснявіла пшениця
+item.for.mulch.name=Мульча
+item.for.naturalist_helmet.name=Окуляри
+item.for.oak_stick.name=Полірована палиця
+item.for.peat.name=Торф
+item.for.phosphor.name=Фосфор
+item.for.pipette.name=Піпетка
+
+item.for.pollen.crystalline.name=Скупчення кристалічного пилку
+item.for.pollen.normal.name=Скупчення пилку
+
+item.for.propolis.normal.name=Прополіс
+item.for.propolis.sticky.name=Липкий прополіс
+item.for.propolis.pulsating.name=Пульсуючий прополіс
+item.for.propolis.silky.name=Шовковистий прополіс
+
+item.for.refractory.empty.name=Вогнетривка капсула
+item.for.refractory.grammar=Капсула %s
+
+item.for.refractory_wax.name=Вогнетривкий віск  
+item.for.refractory_wax.tooltip=Віск із високою температурою плавлення.  
+item.for.research_note.name=Нотатки %s  
+item.for.research_note.tooltip=Використайте цю нотатку в руці, щоб здобути знання.  
+item.for.royal_jelly.name=Королівське желе  
+item.for.scoop.name=Скрепер  
+item.for.scoop.tooltip=Ламає вулики для збору бджіл.  
+item.for.soldering_iron.name=Паяльник  
+item.for.soldering_iron.tooltip=Припаює електронні трубки до плат.  
+item.for.smoker.name=Димар  
+item.for.smoker.tooltip=Заспокоює диких бджіл  
+
+item.for.stamps.1n.name=Поштова марка (1n)
+item.for.stamps.2n.name=Поштова марка (2n)
+item.for.stamps.5n.name=Поштова марка (5n)
+item.for.stamps.10n.name=Поштова марка (10n)
+item.for.stamps.20n.name=Поштова марка (20n)
+item.for.stamps.50n.name=Поштова марка (50n)
+item.for.stamps.100n.name=Поштова марка (100n)
+item.for.stamps.name=Поштова марка
+
+item.for.sturdy_machine.name=Міцний корпус
+
+item.for.thermionic_tubes.copper.name=Мідна електронна лампа
+item.for.thermionic_tubes.tin.name=Олов’яна електронна лампа
+item.for.thermionic_tubes.bronze.name=Бронзова електронна лампа
+item.for.thermionic_tubes.iron.name=Залізна електронна лампа
+item.for.thermionic_tubes.gold.name=Золота електронна лампа
+item.for.thermionic_tubes.diamond.name=Алмазна електронна лампа
+item.for.thermionic_tubes.obsidian.name=Обсидіанова електронна лампа
+item.for.thermionic_tubes.blaze.name=Вогняна електронна лампа
+item.for.thermionic_tubes.rubber.name=Гумова електронна лампа
+item.for.thermionic_tubes.emerald.name=Смарагдова електронна лампа
+item.for.thermionic_tubes.apatite.name=Апатитова електронна лампа
+item.for.thermionic_tubes.lapis.name=Лазуритова електронна лампа
+item.for.thermionic_tubes.ender.name=Електронна лампа Краю
+
+item.for.treealyzer.name=Аналізатор дерев
+
+item.for.capsule.empty.name=Воскова капсула
+item.for.capsule.grammar=Капсула %s
+
+item.for.wax_cast.name=Воскова форма
+
+item.for.wood_pulp.name=Деревна маса
+item.for.wrench.name=Гайковий ключ
+item.for.wrench.tooltip=Shift + Використати для обертання блоків.  
+item.for.camouflage_spray_can.name=Балон з камуфляжною фарбою  
+
+itemGroup.apiculture=Бджільництво
+itemGroup.arboriculture=Лісівництво
+itemGroup.forestry=Лісове господарство
+itemGroup.lepidopterology=Лепідоптерологія
+
+tile.for.analyzer.name=Аналізатор
+tile.for.escritoire.name=Секретер
+
+tile.for.database.name=База даних  
+
+tile.for.engine_electrical.name=Електричний двигун  
+tile.for.engine_electrical.tooltip=Перетворює EU у RF.  
+tile.for.engine_peat.name=Торф'яний двигун  
+tile.for.engine_peat.tooltip=Генерує RF з торфу.  
+tile.for.engine_biogas.name=Біогазовий двигун  
+tile.for.engine_biogas.tooltip=Генерує RF з органічних рідин і лави.  
+tile.for.engine_generator.name=Біогенератор  
+tile.for.engine_generator.tooltip=Генерує EU з біомаси або етанолу.  
+tile.for.engine_clockwork.name=Механічний двигун  
+tile.for.engine_clockwork.tooltip=Генерує невелику кількість RF. Клікніть ПКМ, щоб завести.  
+
+
+tile.for.bottler.name=Розливний механізм
+tile.for.carpenter.name=Столяр
+tile.for.centrifuge.name=Центрифуга
+tile.for.fermenter.name=Бродильний апарат
+tile.for.moistener.name=Зволожувач
+tile.for.squeezer.name=Соковитискач
+tile.for.still.name=Дистилятор
+tile.for.rainmaker.name=Викликальник дощу
+tile.for.fabricator.name=Ламповий завод
+tile.for.raintank.name=Збирач дощу
+tile.for.worktable.name=Робочий стіл
+
+tile.for.mailbox.name=Поштова скринька
+tile.for.trade_station.name=Торговельна станція
+tile.for.stamp_collector.name=Збирач марок
+
+tile.for.resources.apatite.name=Апатитова руда
+tile.for.resources.copper.name=Мідна руда
+tile.for.resources.tin.name=Олов’яна руда
+
+tile.for.resource_storage.apatite.name=Апатитовий блок
+tile.for.resource_storage.copper.name=Мідний блок
+tile.for.resource_storage.tin.name=Олов’яний блок
+tile.for.resource_storage.bronze.name=Бронзовий блок
+
+tile.for.humus.name=Гумус
+tile.for.bog_earth.bog_earth.name=Болотна земля
+tile.for.bog_earth.peat.name=Торф
+
+tile.for.bee_combs.cocoa.name=Блок Какао-Соту
+tile.for.bee_combs.darkened.name=Блок Потемнілого Соту
+tile.for.bee_combs.dripping.name=Блок Капаючого Соту
+tile.for.bee_combs.frozen.name=Блок Замороженого Соту
+tile.for.bee_combs.honey.name=Блок Медового Соту
+tile.for.bee_combs.irradiated.name=Блок Опроміненого Соту
+tile.for.bee_combs.mellow.name=Блок М’якого Соту
+tile.for.bee_combs.mossy.name=Блок Моховитого Соту
+tile.for.bee_combs.mysterious.name=Блок Таємничого Соту
+tile.for.bee_combs.omega.name=Блок Омега-Соту
+tile.for.bee_combs.parched.name=Блок Висохлого Соту
+tile.for.bee_combs.powdery.name=Блок Пухкого Соту
+tile.for.bee_combs.reddened.name=Блок Почервонілого Соту
+tile.for.bee_combs.silky.name=Блок Шовковистого Соту
+tile.for.bee_combs.simmering.name=Блок Гарячого Соту
+tile.for.bee_combs.stringy.name=Блок Волокнистого Соту
+tile.for.bee_combs.wheaten.name=Блок Пшеничного Соту
+
+item.for.adventurer_bag.name=Рюкзак Мандрівника
+item.for.adventurer_bag_t2.name=Плетений Рюкзак Мандрівника
+item.for.builder_bag.name=Рюкзак Будівельника
+item.for.builder_bag_t2.name=Плетений Рюкзак Будівельника
+item.for.digger_bag.name=Рюкзак Копача
+item.for.digger_bag_t2.name=Плетений Рюкзак Копача
+item.for.forester_bag.name=Рюкзак Лісника
+item.for.forester_bag_t2.name=Плетений Рюкзак Лісника
+item.for.hunter_bag.name=Рюкзак Мисливця
+item.for.hunter_bag_t2.name=Плетений Рюкзак Мисливця
+item.for.miner_bag.name=Рюкзак Шахтаря
+item.for.miner_bag_t2.name=Плетений Рюкзак Шахтаря
+
+################
+# ERRORS
+################
+
+# BEES
+for.errors.is_raining.desc=Дощ
+for.errors.is_raining.help=Тільки витривалі літаючі бджоли можуть працювати під дощем.
+for.errors.no_drone.desc=Немає трутня
+for.errors.no_drone.help=Для спарювання необхідна наявність трутня.
+for.errors.no_flower.desc=Немає квітів
+for.errors.no_flower.help=Бджоли не знаходять відповідні квіти. Використайте портативний аналізатор, щоб дізнатись про їхні вподобання.
+for.errors.no_queen.desc=Немає королеви
+for.errors.no_queen.help=У вулик потрібно помістити королеву або принцесу з трутнем.
+for.errors.no_sky.desc=Немає доступу до неба
+for.errors.no_sky.help=Вулик потребує прямого сонячного світла згори.
+for.errors.not_day.desc=Не день
+for.errors.not_day.help=Ці бджоли можуть працювати лише вдень.
+for.errors.not_gloomy.desc=Недостатньо темно
+for.errors.not_gloomy.help=Ці бджоли працюють лише у темряві.
+for.errors.not_lucid.desc=Недостатнє освітлення
+for.errors.not_lucid.help=Бджоли не орієнтуються у темряві.
+for.errors.not_night.desc=Не ніч
+for.errors.not_night.help=Ці бджоли можуть працювати лише вночі.
+for.errors.too_hot.desc=Занадто спекотно
+for.errors.too_hot.help=Бджоли тануть від спеки й не можуть працювати. Спробуйте знайти прохолодніший клімат за допомогою локатора середовища.
+for.errors.too_cold.desc=Занадто холодно
+for.errors.too_cold.help=Бджоли змерзли і зібралися докупи, щоб вижити. Використайте локатор середовища для пошуку теплішої місцевості.
+for.errors.too_humid.desc=Надмірна вологість
+for.errors.too_humid.help=Через вологість крила бджіл змокли — вони не можуть літати. Пошукайте сухіший клімат.
+for.errors.too_arid.desc=Надмірна посушливість
+for.errors.too_arid.help=У сухому кліматі бджоли пересихають і не можуть працювати. Знайдіть вологішу місцевість.
+
+
+# MACHINES
+for.errors.no_power.desc=Немає живлення
+for.errors.no_power.help=Ця машина потребує енергії RF від двигуна.
+for.errors.no_redstone.desc=Потрібен редстоун
+for.errors.no_redstone.help=Ця машина потребує сигналу редстоуну для активації.
+for.errors.disabled_redstone.desc=Вимкнено редстоуном
+for.errors.disabled_redstone.help=Ця машина вимкнена сигналом редстоуну.
+for.errors.no_recipe.desc=Немає рецепта
+for.errors.no_recipe.help=Не знайдено відповідного рецепта для поданих ресурсів.
+for.errors.no_resource.desc=Бракує ресурсів
+for.errors.no_resource.help=Потрібно додати більше ресурсів для роботи.
+for.errors.no_resource_inventory.desc=Інвентар порожній
+for.errors.no_resource_inventory.help=Додайте ресурси в інвентар машини для початку крафту.
+for.errors.no_resource_liquid.desc=Бракує рідини
+for.errors.no_resource_liquid.help=Потрібно подати більше рідин для роботи.
+for.errors.no_space.desc=Немає місця в інвентарі
+for.errors.no_space.help=Очистіть інвентар машини.
+for.errors.no_space_tank.desc=Бак заповнений
+for.errors.no_space_tank.help=Очистіть бак машини від рідини.
+for.errors.not_dark.desc=Недостатньо темно
+for.errors.not_dark.help=Для роботи потрібен нижчий рівень освітлення.
+
+
+# RAIN TANK
+for.errors.not_raining.desc=Немає дощу
+for.errors.not_raining.help=Робота можлива лише під час дощу.
+for.errors.no_rain_biome.desc=Дощі не бувають
+for.errors.no_rain_biome.help=У цьому біомі ніколи не йде дощ.
+for.errors.no_sky_rain_tank.desc=Немає доступу до неба
+for.errors.no_sky_rain_tank.help=Очистіть простір над машиною для збору дощу.
+
+
+# ALYZERS
+for.errors.no_honey.desc=Потрібен мед
+for.errors.no_honey.help=Цей пристрій потребує крапель меду або медової роси для роботи.
+for.errors.no_specimen.desc=Немає зразка
+for.errors.no_specimen.help=Подайте зразок для аналізу.
+
+
+# ENGINES
+for.errors.forced_cooldown.desc=Примусове охолодження
+for.errors.forced_cooldown.help=Двигун перегрівся і має охолонути перед повторним запуском.
+for.errors.no_energy_net.desc=Немає електрики
+for.errors.no_energy_net.help=У вашому світі відсутня електрика. (Встановіть IndustrialCraft².)
+for.errors.no_fuel.desc=Немає палива
+for.errors.no_fuel.help=Цей двигун потребує палива для роботи. Поповніть його запаси.
+for.errors.no_heat.desc=Не нагрітий
+for.errors.no_heat.help=Цей двигун потребує джерела тепла. Заправте бак нагріву.
+
+
+# TRADE STATION
+for.errors.no_stamps.desc=Потрібні марки
+for.errors.no_stamps.help=Поштова станція потребує більше марок для сплати пересилки.
+for.errors.no_paper.desc=Потрібен папір
+for.errors.no_paper.help=Поштова станція потребує папір для надсилання листів.
+for.errors.no_supplies.desc=Бракує матеріалів
+for.errors.no_supplies.help=Поштова станція потребує більше матеріалів для надсилання.
+for.errors.no_trade.desc=Не встановлено обмін
+for.errors.no_trade.help=Поштова станція потребує речі для надсилання та отримання.
+
+
+# TRADE STATION NAMING
+for.errors.not_alpha_numeric.desc=Неприпустиме ім’я
+for.errors.not_alpha_numeric.help=Назва поштової станції має складатись лише з букв та цифр.
+for.errors.not_unique.desc=Неунікальне ім’я
+for.errors.not_unique.help=Назви поштових станцій мають бути унікальними, а це вже зайняте.
+
+
+# LETTERS
+ffor.errors.no_recipient.desc=Немає отримувача
+for.errors.no_recipient.help=Вам потрібно вказати отримувача, щоб надіслати лист.
+for.errors.not_postpaid.desc=Потрібні марки
+for.errors.not_postpaid.help=Наклейте більше марок для оплати поштової служби.
+
+# CIRCUIT BOARDS
+for.errors.circuit_mismatch.desc=Невідповідне компонування
+for.errors.circuit_mismatch.help=Кількість трубок не відповідає розміру плати.
+for.errors.no_circuit_board.desc=Відсутня плата
+for.errors.no_circuit_board.help=Вставте плату, щоб припаяти обрані трубки.
+for.errors.no_circuit_layout.desc=Немає шаблонів
+for.errors.no_circuit_layout.help=Немає доступних схем у поточних налаштуваннях гри.
+
+# FARMS
+for.errors.no_farmland.desc=Немає землі
+for.errors.no_farmland.help=Гладкий пісковик, цегла або кам’яна цегла створюють платформу для ферми.
+for.errors.no_fertilizer.desc=Немає добрива
+for.errors.no_fertilizer.help=Ферми потребують справжнє добриво. Компост не підходить.
+for.errors.no_liquid.desc=Немає води
+for.errors.no_liquid.help=Залежно від опадів, температури та вологості ферми потребують відповідну кількість води.
+####################
+# APICULTURE
+####################
+
+death.bee.aggressive.player=%1$s зіткнувся з роєм бджіл. %2$s украв його костюм пасічника.
+death.bee.aggressive=%1$s зіткнувся з роєм бджіл. Воно прийшло, щоб ужалити.
+death.bee.end.player=%1$s був прикінчений недружнім жалом, борючись з %2$s.
+death.bee.end=%1$s був прикінчений недружнім жалом.
+death.bee.radioactive.player=%1$s зайшов у Чорнобиль без шолома. %2$s стояв поруч і хихотів.
+death.bee.radioactive=%1$s зайшов у Чорнобиль без шолома.
+
+forestry.allele.effect.aggressive=Агресор
+forestry.allele.effect.beatific=Блаженність
+forestry.allele.effect.creeper=Крипер
+forestry.allele.effect.drunkard=П’яничка
+forestry.allele.effect.exploration=Дослідник
+forestry.allele.effect.glacial=Замерзання
+forestry.allele.effect.fertile=Плідність
+forestry.allele.effect.heroic=Героїчність
+forestry.allele.effect.ignition=Займистість
+forestry.allele.effect.misanthrope=Мізантропія
+forestry.allele.effect.miasmic=Міазми
+forestry.allele.effect.mycophilic=Гриболюб
+forestry.allele.effect.none=Відсутній
+forestry.allele.effect.radioactive=Радіоактивність
+forestry.allele.effect.reanimation=Реанімація
+forestry.allele.effect.repulsion=Відраза
+forestry.allele.effect.resurrection=Воскресіння
+forestry.allele.effect.snowing=Снігопад
+
+for.beemode.easy.desc=Спрощує бджільництво завдяки значному збільшенню швидкості мутацій і усуненню генетичної втоми.
+for.beemode.hard.desc=Незначно зменшує швидкість мутацій і збільшує тривалість життя окремих королев на 50%.
+for.beemode.hardcore.desc=Зменшує швидкість мутацій удвічі, збільшує тривалість життя окремих королев на 500% і знижує народжуваність на 20%.
+for.beemode.insane.desc=Зменшує швидкість мутацій до 20%, десятикратно збільшує тривалість життя і знижує народжуваність на 40%.
+for.beemode.normal.desc=Рекомендований режим для звичайного гравця.
+
+for.bees.grammar.drone.type=трутень
+for.bees.grammar.drone=%SPECIES %TYPE
+for.bees.grammar.larvae.type=личинка
+for.bees.grammar.larvae=%SPECIES %TYPE
+for.bees.grammar.princess.type=принцеса
+for.bees.grammar.princess=%SPECIES %TYPE
+for.bees.grammar.queen.type=королева
+for.bees.grammar.queen=%SPECIES %TYPE
+
+for.bees.hybrid=Гібрид: %PRIMARY-%SECONDARY
+
+for.bees.species.austere=Сувора
+for.bees.species.avenging=Месниця
+for.bees.species.boggy=Болотиста
+for.bees.species.common=Звичайна
+for.bees.species.cultivated=Культивована
+for.bees.species.darkened=Темна
+for.bees.species.demonic=Демонічна
+for.bees.species.diligent=Старанна
+for.bees.species.edenic=Райська
+for.bees.species.ended=Краю
+for.bees.species.exotic=Екзотична
+for.bees.species.fiendish=Диявольська
+for.bees.species.forest=Лісова
+for.bees.species.frugal=Ощадлива
+for.bees.species.glacial=Льодовикова
+for.bees.species.hermitic=Відлюдницька
+for.bees.species.heroic=Героїчна
+for.bees.species.icy=Крижана
+for.bees.species.imperial=Імператорська
+for.bees.species.industrious=Працьовита
+for.bees.species.leporine=Зайча
+for.bees.species.majestic=Велична
+for.bees.species.marshy=Болотна
+for.bees.species.meadows=Лугова
+for.bees.species.merry=Весела
+for.bees.species.miry=Трясовинна
+for.bees.species.modest=Скромна
+for.bees.species.monastic=Монастирська
+for.bees.species.noble=Шляхетна
+for.bees.species.omega=Омега
+for.bees.species.phantasmal=Фантазна
+for.bees.species.reddened=Почервоніла
+for.bees.species.rural=Сільська
+for.bees.species.farmerly=Селянська
+for.bees.species.agrarian=Аграрна
+for.bees.species.secluded=Укромна
+for.bees.species.sinister=Зловісна
+for.bees.species.spectral=Примарна
+for.bees.species.steadfast=Невблаганна
+for.bees.species.tipsy=П'яна
+for.bees.species.tricky=Хитра
+for.bees.species.tropical=Тропічна
+for.bees.species.unweary=Невтомна
+for.bees.species.valiant=Доблесна
+for.bees.species.vengeful=Мстива
+for.bees.species.vindictive=Каральна
+for.bees.species.wintry=Зимова
+
+for.bees.stock.ignoble=Низька порода
+for.bees.stock.pristine=Чиста порода
+
+for.chat.command.forestry.bee.desc=- %s : Команди бджільництва
+for.chat.command.forestry.bee.help=Команди, що стосуються бджільництва.
+for.chat.command.forestry.bee.format=Формат: /%s <підкоманда>
+
+for.chat.command.forestry.bee.give.desc=- %s : Отримання бджіл
+for.chat.command.forestry.bee.give.help=Видає гравцю трутнів, принцес, королев або личинок.
+for.chat.command.forestry.bee.give.format=Формат: /%s <назва виду> <тип бджоли> [<ім’я гравця>]
+for.chat.command.forestry.bee.give.available=Доступні види бджіл: %s
+for.chat.command.forestry.bee.give.given=%1$s отримав %2$s %3$s.
+
+for.chat.command.forestry.bee.mode.desc=- %s : Команди режимів бджільництва
+for.chat.command.forestry.bee.mode.help=Команди, що стосуються режимів бджільництва.
+for.chat.command.forestry.bee.mode.format=Формат: /%s <підкоманда>
+
+for.chat.command.forestry.bee.mode.info.desc=- %s : Інформація про режим бджільництва
+for.chat.command.forestry.bee.mode.info.help=Інформація про поточний і доступні режими бджільництва.
+for.chat.command.forestry.bee.mode.info.format=Формат: /%s <назва режиму>
+
+for.chat.command.forestry.bee.mode.set.desc=- %s : Встановлення режиму бджільництва
+for.chat.command.forestry.bee.mode.set.help=Встановлює режим для бджільництва.
+for.chat.command.forestry.bee.mode.set.format=Формат: /%s [<world-#>] <назва режиму>
+
+for.chat.command.forestry.bee.save.desc=- %s : Збереження статистики бджільництва
+for.chat.command.forestry.bee.save.help=Зберігає статистику бджільництва у файл.
+for.chat.command.forestry.bee.save.format=Формат: /%s [<ім’я гравця>]
+for.chat.command.forestry.bee.save.stats=Статистика бджільництва для %s у %s:
+
+for.chat.command.forestry.mode.info.error=Режим '%s' недоступний.
+for.chat.command.forestry.mode.info.current=Поточний: %1$s (#%2$s)
+for.chat.command.forestry.mode.info.available=Доступні режими: %s
+
+for.chat.command.forestry.mode.set.success=Режим встановлено на %s.
+for.chat.command.forestry.mode.set.error=Режим із назвою '%s' недоступний.
+
+for.chat.command.forestry.stats.save.error1=Не вдалося створити файл журналу. Збереження статистики неможливе.
+for.chat.command.forestry.stats.save.error2=Не вдалося записати у файл журналу. Збереження статистики неможливе.
+for.chat.command.forestry.stats.save.error3=Збій під час запису. Збереження статистики неможливе.
+for.chat.command.forestry.stats.save.error4=Статистику не знайдено.
+for.chat.command.forestry.stats.save.saved=Статистика для гравця %s збережена
+for.chat.command.forestry.stats.save.key.discovered=Виявлено
+for.chat.command.forestry.stats.save.key.discovered.symbol=X
+for.chat.command.forestry.stats.save.key.blacklisted=Заборонено
+for.chat.command.forestry.stats.save.key.blacklisted.symbol=BL
+for.chat.command.forestry.stats.save.key.notCounted=Не враховується до загальної кількості видів
+for.chat.command.forestry.stats.save.key.notCounted.symbol=НВ
+for.chat.command.forestry.stats.save.mode=Режим: %s
+
+for.description.speciesAgrarian="Не смердить так, як альтернатива. Роботу виконує, еге ж?"|Міраті, розсудливий бджоляр
+for.description.speciesAustere=Небезпечні й непередбачувані; бджолярам рекомендовано перебувати поруч у захисному костюмі.|Пасіка 101
+for.description.speciesAvenging="Стіни мого дому почали тріщати, а дах скрипів у мене над головою, але мені було байдуже! Я відчував тисячі укусів комах крізь рукавицю, коли хапав нову королеву."|Анонім
+for.description.speciesBoggy="Я бачив, як одна з них вжалила корову. За кілька секунд вона вся вкрита грибами! ... Фото? Е-е, не встиг зробити."|"Сер" Сенґір, божевільний
+for.description.speciesCommon=Вважається символом початківця-бджоляра.|Пасіка 101
+for.description.speciesCultivated=Працьовита бджола; вважає себе кращою за всіх, окрім, може, опери.|Пасіка 101
+for.description.speciesDarkened=Притягнуті силою алхімії, ці бджоли стали потужним джерелом енергії.|Бджолиний лексикон
+for.description.speciesDemonic=Народжені в пекельному полум’ї та сформовані поколіннями бджіл Нижнього світу, ці істоти стали справжніми демонами.|Пасіка 101
+for.description.speciesDiligent=В основному вважається наступним щаблем серед працьовитих бджіл.|Пасіка 101
+for.description.speciesEdenic="Я гарячково малював у записнику, коли візерунки почали проникати в мій розум, а бджоли танцювали дивакуватий танець."|Пасіка 101
+for.description.speciesEnded="Я знайшов цю відлюдькувату комаху в вулику селянина. Вона була млява, відірвана від світу та тужила за ним."|Пасіка 101
+for.description.speciesExotic="Мене трясло в гарячці, костюм бджоляра був мокрий від поту, але тремтячими руками я дістав одну з них із вулика."|Пасіка 101
+for.description.speciesFarmerly=Часто трапляються в безкраїх преріях, годувальниці народів.|Пасіка 101
+for.description.speciesFiendish=Досвідчені бджолярі з Пекла повідомляють про напади цих бджіл. Обережно.|Пасіка 101
+for.description.speciesForest=Один з найпоширеніших лісових видів; здебільшого спокійні.|Пасіка 101
+for.description.speciesFrugal=Цілі покоління бджіл згоріли на сонці, щоб виник цей вид.|Пасіка 101
+for.description.speciesGlacial="Зима близько!"|Еддард Старк, бджоляр
+for.description.speciesHermitic="Любий колего! Бджоли, яких ви мені надіслали, не миються та відрощують бороди. Маєш що сказати?"|Бінні, бджоляр
+for.description.speciesHeroic=Навколо цих бджіл ходять легенди. Вони захищатимуть вулик до останнього подиху.|Гримоар бджоляра
+for.description.speciesIcy=Температура у вуликах з цими бджолами знижується, аж поки не утворюються крижані уламки.|Пасіка 101
+for.description.speciesImperial=Високо цінуються; спеціалізуються на виробництві королівського маточного молочка.|Пасіка 101
+for.description.speciesIndustrious=Високо цінуються; спеціалізуються на створенні відбірного пилку.|Пасіка 101
+for.description.speciesLeporine="Клянусь! Вона була маленька, з крильцями й вушками — справжній кролик! ... Ні! Я не п’яний!"|"Сер" Сенґір, божевільний
+for.description.speciesMajestic="Голову з плеч!"|Королева Сердець
+for.description.speciesMarshy="Серйозно? Гриби? Забираймось звідси!"|Пасіка 101
+for.description.speciesMeadows=Найчастіше з’являються в рівнинних помірних зонах; здебільшого слухняні.|Пасіка 101
+for.description.speciesMerry="Го-го-го!"|Весела бджола
+for.description.speciesMiry="Як бджоли взагалі запилюють гриби?"|Мец, юний бджоляр
+for.description.speciesModest=Спекотний, посушливий клімат змусив цей вид до адаптації, яка унеможливлює його життя в більш м’яких умовах.|Пасіка 101
+for.description.speciesMonastic="Я залишився стриманим і сказав йому: 'Не лише принцеса, а ще й купа смарагдів за якогось трутня? Це здирництво!'"|Пасіка 101
+for.description.speciesNoble="Немає в світі вищого заняття, ніж вирощування нової бджоли."|Бінні, бджоляр
+for.description.speciesOmega="Я є Альфа й Омега, початок і кінець, перший і останній."|Пахімар, бджоляр
+for.description.speciesPhantasmal="Що б ти не робив, не кидай, повторюю, НЕ КИДАЙ драконяче я..."|"Сер" Сенґір, останні слова
+for.description.speciesReddened=Потребує маси алхімічно зв’язаної матерії, ці крихітки здатні затопити світ енергією.|Бджолиний лексикон
+for.description.speciesRural="Дощ у травні — буде багато сіна."|М. Ейджес, сільський бджоляр
+for.description.speciesSecluded=Схрещення з пустельними видами було помилкою. Мої бджоли все більше віддалялися від світу.|Пасіка 101
+for.description.speciesSinister=Лише кілька видів бджіл можуть вижити в Пеклі. Навіть вони сильно спотворені цим середовищем.|Пасіка 101
+for.description.speciesSpectral="Я не був певен, чи вона жива — лежала на моїй долоні, сяяла й пульсувала, випромінюючи небачений холод. Тоді я почув, як позаду задзвеніли кістки..."|Пасіка 101
+for.description.speciesSteadfast=Вважалися вимерлими, аж поки мандрівники не знайшли кілька в глибинах печер.|Гримоар бджоляра
+for.description.speciesTipsy="Танцюйте, мої красуні! Танцюйте!"|П’яна відьма зі сходу
+for.description.speciesTricky="Гаманець або життя!"|Хитра бджола
+for.description.speciesTropical="Мої мандрівки джунглями дозволили зловити багато цих отруйних істот. На жаль, мій останній аскетичний рій з’їли крокодили."|Пасіка 101
+for.description.speciesUnweary=Невтомні. А потім помирають.|Пасіка 101
+for.description.speciesValiant=Рідкісна підгрупа, що зрідка трапляється в звичайних вуликах.|Гримоар бджоляра
+for.description.speciesVengeful="Прийшов, побачив, переміг!"|Apinus Julius Caesar
+for.description.speciesVindictive="Вони з’їли моє обличчя! Вони з’їли моє обличчя!"|К.М.
+for.description.speciesWintry=Звичайний, але загартований холодом вид бджіл; вирощування в тепліших умовах викликає труднощі.|Пасіка 101
+
+for.genus.bees.agrarian=Аграрна  
+for.genus.bees.austere=Сувора  
+for.genus.bees.boggy=Болотяна  
+for.genus.bees.common=Звичайна  
+for.genus.bees.end=Краєва  
+for.genus.bees.festive=Святкова  
+for.genus.bees.frozen=Замерзла  
+for.genus.bees.heroic=Героїчна  
+for.genus.bees.industrious=Працьовита  
+for.genus.bees.infernal=Пекельна  
+for.genus.bees.monastic=Монастирська  
+for.genus.bees.noble=Шляхетна  
+for.genus.bees.reddened=Червона  
+for.genus.bees.tropical=Тропічна  
+for.genus.bees.vengeful=Мстива  
+
+item.for.bee_princess_ge.name=Принцеса
+item.for.bee_queen_ge.name=Королева
+
+tile.for.alveary.plain.name=Бджолиний вулик
+tile.for.alveary.swarmer.name=Роїльник
+tile.for.alveary.fan.name=Вентилятор вулика
+tile.for.alveary.heater.name=Обігрівач вулика
+tile.for.alveary.hygro.name=Регулятор вологості вулика
+tile.for.alveary.stabiliser.name=Стабілізатор вулика
+tile.for.alveary.sieve.name=Сито вулика
+
+tile.for.apiculture.0.name=Пасіка
+tile.for.apicultureChest.0.name=Скриня бджоляра
+tile.for.apiculture.2.name=Бджолиний будиночок
+
+tile.for.beehives.1.name=Лісовий вулик
+tile.for.beehives.2.name=Лучний вулик
+tile.for.beehives.3.name=Пустельний вулик
+tile.for.beehives.4.name=Тропічний вулик
+tile.for.beehives.5.name=Вулик Краю
+tile.for.beehives.6.name=Сніговий вулик
+tile.for.beehives.7.name=Болотяний вулик
+tile.for.beehives.8.name=Роєвий вулик
+
+tile.for.candle.dyed.lit.name=Яскрава кольорова свічка
+tile.for.candle.dyed.stump.name=Темна кольорова свічка
+tile.for.candle.lit.name=Яскрава свічка
+tile.for.candle.stump.name=Темна свічка
+
+tile.for.stump.name=Згасла свічка
+####################
+# BOOK
+####################
+item.for.book_forester.name=Посібник Лісівника
+
+for.gui.book.element.crafting=Крафт
+for.gui.book.about.title=Про книгу
+for.gui.book.about=§oЦі уривки знань зібрані та впорядковані Бі́нні, і є залишками «Бджільництва 101» та «Альманаху Лісівника» — двох книг божевільного апіарія, відомого лише як 'Сер' Сенґір.§r
+for.gui.book.about.author=| Бі́нні, редактор
+for.gui.book.categories=Категорії
+
+for.gui.book.category.core.title=Основи
+for.gui.book.category.lepidopterology.title=Лепідоптерологія
+for.gui.book.category.mail.title=Пошта
+for.gui.book.category.habitat_former.title=Формувач Середовища
+for.gui.book.category.beekeeping.title=Бджільництво
+for.gui.book.category.arboriculture.title=Деревознавство
+for.gui.book.category.farming.title=Фермерство
+for.gui.book.category.genetics.title=Генетика
+
+####################
+# MULTIBLOCK
+####################
+
+for.multiblock.error.notConnected=Мультиблок не під'єднано до контролера. Причина може бути в лаґах або помилці. Якщо проблема не зникає — зламай і повторно розмісти блок.
+for.multiblock.error.invalid.interior=(%s) – Цей блок не підходить для внутрішньої частини структури.
+for.multiblock.error.invalid.part=Ця частина мультиблоку несумісна з цим типом (%s).
+for.multiblock.error.small=Мультиблок занадто малий. Мінімальний розмір: %dx%dx%d.
+for.multiblock.error.large.x=Мультиблок завеликий: максимально допустима ширина — %d блоків.
+for.multiblock.error.large.y=Мультиблок завеликий: максимально допустима висота — %d блоків.
+for.multiblock.error.large.z=Мультиблок завеликий: максимально допустима глибина — %d блоків.
+for.multiblock.error.small.x=Мультиблок замалий: мінімальна ширина — %d блоків.
+for.multiblock.error.small.y=Мультиблок замалий: мінімальна висота — %d блоків.
+for.multiblock.error.small.z=Мультиблок замалий: мінімальна глибина — %d блоків.
+
+for.multiblock.alveary.error.needSlabs=У вулика зверху мають бути дерев’яні плити.
+for.multiblock.alveary.error.needSpace=Наверху вулика має бути вільний простір — бджолам потрібен доступ для зльоту й посадки.
+for.multiblock.alveary.error.needPlainOnTop=Верхній шар вулика має складатися лише з базових блоків вулика.
+for.multiblock.alveary.error.needPlainInterior=Внутрішня частина вулика має бути заповнена базовими блоками вулика.
+
+for.multiblock.farm.error.needPlainBand=Третій рівень ферми має складатися з базових блоків ферми.
+for.multiblock.farm.error.needPlainInterior=Внутрішня частина ферми має бути з базових блоків ферми.
+for.multiblock.farm.error.needGearbox=Ферма потребує редуктора (gearbox), щоб приймати енергію та працювати.
+
+
+for.multiblock.alveary.type=Вулик (Alveary)
+for.multiblock.farm.type=Ферма
+
+
+####################
+# ARBORICULTURE
+####################
+
+for.arboriculture.effect.none=Немає
+
+for.chat.command.forestry.tree.desc=- %s : Команди лісівництва
+for.chat.command.forestry.tree.help=Команди, що стосуються лісівництва.
+for.chat.command.forestry.tree.format=Формат:/%s <підкоманда>
+
+for.chat.command.forestry.tree.spawnTree.desc=- %s : Посадити дерево
+for.chat.command.forestry.tree.spawnTree.help=Садить дерево поруч із гравцем.
+for.chat.command.forestry.tree.spawnTree.format=Формат:/%s <назва виду> [<ім'я гравця>]
+
+for.chat.command.forestry.tree.spawnForest.desc=- %s : Посадити ліс
+for.chat.command.forestry.tree.spawnForest.help=Садить невеликий ліс поруч із гравцем.
+for.chat.command.forestry.tree.spawnForest.format=Формат:/%s <назва виду> [<ім'я гравця>]
+
+for.chat.command.forestry.tree.mode.desc=- %s : Команди режимів лісівництва
+for.chat.command.forestry.tree.mode.help=Команди, що стосуються режимів лісівництва.
+for.chat.command.forestry.tree.mode.format=Формат:/%s <підкоманда>
+
+for.chat.command.forestry.tree.mode.info.desc=- %s : Інформація про режим лісівництва
+for.chat.command.forestry.tree.mode.info.help=Інформація про поточний і доступні режими лісівництва.
+for.chat.command.forestry.tree.mode.info.format=Формат:/%s <назва режиму>
+
+for.chat.command.forestry.tree.mode.set.desc=- %s : Встановити режим лісівництва
+for.chat.command.forestry.tree.mode.set.help=Встановлює режим лісівництва для світу.
+for.chat.command.forestry.tree.mode.set.format=Формат:/%s [<world-#>] <назва режиму>
+
+for.chat.command.forestry.tree.save.desc=- %s : Зберегти статистику лісівництва
+for.chat.command.forestry.tree.save.help=Зберігає статистику лісівництва у файл.
+for.chat.command.forestry.tree.save.format=Формат:/%s [<ім’я гравця>]
+
+for.chat.command.forestry.tree.save.stats=Статистика лісівництва для %s у %s:
+
+for.description.treeBirch=Широко розповсюджене березове дерево, зазвичай невеликої висоти.|Codex Lignum
+for.description.treeCherry=Невелике дерево. У природних умовах приносить вишні, яким потрібен час на дозрівання.|Codex Lignum
+for.description.treeChestnut=Високе листяне дерево з масивним стовбуром. Природні каштани приносять плоди, які дозрівають поступово.|Codex Lignum
+for.description.treeLime=Високе листяне дерево. Нещодавно перекласифіковане до родини мальвових.|Codex Lignum
+for.description.treeOak=Поширений вид дерев, що здатен давати яблука. Оспівується в піснях і танцях.|Codex Lignum
+for.description.treeSipiri=Високі вічнозелені дерева з цінною деревиною. Деревина й кора мають приємний аромат. Добре росте лише в тропіках.|Codex Lignum
+for.description.treeWalnut=Високе листяне дерево з товстим стовбуром. Природні волоські горіхи приносять плоди, яким потрібно дозрівати.|Codex Lignum
+for.description.treeWillow=Велике листяне дерево. Біла верба швидко росте. Її часто зустрічають у вологих умовах.|Codex Lignum
+
+for.family.jungle=Тропічні  
+for.family.nuts=Горіхові  
+for.family.pomes=Фруктові  
+for.family.prunes=Листяні  
+
+for.fruits.apple=Яблуко  
+for.fruits.cherry=Вишня  
+for.fruits.chestnut=Каштан  
+for.fruits.cocoa=Какао  
+for.fruits.dates=Фініки  
+for.fruits.lemon=Лимон  
+for.fruits.none=Немає  
+for.fruits.papaya=Папая  
+for.fruits.plum=Слива  
+for.fruits.walnut=Волоський горіх  
+
+for.gui.family=Родина  
+for.gui.fireproof=Вогнестійкість  
+for.gui.fruits=Плоди  
+for.gui.girth=Область посадки  
+for.gui.height=Висота  
+for.gui.maturity=Стиглість  
+for.gui.native="Рідний" біом  
+for.gui.saplings=Тип саджанця  
+for.gui.sappiness=Життєздатність  
+for.gui.supports=Тип плодів  
+for.gui.treealyzer.help=Покладіть саджанець і додайте мед або нектар як каталізатор.  
+for.gui.treealyzer=Аналізатор дерев  
+for.gui.yield=Урожайність  
+
+for.growth.normal=Світло  
+for.growth.tropical=Тропіки  
+
+for.trees.grammar.blossom.type=Квітка  
+for.trees.grammar.blossom=%TYPE %SPECIES  
+for.trees.grammar.germling.type=Розсада  
+for.trees.grammar.germling=%TYPE %SPECIES  
+for.trees.grammar.pollen.type=Пилок  
+for.trees.grammar.pollen=%TYPE %SPECIES  
+for.trees.grammar.sapling.type=Саджанець  
+for.trees.grammar.sapling=%TYPE %SPECIES  
+for.trees.grammar.leaves.type=Листя  
+for.trees.grammar.leaves=%TYPE %SPECIES  
+
+for.trees.hybrid=Гібрид: %PRIMARY-%SECONDARY  
+
+for.trees.species.acacia=акації  
+for.trees.species.appleOak=яблучного дуба  
+for.trees.species.balsa=бальзи  
+for.trees.species.blueMahoe=синього гібіскуса  
+for.trees.species.bullPine=жовтої сосни  
+for.trees.species.coastSequoia=берегової секвої  
+for.trees.species.commonWalnut=звичайного горіхового дерева  
+for.trees.species.darkOak=темного дуба  
+for.trees.species.datePalm=фінікової пальми  
+for.trees.species.desertAcacia=пустельної акації  
+for.trees.species.giantSequoia=гігантської секвої  
+for.trees.species.grandidierBaobab=баобаба Грандидьє  
+for.trees.species.hillCherry=сакури  
+for.trees.species.jungle=дерева джунглів  
+for.trees.species.kapok=бавовняного дерева  
+for.trees.species.lemon=лимонного дерева  
+for.trees.species.mundaneLarch=звичайної модрини  
+for.trees.species.myrtleEbony=мирта  
+for.trees.species.papaya=папаї  
+for.trees.species.plum=сливового дерева  
+for.trees.species.redSpruce=червоної ялини  
+for.trees.species.silverBirch=сріблястої берези  
+for.trees.species.silverLime=пухнастої липи  
+for.trees.species.sipiri=Сипірі  
+for.trees.species.sugarMaple=цукрового клена  
+for.trees.species.sweetChestnut=їстівного каштана  
+for.trees.species.teak=тикованого дерева  
+for.trees.species.wenge=венге  
+for.trees.species.whitePoplar=білого тополі  
+for.trees.species.whiteWillow=білої верби  
+for.trees.species.yellowMeranti=жовтого меранті  
+for.trees.species.ipe=мурашиного дерева  
+for.trees.species.padauk=падука  
+for.trees.species.cocobolo=кокоболо  
+for.trees.species.zebrawood=зебрано  
+
+for.fence.grammar=Паркан з %TYPE  
+for.log.grammar=Деревина %TYPE  
+for.planks.grammar=Дошки з %TYPE  
+for.slab.grammar=Плита з %TYPE  
+for.slab.double.grammar=Подвійна плита з %TYPE  
+for.stairs.grammar=Сходи з %TYPE  
+
+for.trees.woodType.larch=модрини  
+for.trees.woodType.teak=тикового дерева  
+for.trees.woodType.acacia=акації  
+for.trees.woodType.lime=липи  
+for.trees.woodType.chestnut=каштана  
+for.trees.woodType.wenge=венге  
+for.trees.woodType.baobab=баобаба  
+for.trees.woodType.sequoia=секвої  
+for.trees.woodType.kapok=бавовняного дерева  
+for.trees.woodType.ebony=мирта  
+for.trees.woodType.mahogany=червоного дерева  
+for.trees.woodType.balsa=бальзи  
+for.trees.woodType.willow=верби  
+for.trees.woodType.walnut=горіхового дерева  
+for.trees.woodType.greenheart=грінхарта  
+for.trees.woodType.cherry=вишневого дерева  
+for.trees.woodType.mahoe=гібіскуса  
+for.trees.woodType.poplar=тополі  
+for.trees.woodType.palm=пальми  
+for.trees.woodType.papaya=папаї  
+for.trees.woodType.pine=сосни  
+for.trees.woodType.plum=сливового дерева  
+for.trees.woodType.maple=клена  
+for.trees.woodType.citrus=цитрусового дерева  
+for.trees.woodType.giganteum=гігантської секвої  
+for.trees.woodType.ipe=мурашиного дерева  
+for.trees.woodType.padauk=падука  
+for.trees.woodType.cocobolo=кокоболо  
+for.trees.woodType.zebrawood=зебрано  
+
+tile.for.fireproof=%s (Вогнестійкість)  
+
+item.for.grafter.name=Садовий ніж  
+item.for.grafter_proven.name=Перевірений садовий ніж  
+
+tile.for.tree_chest.name=Скриня лісівника  
+
+tile.for.saplingGE.0.name=Саджанець  
+tile.for.leaves.0.name=Листя  
+tile.for.pods.0.name=Стручок  
+
+####################  
+# FARMING  
+####################
+for.farm.grammar.manual=Ручний %s
+for.farm.grammar.managed=Автоматизований %s
+
+for.circuit.managedArboreal=Дендрологічна ферма  
+for.circuit.managedCereal=Ферма зернових  
+for.circuit.managedInfernal=Пекельна ферма  
+for.circuit.managedPeat=Торфовище  
+for.circuit.managedShroom=Грибна ферма  
+for.circuit.managedVegetable=Овочева ферма  
+for.circuit.managedEnder=Ферма Краю  
+for.circuit.manualCereal=Ферма зернових  
+for.circuit.manualCocoa=Плантація какао  
+for.circuit.manualGourd=Ферма гарбузових  
+for.circuit.manualOrchard=Фруктовий сад  
+for.circuit.manualPeat=Торфовище  
+for.circuit.manualPoales=Очеретяна ферма  
+for.circuit.manualRubber=Каучукова плантація  
+for.circuit.manualShroom=Грибна ферма  
+for.circuit.manualSucculent=Ферма кактусів  
+for.circuit.manualVegetable=Овочева ферма  
+
+for.errors.no_farmland.desc=Немає робочої ділянки  
+for.errors.no_farmland.help=Гладкий пісковик, цегла або кам’яна цегла утворюють платформу для побудови ферми.  
+for.errors.no_fertilizer.desc=Немає добрив  
+for.errors.no_fertilizer.help=Для роботи ферми потрібне добриво. Компост не підходить.  
+for.errors.no_liquid.desc=Немає води  
+for.errors.no_liquid.help=Залежно від кількості опадів, температури та вологості, ферма потребує певного обсягу води.  
+
+for.gui.farm.title=Ферма  
+for.gui.hydr.heat=тепла  
+for.gui.hydr.humid=вологості  
+for.gui.hydr.overall=загального  
+for.gui.hydr.rainfall=дощування  
+for.gui.hydration=Необхідне зволоження  
+
+for.hints.circuitboard.desc=Використовуйте паяльник, щоб перетворити свою ферму дерев у будь-яку іншу ферму за бажанням.  
+for.hints.circuitboard.tag=Програмуйте свої ферми!  
+for.hints.farmgui.desc=Ґрунт розміщується у ліві слоти, насіння або саджанці — у праві слоти резервуара у верхньому правому куті.  
+for.hints.farmgui.tag=Ґрунт — наліво, насіння — направо!  
+for.hints.farmland.desc=Гладкий пісковик, цегла або кам’яна цегла створюють платформу, на якій будується ферма.  
+for.hints.farmland.tag=Викладіть свою робочу зону!  
+for.hints.fertilizer.desc=Усі ферми потребують добрив для роботи. Компост або мульча — не підходять.  
+for.hints.fertilizer.tag=Потрібні добрива!  
+for.hints.gearbox.desc=Використовуйте редуктори, щоб під’єднати двигуни або енергетичні лінії до ферми.  
+for.hints.gearbox.tag=Джерело енергії!  
+for.hints.hatch.desc=Люки, труби або лампи — найкращі друзі автоматизації. Використовуйте їх для транспортування.  
+for.hints.hatch.tag=Задраїти люки!  
+for.hints.manualfarms.desc=Окрім керованих ферм існують ручні ферми, які лише підтримують процес, але не будують.  
+for.hints.manualfarms.tag=Ручні ферми!  
+for.hints.valve.desc=Більшість ферм потребує води. Використовуйте вентильні блоки для автоматизації.  
+for.hints.valve.tag=Джерело води!  
+
+for.trigger.lowFertilizer=Добриво  
+for.trigger.lowLiquid=Резервуар води  
+for.trigger.lowSoil=Ґрунт  
+
+tile.for.ffarm.tooltip=Мультиблок: 3x4x3 - 5x4x5
+tile.for.ffarm.material.tooltip=Матеріал:
+tile.for.ffarm.0.name=Фермерський блок  
+tile.for.ffarm.2.name=Редуктор ферми  
+tile.for.ffarm.3.name=Люк ферми  
+tile.for.ffarm.4.name=Вентиль ферми  
+tile.for.ffarm.5.name=Блок керування фермою  
+
+tile.for.mushroom.0.name=Гриб  
+tile.for.mushroom.1.name=Гриб  
+
+####################
+# ВИРОЩУВАННЯ
+####################
+tile.for.arboretum.name=Арборетум
+tile.for.arboretum.tooltip=Деревна ферма
+tile.for.farm_crops.name=Ферма
+tile.for.farm_crops.tooltip=Ферма культур
+tile.for.farm_mushroom.name=Грибна ферма
+tile.for.farm_nether.name=Пекельна ферма
+tile.for.farm_nether.tooltip=Ферма адського гриба (Netherwart)
+tile.for.farm_gourd.name=Гарбузова ферма
+tile.for.farm_gourd.tooltip=Ферма динь та гарбузів
+tile.for.farm_ender.name=Ендер ферма
+tile.for.farm_ender.tooltip=Ферма хоруcу та ендерських лілій
+tile.for.peat_bog.name=Торф'яне болото
+tile.for.peat_bog.tooltip=Ферма торфу
+tile.for.plantation.name=Каучукова плантація
+
+item.for.flexible_casing.name=Гнучкий корпус
+
+tile.for.planter.manual=%s (Ручний)
+tile.for.planter.managed=%s (Автоматичний)
+
+for.gui.planter.north=Пн
+for.gui.planter.south=Пд
+for.gui.planter.east=Сх
+for.gui.planter.west=Зх
+
+####################
+# ТЕПЛИЦЯ
+####################
+tile.for.greenhouse.deprecated1=Цей предмет застарів
+tile.for.greenhouse.deprecated2=Помістіть у верстат, щоб повернути ресурси
+tile.for.greenhouse.plain.name=Блок теплиці
+tile.for.greenhouse.gearbox.name=Розподільник енергії теплиці
+tile.for.greenhouse.control.name=Контролер теплиці
+tile.for.greenhouse.screen.name=Екран теплиці
+tile.for.greenhouse.window_up.name=Вікно даху теплиці
+tile.for.greenhouse.window.name=Вікно теплиці
+tile.for.climatiser.fan.name=Вентилятор теплиці
+tile.for.climatiser.heater.name=Обігрівач теплиці
+tile.for.climatiser.dehumidifier.name=Осушувач теплиці
+tile.for.climatiser.humidifier.name=Зволожувач теплиці
+tile.for.climatiser.hygro.name=Гігростат теплиці
+
+####################
+# КЛІМАТОЛОГІЯ
+####################
+tile.for.habitat_former.name=Формувач середовища
+
+item.for.habitat_screen.name=Екран середовища
+
+for.gui.habitat_former.climate.target=Ціль: %s
+for.gui.habitat_former.climate.value=Значення: %s
+for.gui.habitat_former.climate.default=За замовчуванням: %s
+for.gui.habitat_former.climate.temperature=Температура
+for.gui.habitat_former.climate.humidity=Вологість
+for.gui.habitat_former.climate.habitats=Середовища
+for.gui.habitat_former.climate.selection=Вибір
+for.gui.habitat_former.climate.range=Діапазон
+for.gui.habitat_former.climate.range.blocks=%s блоків
+for.gui.habitat_former.climate.circle.enabled=Циркулярний режим увімкнено
+for.gui.habitat_former.climate.circle.disabled=Циркулярний режим вимкнено
+for.gui.habitat_former.climate.preview.enabled=Режим перегляду увімкнено
+for.gui.habitat_former.climate.preview.disabled=Режим перегляду вимкнено
+for.gui.habitat_former=Формувач середовища
+for.gui.habitat_former.range=Діапазон
+for.gui.habitat_former.resources=Ресурси
+for.gui.habitat_former.speed=Швидкість
+
+for.habitat_screen.mode.active=Режим перегляду: Активний
+for.habitat_screen.mode.inactive=Режим перегляду: Неактивний
+for.habitat_screen.state.linked=Позиція '%s, %s, %s', Вимір '%s'
+for.habitat_screen.state.fail=Не пов’язано
+for.habitat_screen.temperature=Температура: %s
+for.habitat_screen.humidity=Вологість: %s
+for.habitat_screen.status.state=Температура: %s, Вологість: %s
+for.habitat_screen.status.nostate=Стан не знайдено
+
+for.hints.formergui.tag=Клікни і готово!
+for.hints.formergui.desc=Ви можете використовувати кнопки середовища, дві панелі клімату вгорі або два текстові поля для зміни цільового клімату.
+for.hints.formerresources.tag=Що потрібно?
+for.hints.formerresources.desc=Формувач середовища використовує енергію для зміни температури, а також рідини (лава, вода, дроблений лід) для контролю вологості і частково температури.
+for.hints.formersettings.tag=Все що хочеш
+for.hints.formersettings.desc=Окрім інших опцій, можна клікнути з бджолою на слот біля кнопок середовища, щоб встановити цільовий клімат, який ця бджола віддає перевагу.
+
+for.errors.wrong_resource.desc=Неправильний ресурс
+for.errors.wrong_resource.help=Формувач середовища не може досягти потрібної вологості за допомогою вставленої рідини.
+
+####################  
+# LEPIDOPTEROLOGY  
+####################  
+
+for.chat.command.forestry.butterfly.desc=- %s : Команди для метеликів  
+for.chat.command.forestry.butterfly.help=Різні команди, що стосуються метеликів  
+for.chat.command.forestry.butterfly.format=Формат: /%s <підкоманда>  
+
+for.chat.command.forestry.butterfly.kill.desc=- %s : Вбити всіх метеликів  
+for.chat.command.forestry.butterfly.kill.help=Вбиває всіх метеликів у завантажених чанках  
+for.chat.command.forestry.butterfly.kill.format=Формат: /%s [<номер виміру>]  
+
+for.butterflies.hybrid=Гібрид: %PRIMARY-%SECONDARY  
+
+for.butterflies.species.geometridae.brimstone=Метелик Бримстоун  
+for.butterflies.species.geometridae.latticedHeath=Клейврова п'ядениця  
+for.butterflies.species.nymphalidae.blueDuke=Синій герцог  
+for.butterflies.species.nymphalidae.blueMorphoM=Морфо Менелай  
+for.butterflies.species.nymphalidae.blueMorphoP=Морфо Пелеїда  
+for.butterflies.species.nymphalidae.blueMorphoR=Синя морфо  
+for.butterflies.species.nymphalidae.blueWing=Синє крило  
+for.butterflies.species.nymphalidae.comma=Кутокрила  
+for.butterflies.species.nymphalidae.dianaFritillary=Діана Фрітилярія  
+for.butterflies.species.nymphalidae.glasswing=Грета Ото  
+for.butterflies.species.nymphalidae.glassyTiger=Скляний тигр  
+for.butterflies.species.nymphalidae.leopardLacewing=Цетозія Ціане  
+for.butterflies.species.nymphalidae.malachite=Малахіт  
+for.butterflies.species.nymphalidae.monarch=Монарх  
+for.butterflies.species.nymphalidae.paintedBeauty=Віргінська німфаліда  
+for.butterflies.species.nymphalidae.postman=Листоноша  
+for.butterflies.species.nymphalidae.speckledWood=Егерія  
+for.butterflies.species.nymphalidae.speckledWoodC=Канарська егерія  
+for.butterflies.species.nymphalidae.speckledWoodM=Мадейрська егерія  
+for.butterflies.species.papilionidae.emeraldPeacock=Смарагдовий павич  
+for.butterflies.species.papilionidae.swallowtailB=Чорний махаон  
+for.butterflies.species.papilionidae.swallowtailC=Цитрусовий махаон  
+for.butterflies.species.papilionidae.swallowtailS=Махаон каліканту  
+for.butterflies.species.papilionidae.swallowtailT=Махаон Тоаса  
+for.butterflies.species.papilionidae.swallowtailZ=Смугастий махаон  
+for.butterflies.species.pieridae.brimstone=Бримстоун  
+for.butterflies.species.pieridae.cabbageWhite=Капусниця  
+for.butterflies.species.pieridae.gozoraAzure=Гозора Азурна  
+for.butterflies.species.pieridae.orangeTip=Білянка  
+for.butterflies.species.pieridae.palaenoSulphur=Болотно-жовта білянка  
+for.butterflies.species.pieridae.postillion=Шафранова білянка  
+for.butterflies.species.pieridae.reseda=Ріпакова білянка  
+for.butterflies.species.pieridae.springAzure=Весняна голуб’янка  
+for.butterflies.species.saturniidae.atlas=Метелик Атлас  
+
+
+for.gui.flutterlyzer=Аналізатор метеликів  
+for.gui.flutterlyzer.help=Покладіть метелика та надайте мед або нектар як заспокійливе.  
+for.gui.loot.butterfly=Можливий дроп метелика  
+for.gui.loot.caterpillar=Можливий дроп гусені  
+
+for.lepidopterology.effect.none=Немає  
+
+item.for.butterfly.name=Метелик  
+item.for.flutterlyzer.name=Аналізатор метеликів  
+item.for.lepidopterist_bag.name=Рюкзак лепідоптеролога  
+item.for.moth.name=Мотиль  
+tile.for.butterfly_chest.name=Скриня лепідоптеролога  
+
+####################  
+# MAIL  
+####################  
+
+for.chat.mail.already_mailed=Не вдалося переслати лист.  
+
+for.chat.command.forestry.mail.desc=- %s : Команди поштової системи  
+for.chat.command.forestry.mail.help=Різноманітні команди, що стосуються поштової системи  
+for.chat.command.forestry.mail.format=Формат: /%s <підкоманда>  
+
+for.chat.command.forestry.mail.trades.desc=- %s : Список усіх торгових станцій.  
+for.chat.command.forestry.mail.trades.help=Показує всі торгові станції та їхні угоди.  
+for.chat.command.forestry.mail.trades.format=Формат: /%s  
+
+for.chat.command.forestry.mail.virtualize.desc=- %s : Увімкнути віртуальний режим на торговій станції.  
+for.chat.command.forestry.mail.virtualize.help=Перемикає віртуальний режим на певній торговій станції. Цей режим не використовує предмети.  
+for.chat.command.forestry.mail.virtualize.format=Формат: /%s <назва станції>  
+for.chat.command.forestry.mail.virtualize.no_tradestation=Торгова станція з назвою '%s' не знайдена.  
+for.chat.command.forestry.mail.virtualize.set=Встановлено віртуалізацію для '%s' у режим %s.  
+
+for.chat.mail.insufficient.buffer=Торгова станція переповнена.  
+for.chat.mail.insufficient.offer=Торгова станція потребує більше товарів.  
+for.chat.mail.insufficient.paper=На торговій станції закінчився папір.  
+for.chat.mail.insufficient.stamps=На торговій станції закінчилися марки.  
+for.chat.mail.insufficient.trade.good=На торговій станції закінчилися товари.  
+for.chat.mail.mailbox.full=Поштова скринька одержувача переповнена.  
+for.chat.mail.not.mailable=Лист неможливо надіслати.  
+for.chat.mail.not.postpaid=Недостатньо марок на листі.  
+for.chat.mail.no.mailbox=У одержувача немає поштової скриньки.  
+for.chat.mail.ok=Торгівля можлива  
+for.chat.mail.response.not.mailable.format=Торгова станція не може надіслати відповідь. %s  
+for.chat.mail.wrongstacksize=Можна написати лише один лист за раз.  
+
+for.gui.mail.address.copy=Використати  
+for.gui.mail.catalogue.close=Закрити  
+for.gui.mail.catalogue.trade=Торгувати  
+for.gui.mail.filter.all=Усі  
+for.gui.mail.filter.offline=Офлайн  
+for.gui.mail.filter.online=Онлайн  
+for.gui.mail.notrades=Немає доступних угод.  
+for.gui.mail.tradefor=за  
+for.gui.mail.willtrade=%s готовий торгувати  
+
+item.for.catalogue.name=Каталог  
+
+####################  
+# PIPES  
+####################  
+
+item.PipeItemsPropolis.name=Труба пасічника  
+
+tile.for.genetic_filter.name=Генетичний Фільтр
+tile.for.genetic_filter.0.name=Генетичний Фільтр
+
+for.gui.filter.selection=Вибір фільтра
+
+for.gui.filter.forestry.default.anything=Будь-які
+for.gui.filter.forestry.default.closed=Закриті
+for.gui.filter.forestry.default.item=Предмети
+for.gui.filter.forestry.default.cave=Печерні
+for.gui.filter.forestry.default.flyer=Сильні Літаки
+for.gui.filter.forestry.default.nocturnal=Нічні
+for.gui.filter.forestry.default.pure_breed=Чистопорідні
+for.gui.filter.forestry.default.pure_cave=Чисті Печерні
+for.gui.filter.forestry.default.pure_flyer=Чисті Літаки
+for.gui.filter.forestry.default.pure_nocturnal=Чисті Нічні
+
+for.gui.filter.forestry.apiculture.bee=Будь-які Бджоли
+for.gui.filter.forestry.apiculture.queen=Матки
+for.gui.filter.forestry.apiculture.drone=Трутні
+for.gui.filter.forestry.apiculture.princess=Принцеси
+
+for.gui.filter.forestry.arboriculture.tree=Будь-яке Дерево
+for.gui.filter.forestry.arboriculture.sapling=Саджанець
+for.gui.filter.forestry.arboriculture.pollen=Пилок
+
+for.gui.filter.forestry.lepidopterology.flutter=Будь-які Метелики
+for.gui.filter.forestry.lepidopterology.butterfly=Метелик
+for.gui.filter.forestry.lepidopterology.caterpillar=Гусінь
+for.gui.filter.forestry.lepidopterology.serum=Сироватка
+for.gui.filter.forestry.lepidopterology.cocoon=Кокон
+
+
+####################  
+# PLUGINS  
+####################  
+for.plugin.core.description=Основна механіка для Forestry. Потрібна для всіх інших плагінів.  
+for.plugin.fluids.description=Додає рідини, рідинні блоки та рідинні контейнери.  
+for.plugin.apiculture.description=Додає бджіл, бджільництво та продукти бджіл. Впливає на генерацію світу.  
+for.plugin.arboriculture.description=Додає додаткові види дерев і продуктів.  
+for.plugin.energy.description=Додає кілька двигунів, що працюють на RF.  
+for.plugin.factory.description=Додає широкий спектр механізмів, які виробляють та переробляють продукти.  
+for.plugin.farming.description=Додає автоматичні ферми й збирачі для широкого спектра культур.  
+for.plugin.food.description=Додає їжу.  
+for.plugin.lepidopterology.description=Метелики. Яскраві.  
+for.plugin.mail.description=Додає системи пошти та торгівлі Forestry.  
+for.plugin.storage.description=Додає рюкзаки та ящики.  
+
+for.plugin.buildcraft6.description=Плагін сумісності з BuildCraft 6.  
+for.plugin.pipes.description=Додає трубу пасічника для бджільництва, якщо воно увімкнене й встановлено BuildCraft 6.  
+for.plugin.ic2.description=Плагін сумісності з IC2. Додає електричний двигун і генератор для перетворення енергії.  
+for.plugin.natura.description=Плагін сумісності з Natura. Дозволяє вирощувати саджанці Natura.  
+for.plugin.ee2.description=Плагін сумісності з Equivalent Exchange 2. Додає Омега-бджіл. Бджільництво повинно бути увімкнене.  
+for.plugin.farmcraftory.description=Увімкнено сумісність з FarmCraftory. Додає рослини та овочі у ферми.  
+for.plugin.biomesoplenty.description=Плагін сумісності з Biomes O' Plenty. Дозволяє вирощувати саджанці BoP.  
+for.plugin.extrautilities.description=Плагін сумісності з Extra Utilities. Дозволяє вирощувати лілії Краю.  
+for.plugin.harvestcraft.description=Плагін сумісності з HarvestCraft. Дозволяє вирощувати рослини та дерева з HarvestCraft.  
+for.plugin.magicalcrops.description=Плагін сумісності з Magical Crops.  
+for.plugin.chisel.description=Плагін сумісності з Chisel. Додає згенеровані блоки в рюкзаки.  
+for.plugin.plantmegapack.description=Плагін сумісності з Plant Mega Pack.  
+for.plugin.witchery.description=Плагін сумісності з Witchery.  
+for.plugin.agricraft.description=Плагін сумісності з AgriCraft.  
+
+###################################  
+# CUSTOM BEE AND TREE SPECIES NAMES  
+###################################  
+# Синтаксис:  
+# for.bees.custom.<type>.<species>=Нова назва виду бджіл  
+# for.trees.custom.<type>.<species>=Нова назва виду дерева  
+# Приклади:  
+# for.bees.custom.drone.forest=Лісова дрона  
+# for.trees.custom.pollen.darkOak=Пилок темного дуба  
+# Beealyzer/Treealyzer синтаксис:  
+# for.bees.custom.beealyzer.<type>.<species>=Нова назва виду бджоли в аналізаторі  
+# for.trees.custom.treealyzer.<type>.<species>=Нова назва виду дерева в аналізаторі  
+# Приклади:  
+# for.bees.custom.beealyzer.drone.forest=Назва виду "лісова дрона" в аналізаторі бджіл  
+# for.trees.custom.treealyzer.pollen.darkOak=Назва виду "пилок темного дуба" в аналізаторі дерев  
+
+###################################
+###################################
+# ІНДИВІДУАЛЬНІ ПРИКМЕТНИКИ АЛЕЛЕЙ
+###################################
+# Замінює forestry.allele.<adjective>
+#
+# Синтаксис:
+# forestry.allele.<категорія>.<прикметник>=Нова назва прикметника
+#
+# Доступні категорії та [прикметники]:
+# швидкість:     [найповільніша, повільніша, повільна, нормальна, швидка, швидша, найшвидша]
+# дозрівання:    [найповільніше, повільніше, повільне, нормальне, швидке, швидше, найшвидше]
+# цвітіння:      [найповільніше, повільніше, повільне, нормальне, швидке, швидше, найшвидше, максимальне]
+#
+# розмір:        [найменший, менший, середній, великий, більший, найбільший]
+# висота:        [найнижча, нижча, середня, висока, вища, найвища, гігантська]
+# територія:     [середня, велика, більша, найбільша]
+#
+# саджанці:      [найнижча, нижча, низька, середня, висока, вища, найвища]
+# врожайність:   [найнижча, нижча, низька, середня, висока, вища, найвища]
+# сікопитність:  [найнижча, нижча, низька, середня, висока, вища, найвища]
+#
+# Приклади:
+# forestry.allele.speed.slowest=Найповільніший працівник
+# forestry.allele.flowering.slowest=Найповільніше цвітіння
+# forestry.allele.yield.low=Низька врожайність
+
+###################################
+# КАСТОМНІ ПІДКАЗКИ (TOOLTIPS)
+###################################
+# Доступні підказки:
+# for.tooltip.worker.<прикметник швидкості> — швидкість працівника-бджоли.
+#
+# Приклад:
+# for.tooltip.worker.slowest=Найповільніший працівник
+
+###################################
+# КАСТОМНІ НАЗВИ ДЕРЕВИНИ
+###################################
+#
+# Приклади:
+# tile.for.stairs.4.name=Сходи з каштана
+# tile.for.planks.8.name=Дошки з хлопкового дерева
+# tile.for.slab.5.name=Плита з дерева Венге
+# tile.for.log.10.name=Дерево махаґоні
+# tile.for.fences.0.name=Паркан з модрини
+
+###################################
+# CUSTOM BEES NAMES
+###################################
+
+for.bees.custom.drone.forest=Лісовий трутень
+for.bees.custom.drone.meadows=Лугoвий трутень
+for.bees.custom.drone.boggy=Болотяний трутень
+for.bees.custom.drone.miry=Топкий трутень
+for.bees.custom.drone.agrarian=Земельний трутень
+for.bees.custom.drone.farmerly=Колишній трутень
+for.bees.custom.drone.common=Звичайний трутень
+for.bees.custom.drone.cultivated=Культивований трутень
+for.bees.custom.drone.noble=Благородний трутень
+for.bees.custom.drone.majestic=Величний трутень
+for.bees.custom.drone.imperial=Імператорський трутень
+for.bees.custom.drone.diligent=Старанний трутень
+for.bees.custom.drone.unweary=Невтомний трутень
+for.bees.custom.drone.industrious=Працьовитий трутень
+for.bees.custom.drone.steadfast=Відданий трутень
+for.bees.custom.drone.valiant=Доблесний трутень
+for.bees.custom.drone.heroic=Героїчний трутень
+for.bees.custom.drone.sinister=Зловісний трутень
+for.bees.custom.drone.fiendish=Диявольський трутень
+for.bees.custom.drone.demonic=Демоничний трутень
+for.bees.custom.drone.modest=Скромний трутень
+for.bees.custom.drone.frugal=Бережливий трутень
+for.bees.custom.drone.austere=Суворий трутень
+for.bees.custom.drone.tropical=Тропічний трутень
+for.bees.custom.drone.exotic=Екзотичний трутень
+for.bees.custom.drone.edenic=Райський трутень
+for.bees.custom.drone.ended=Трутень Краю
+for.bees.custom.drone.wintry=Зимовий трутень
+for.bees.custom.drone.icy=Крижанний трутень
+for.bees.custom.drone.glacial=Льодовиковий трутень
+for.bees.custom.drone.vindictive=Каральний трутень
+for.bees.custom.drone.vengeful=Мстивий трутень
+for.bees.custom.drone.avenging=Помстивий трутень
+for.bees.custom.drone.darkened=Темний трутень
+for.bees.custom.drone.reddened=Почервонілий трутень
+for.bees.custom.drone.omega=Омега-трутень
+for.bees.custom.drone.leporine=Заячий трутень
+for.bees.custom.drone.tricky=Хитрий трутень
+for.bees.custom.drone.rural=Сільський трутень
+for.bees.custom.drone.marshy=Болотний трутень
+for.bees.custom.drone.merry=Веселий трутень
+for.bees.custom.drone.tipsy=П’яний трутень
+for.bees.custom.drone.monastic=Монастирський трутень
+for.bees.custom.drone.secluded=Укромний трутень
+for.bees.custom.drone.hermitic=Відлюдний трутень
+for.bees.custom.drone.spectral=Примарний трутень
+for.bees.custom.drone.phantasmal=Фантастичний трутень
+
+
+for.bees.custom.larvae.ended=Личинка Краю
+for.bees.custom.princess.ended=Принцеса Краю
+for.bees.custom.queen.ended=Королева Краю
+
+
+###################################
+# CUSTOM Beealyzer/Treealyzer NAMES
+###################################
+
+for.bees.custom.beealyzer.drone.forest=Лісовий
+for.bees.custom.beealyzer.drone.meadows=Лугoвий
+for.bees.custom.beealyzer.drone.boggy=Болотяний
+for.bees.custom.beealyzer.drone.miry=Топкий
+for.bees.custom.beealyzer.drone.agrarian=Земельний
+for.bees.custom.beealyzer.drone.farmerly=Колишній
+for.bees.custom.beealyzer.drone.common=Звичайний
+for.bees.custom.beealyzer.drone.cultivated=Культивований
+for.bees.custom.beealyzer.drone.noble=Благородний
+for.bees.custom.beealyzer.drone.majestic=Величний
+for.bees.custom.beealyzer.drone.imperial=Імператорський
+for.bees.custom.beealyzer.drone.diligent=Старанний
+for.bees.custom.beealyzer.drone.unweary=Невтомний
+for.bees.custom.beealyzer.drone.industrious=Працьовитий
+for.bees.custom.beealyzer.drone.steadfast=Відданий
+for.bees.custom.beealyzer.drone.valiant=Доблесний
+for.bees.custom.beealyzer.drone.heroic=Героїчний
+for.bees.custom.beealyzer.drone.sinister=Зловісний
+for.bees.custom.beealyzer.drone.fiendish=Диявольський
+for.bees.custom.beealyzer.drone.demonic=Демоничний
+for.bees.custom.beealyzer.drone.modest=Скромний
+for.bees.custom.beealyzer.drone.frugal=Бережливий
+for.bees.custom.beealyzer.drone.austere=Суворий
+for.bees.custom.beealyzer.drone.tropical=Тропічний
+for.bees.custom.beealyzer.drone.exotic=Екзотичний
+for.bees.custom.beealyzer.drone.edenic=Райський
+for.bees.custom.beealyzer.drone.ended=з Краю
+for.bees.custom.beealyzer.drone.wintry=Зимовий
+for.bees.custom.beealyzer.drone.icy=Крижанний
+for.bees.custom.beealyzer.drone.glacial=Льодовиковий
+for.bees.custom.beealyzer.drone.vindictive=Каральний
+for.bees.custom.beealyzer.drone.vengeful=Мстивий
+for.bees.custom.beealyzer.drone.avenging=Помстивий
+for.bees.custom.beealyzer.drone.darkened=Темний
+for.bees.custom.beealyzer.drone.reddened=Почервонілий
+for.bees.custom.beealyzer.drone.omega=Омега
+for.bees.custom.beealyzer.drone.leporine=Заячий
+for.bees.custom.beealyzer.drone.tricky=Хитрий
+for.bees.custom.beealyzer.drone.rural=Сільський
+for.bees.custom.beealyzer.drone.marshy=Болотний
+for.bees.custom.beealyzer.drone.merry=Веселий
+for.bees.custom.beealyzer.drone.tipsy=П’яний
+for.bees.custom.beealyzer.drone.monastic=Монастирський
+for.bees.custom.beealyzer.drone.secluded=Укромний
+for.bees.custom.beealyzer.drone.hermitic=Відлюдний
+for.bees.custom.beealyzer.drone.spectral=Примарний
+for.bees.custom.beealyzer.drone.phantasmal=Фантастичний
+
+
+for.bees.custom.beealyzer.larvae.ended=з Краю
+for.bees.custom.beealyzer.princess.ended=з Краю
+for.bees.custom.beealyzer.queen.ended=з Краю
+
+for.trees.custom.treealyzer.pollen.acacia=Акація
+for.trees.custom.treealyzer.pollen.appleOak=Яблуневий дуб
+for.trees.custom.treealyzer.pollen.balsa=Бальза
+for.trees.custom.treealyzer.pollen.blueMahoe=Синій гібіскус
+for.trees.custom.treealyzer.pollen.bullPine=Жовта сосна
+for.trees.custom.treealyzer.pollen.coastSequoia=Прибережна секвоя
+for.trees.custom.treealyzer.pollen.commonWalnut=Звичайний горіх
+for.trees.custom.treealyzer.pollen.darkOak=Темний дуб
+for.trees.custom.treealyzer.pollen.datePalm=Фінікова пальма
+for.trees.custom.treealyzer.pollen.desertAcacia=Пустельна акація
+for.trees.custom.treealyzer.pollen.giantSequoia=Гігантська секвоя
+for.trees.custom.treealyzer.pollen.grandidierBaobab=Баобаб Грандіє
+for.trees.custom.treealyzer.pollen.hillCherry=Сакура
+for.trees.custom.treealyzer.pollen.jungle=Джунглеве дерево
+for.trees.custom.treealyzer.pollen.kapok=Хлопкове дерево
+for.trees.custom.treealyzer.pollen.lemon=Лимонне дерево
+for.trees.custom.treealyzer.pollen.mundaneLarch=Світова лиственниця
+for.trees.custom.treealyzer.pollen.myrtleEbony=Мірт
+for.trees.custom.treealyzer.pollen.papaya=Папайя
+for.trees.custom.treealyzer.pollen.plum=Сливове дерево
+for.trees.custom.treealyzer.pollen.redSpruce=Червона ялина
+for.trees.custom.treealyzer.pollen.silverBirch=Біла береза
+for.trees.custom.treealyzer.pollen.silverLime=Пухнаста липа
+for.trees.custom.treealyzer.pollen.sipiri=Сіпірі
+for.trees.custom.treealyzer.pollen.sugarMaple=Цукровий клен
+for.trees.custom.treealyzer.pollen.sweetChestnut=Посівний каштан
+for.trees.custom.treealyzer.pollen.teak=Тикове дерево
+for.trees.custom.treealyzer.pollen.wenge=Дерево венге
+for.trees.custom.treealyzer.pollen.whitePoplar=Білий тополя
+for.trees.custom.treealyzer.pollen.whiteWillow=Біла верба
+for.trees.custom.treealyzer.pollen.yellowMeranti=Жовте меранті
+for.trees.custom.treealyzer.pollen.ipe=Мурашине дерево
+for.trees.custom.treealyzer.pollen.padauk=Падаук
+for.trees.custom.treealyzer.pollen.cocobolo=Кокоболо
+for.trees.custom.treealyzer.pollen.zebrawood=Зебрано
+
+for.trees.custom.treealyzer.sapling.acacia=Акація
+for.trees.custom.treealyzer.sapling.appleOak=Яблуневий дуб
+for.trees.custom.treealyzer.sapling.balsa=Бальза
+for.trees.custom.treealyzer.sapling.blueMahoe=Синій гібіскус
+for.trees.custom.treealyzer.sapling.bullPine=Жовта сосна
+for.trees.custom.treealyzer.sapling.coastSequoia=Прибережна секвоя
+for.trees.custom.treealyzer.sapling.commonWalnut=Звичайний горіх
+for.trees.custom.treealyzer.sapling.darkOak=Темний дуб
+for.trees.custom.treealyzer.sapling.datePalm=Фінікова пальма
+for.trees.custom.treealyzer.sapling.desertAcacia=Пустельна акація
+for.trees.custom.treealyzer.sapling.giantSequoia=Гігантська секвоя
+for.trees.custom.treealyzer.sapling.grandidierBaobab=Баобаб Грандіє
+for.trees.custom.treealyzer.sapling.hillCherry=Сакура
+for.trees.custom.treealyzer.sapling.jungle=Джунглеве дерево
+for.trees.custom.treealyzer.sapling.kapok=Хлопкове дерево
+for.trees.custom.treealyzer.sapling.lemon=Лимонне дерево
+for.trees.custom.treealyzer.sapling.mundaneLarch=Світова лиственниця
+for.trees.custom.treealyzer.sapling.myrtleEbony=Мірт
+for.trees.custom.treealyzer.sapling.papaya=Папайя
+for.trees.custom.treealyzer.sapling.plum=Сливове дерево
+for.trees.custom.treealyzer.sapling.redSpruce=Червона ялина
+for.trees.custom.treealyzer.sapling.silverBirch=Біла береза
+for.trees.custom.treealyzer.sapling.silverLime=Пухнаста липа
+for.trees.custom.treealyzer.sapling.sipiri=Сіпірі
+for.trees.custom.treealyzer.sapling.sugarMaple=Цукровий клен
+for.trees.custom.treealyzer.sapling.sweetChestnut=Посівний каштан
+for.trees.custom.treealyzer.sapling.teak=Тикове дерево
+for.trees.custom.treealyzer.sapling.wenge=Венге
+for.trees.custom.treealyzer.sapling.whitePoplar=Білий тополя
+for.trees.custom.treealyzer.sapling.whiteWillow=Біла верба
+for.trees.custom.treealyzer.sapling.yellowMeranti=Жовте меранті
+for.trees.custom.treealyzer.sapling.ipe=Мурашине дерево
+for.trees.custom.treealyzer.sapling.padauk=Падаук
+for.trees.custom.treealyzer.sapling.cocobolo=Кокоболо
+for.trees.custom.treealyzer.sapling.zebrawood=Зебрано
+
+forestry.allele.height.smallest=Найнижчий
+forestry.allele.height.smaller=Дуже низький
+forestry.allele.height.small=Низький
+forestry.allele.height.average=Середній
+forestry.allele.height.large=Високий
+forestry.allele.height.larger=Дуже високий
+forestry.allele.height.largest=Найвищий
+forestry.allele.height.gigantic=Гігантський
+
+forestry.allele.sappiness.lowest=Найнижчий
+forestry.allele.sappiness.lower=Дуже низький
+forestry.allele.sappiness.low=Низький
+forestry.allele.sappiness.average=Середній
+forestry.allele.sappiness.high=Високий
+forestry.allele.sappiness.higher=Дуже високий
+forestry.allele.sappiness.highest=Найвищий
+
+forestry.allele.maturation.slowest=Дуже повільне
+forestry.allele.maturation.slower=Повільне
+forestry.allele.maturation.slow=Неспішне
+forestry.allele.maturation.normal=Звичайне
+forestry.allele.maturation.average=Середнє
+forestry.allele.maturation.fast=Швидке
+forestry.allele.maturation.faster=Дуже швидке
+forestry.allele.maturation.fastest=Найшвидше
+
+forestry.allele.speed.slowest=Дуже повільний
+forestry.allele.speed.slower=Повільний
+forestry.allele.speed.slow=Неспішний
+forestry.allele.speed.normal=Звичайний
+forestry.allele.speed.fast=Швидкий
+forestry.allele.speed.faster=Дуже швидкий
+forestry.allele.speed.fastest=Найшвидший
+
+forestry.allele.flowering.slowest=Дуже повільне
+forestry.allele.flowering.slower=Повільне
+forestry.allele.flowering.slow=Неспішне
+forestry.allele.flowering.normal=Звичайне
+forestry.allele.flowering.fast=Швидке
+forestry.allele.flowering.faster=Дуже швидке
+forestry.allele.flowering.fastest=Найшвидше
+forestry.allele.flowering.maximum=Максимально швидке
+
+for.tooltip.worker.slowest=Дуже повільний робітник
+for.tooltip.worker.slower=Повільний робітник
+for.tooltip.worker.slow=Неспішний робітник
+for.tooltip.worker.normal=Звичайний робітник
+for.tooltip.worker.fast=Швидкий робітник
+for.tooltip.worker.faster=Дуже швидкий робітник
+for.tooltip.worker.fastest=Найшвидший робітник

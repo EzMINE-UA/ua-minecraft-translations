@@ -1,0 +1,192 @@
+#uk_Ua
+#Translated by EzMINE
+
+gui.thermaldynamics.transport.config=Налаштування
+gui.thermaldynamics.transport.name=Мережа віадуктів
+gui.thermaldynamics.transport.noDest=Немає пунктів призначення
+gui.thermaldynamics.transport.unnamed=Без назви
+gui.thermaldynamics.transport.waiting=Очікування даних
+
+info.thermaldynamics.capacitance=Ємність
+
+info.thermaldynamics.duct.cover=Поєднай із блоком для створення накладки.
+info.thermaldynamics.duct.crafting=Предмет для крафту.
+info.thermaldynamics.duct.dense=Суттєво збільшує довжину маршруту.
+info.thermaldynamics.duct.energy=Передає енергію (Redstone Flux).
+info.thermaldynamics.duct.fluid=Передає рідини.
+info.thermaldynamics.duct.fluidEnergy=Передає рідини й енергію.
+info.thermaldynamics.duct.item=Передає предмети.
+info.thermaldynamics.duct.itemEnergy=Передає предмети та енергію.
+info.thermaldynamics.duct.light=Світиться при подачі сигналу редстоуну.
+info.thermaldynamics.duct.structure=Забезпечує конструктивну підтримку.
+info.thermaldynamics.duct.transport=Транспортує гравців. Хвушш!
+info.thermaldynamics.duct.transportCrossover=Кінцеві точки для далеких віадуктів. Обов’язкові.
+info.thermaldynamics.duct.transportLongRange=Швидке переміщення між двома точками.
+info.thermaldynamics.duct.vacuum=Зменшує довжину маршруту.
+
+info.thermaldynamics.filter.antiSpam.0=Дозволити надмірну відправку
+info.thermaldynamics.filter.antiSpam.1=Заборонити надмірну відправку
+info.thermaldynamics.filter.decRetainSize=Зменшити макс. кількість у буфері
+info.thermaldynamics.filter.incRetainSize=Збільшити макс. кількість у буфері
+info.thermaldynamics.filter.metadata.off=З урахуванням метаданих
+info.thermaldynamics.filter.metadata.on=Без урахування метаданих
+info.thermaldynamics.filter.metadata=Метадані
+info.thermaldynamics.filter.modSorting.off=З урахуванням моду
+info.thermaldynamics.filter.modSorting.on=Без урахування моду
+info.thermaldynamics.filter.modSorting=Мод-джерело
+info.thermaldynamics.filter.nbt.off=З урахуванням NBT
+info.thermaldynamics.filter.nbt.on=Без урахування NBT
+info.thermaldynamics.filter.nbt=NBT-дані
+info.thermaldynamics.filter.options=Опції фільтрації
+info.thermaldynamics.filter.oreDict.off=З урахуванням словника руд
+info.thermaldynamics.filter.oreDict.on=Без урахування словника руд
+info.thermaldynamics.filter.oreDict=Словник руд
+info.thermaldynamics.filter.routeType.0=Найближчий першим
+info.thermaldynamics.filter.routeType.1=Найвіддаленіший першим
+info.thermaldynamics.filter.routeType.2=Випадковий маршрут
+info.thermaldynamics.filter.routeType.3=По колу
+info.thermaldynamics.filter.whiteList.off=Білий список
+info.thermaldynamics.filter.whiteList.on=Чорний список
+info.thermaldynamics.filter.whiteList=Режим списку
+info.thermaldynamics.filter.zeroRetainSize=Нескінченний буфер
+
+info.thermaldynamics.info.attachment=-Інформація про кріплення-
+info.thermaldynamics.info.duct=-Інформація про канал-
+info.thermaldynamics.info.energy=RF
+info.thermaldynamics.info.fluid=Рідина
+info.thermaldynamics.info.fluidThroughput=Макс. пропускна здатність рідини
+info.thermaldynamics.info.invalid=Недійсний
+info.thermaldynamics.info.invalidCover=Покладіть у верстак, щоб перетворити на кам'яну накладку.
+info.thermaldynamics.info.items=Предмети
+info.thermaldynamics.info.redstone=Редстоун
+info.thermaldynamics.info.size=Розмір
+info.thermaldynamics.info.tracker.activate=Початок відстеження
+info.thermaldynamics.info.tracker.avg=Сер. рівень за 5 секунд
+info.thermaldynamics.info.tracker.avgInOut=Сер. вхід/вихід за 5 секунд
+info.thermaldynamics.info.tracker.cur=Поточний рівень
+
+
+info.thermaldynamics.relay.color.0=Червоний
+info.thermaldynamics.relay.color.1=Зелений
+info.thermaldynamics.relay.color.2=Коричневий
+info.thermaldynamics.relay.color.3=Синій
+info.thermaldynamics.relay.color.4=Фіолетовий
+info.thermaldynamics.relay.color.5=Бірюзовий
+info.thermaldynamics.relay.color.6=Світло-сірий
+info.thermaldynamics.relay.color.7=Сірий
+info.thermaldynamics.relay.color.8=Рожевий
+info.thermaldynamics.relay.color.9=Салатовий
+info.thermaldynamics.relay.color.10=Жовтий
+info.thermaldynamics.relay.color.11=Блакитний
+info.thermaldynamics.relay.color.12=Пурпурний
+info.thermaldynamics.relay.color.13=Помаранчевий
+info.thermaldynamics.relay.color.14=Білий
+info.thermaldynamics.relay.color.15=Чорний
+info.thermaldynamics.relay.gridRS=Живлення каналу
+info.thermaldynamics.relay.invert.0=Масштабовано
+info.thermaldynamics.relay.invert.1=Інверсія масштабу
+info.thermaldynamics.relay.invert.2=Поріг
+info.thermaldynamics.relay.invert.3=Інверсія порогу
+info.thermaldynamics.relay.relayRS=Живлення реле
+info.thermaldynamics.relay.threshold=Поріг >=
+info.thermaldynamics.relay.type.0=Вхід редстоуну
+info.thermaldynamics.relay.type.1=Вихід редстоуну
+info.thermaldynamics.relay.type.2=Вхід компаратора
+
+info.thermaldynamics.servo.decStackSize=Зменшити розмір вилучення
+info.thermaldynamics.servo.extractRate=Швидкість вилучення
+info.thermaldynamics.servo.incStackSize=Збільшити розмір вилучення
+info.thermaldynamics.servo.maxStackSize=Максимальний обсяг за раз
+info.thermaldynamics.servo.redstoneExt=Працює при сигналі редстоуну
+info.thermaldynamics.servo.redstoneInt=Керується внутрішнім сигналом
+info.thermaldynamics.servo.slotMulti=Вилучає з кількох слотів
+info.thermaldynamics.servo.slotSingle=Вилучає з одного слота
+info.thermaldynamics.servo.speedBoost=Прискорене вилучення
+
+info.thermaldynamics.toggle=ПКМ — перемикання режиму
+
+info.thermaldynamics.transfer=Передача
+info.thermaldynamics.transferConnection=Передача на з’єднання
+info.thermaldynamics.transferFluid=Швидкість залежить від типу рідини
+
+item.thermaldynamics.cover.name=Накладка з %s
+
+item.thermaldynamics.filter.0.name=Фільтр
+item.thermaldynamics.filter.1.name=Міцний фільтр
+item.thermaldynamics.filter.2.name=Посилений фільтр
+item.thermaldynamics.filter.3.name=Сиґналумовий фільтр
+item.thermaldynamics.filter.4.name=Резонуючий фільтр
+item.thermaldynamics.filter.info=Обмежує, що може проходити
+
+item.thermaldynamics.relay.info=Передає сигнал редстоуну
+item.thermaldynamics.relay.name=Редстоун-реле
+
+item.thermaldynamics.retriever.0.name=Підбирач
+item.thermaldynamics.retriever.1.name=Зміцнений підбирач
+item.thermaldynamics.retriever.2.name=Посилений підбирач
+item.thermaldynamics.retriever.3.name=Підбирач з сиґналуму
+item.thermaldynamics.retriever.4.name=Резонуючий підбирач
+item.thermaldynamics.retriever.info=Притягує предмети/рідини з віддалених джерел
+
+item.thermaldynamics.servo.0.name=Модуль вилучення
+item.thermaldynamics.servo.1.name=Міцний модуль вилучення
+item.thermaldynamics.servo.2.name=Посилений модуль вилучення
+item.thermaldynamics.servo.3.name=Сиґналумовий модуль вилучення
+item.thermaldynamics.servo.4.name=Резонуючий модуль вилучення
+item.thermaldynamics.servo.info=Автоматично забирає предмети чи рідини з під’єднаного джерела
+
+itemGroup.thermaldynamics.creativeTab=Thermal Dynamics
+itemGroup.thermaldynamics.creativeTabCovers=Thermal Dynamics: Накладки
+
+recipe.thermaldynamics.covers=Ремісництво накладок
+
+tab.thermaldynamics.conChange=Утримуйте Shift і натискайте будь-яку кнопку миші для точного налаштування кількостей.
+tab.thermaldynamics.filterItem.0=Контролює, які предмети дозволено переміщати в цільовий інвентар.
+tab.thermaldynamics.retrieverItem.0=Підтягує предмети з інших джерел у мережі до підключеного інвентаря.
+tab.thermaldynamics.retrieverItem.1=Фільтр дозволяє точно вказати, що саме підтягувати.
+tab.thermaldynamics.servoItem.0=Забирає предмети з підключеного інвентаря.
+tab.thermaldynamics.servoItem.1=Фільтр керує умовами вилучення.
+
+tile.thermaldynamics.duct.dense.name=Щільний/на %s-труба
+
+tile.thermaldynamics.duct.energyBasic.name=Базовий енергопровід (олов’яний)
+tile.thermaldynamics.duct.energyHardened.name=Міцний енергопровід
+tile.thermaldynamics.duct.energyReinforced.name=Посилений енергопровід
+tile.thermaldynamics.duct.energyReinforcedEmpty.name=Посилений енергопровід (порожній)
+tile.thermaldynamics.duct.energyResonant.name=Резонуючий енергопровід
+tile.thermaldynamics.duct.energyResonantEmpty.name=Резонуючий енергопровід (порожній)
+tile.thermaldynamics.duct.energySignalum.name=Сиґналумовий енергопровід
+tile.thermaldynamics.duct.energySignalumEmpty.name=Сиґналумовий енергопровід (порожній)
+tile.thermaldynamics.duct.energySuper.info=Не зберігає енергію — лише передає.
+tile.thermaldynamics.duct.energySuper.name=Кріостабілізований енергопровід
+tile.thermaldynamics.duct.energySuperEmpty.name=Кріостабілізований енергопровід (порожній)
+
+tile.thermaldynamics.duct.fluidBasic.info=Ламається при крайніх температурах рідини.
+tile.thermaldynamics.duct.fluidBasic.name=Базовий рідинопровід
+tile.thermaldynamics.duct.fluidEnergy.name=Рідинопровід з сиґналумовим покриттям
+tile.thermaldynamics.duct.fluidHardened.info=Стійкий до будь-яких температур.
+tile.thermaldynamics.duct.fluidHardened.name=Міцний рідинопровід
+tile.thermaldynamics.duct.fluidSuper.info=Має необмежену пропускну здатність під тиском.
+tile.thermaldynamics.duct.fluidSuper.name=Надламінарний рідинопровід
+
+tile.thermaldynamics.duct.itemBasic.name=Предметопровід
+tile.thermaldynamics.duct.itemEnder.name=Телепорт-предметопровід
+tile.thermaldynamics.duct.itemEnergy.name=Предметопровід із сиґналумовим покриттям
+tile.thermaldynamics.duct.itemEnergyFast.name=Імпульсний предметопровід із сиґналуму
+tile.thermaldynamics.duct.itemFast.info=Предмети рухаються пришвидшено.
+tile.thermaldynamics.duct.itemFast.name=Імпульсний предметопровід
+
+tile.thermaldynamics.duct.opaque.name=%s (непрозорий)
+
+tile.thermaldynamics.duct.structure.info=Надає конструкційну стійкість.
+tile.thermaldynamics.duct.structure.opaque.name=Конструкційна труба (непрозора)
+tile.thermaldynamics.duct.structureLight.name=Освітлювальна труба
+
+tile.thermaldynamics.duct.transportBasic.name=Транспортувальна труба
+tile.thermaldynamics.duct.transportFrame.name=Заготовка транспортувальної труби
+tile.thermaldynamics.duct.transportLinking.name=Дальнодійна з’єднувальна труба
+tile.thermaldynamics.duct.transportLongRange.name=Труба великої дальності
+
+tile.thermaldynamics.duct.vacuum.name=Вакуумна %s
+
+tile.thermaldynamics.duct=Труба

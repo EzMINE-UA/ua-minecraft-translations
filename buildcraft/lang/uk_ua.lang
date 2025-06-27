@@ -1,0 +1,996 @@
+# Translated by EzMINE
+
+buildcraft.boardRobotClean=Прибиральник
+buildcraft.boardRobotPicker=Підбирач
+buildcraft.boardRobotLumberjack=Лісоруб
+buildcraft.boardRobotPlanter=Садівник
+buildcraft.boardRobotLeaveCutter=Листоріз
+buildcraft.boardRobotCarrier=Носій
+buildcraft.boardRobotFluidCarrier=Бакач
+buildcraft.boardRobotBomber=Бомбардувальник
+buildcraft.boardRobotKnight=Лицар
+buildcraft.boardRobotMiner=Шахтар
+buildcraft.boardRobotFarmer=Рільник
+buildcraft.boardRobotHarvester=Жнивар
+buildcraft.boardRobotShovelman=Копач
+buildcraft.boardRobotButcher=М’ясник
+buildcraft.boardRobotBuilder=Будівник
+buildcraft.boardRobotCrafter=Крафтер
+buildcraft.boardRobotDelivery=Доставник
+buildcraft.boardRobotPump=Насосник
+buildcraft.boardRobotStripes=Смугастик
+buildcraft.boardRobotBreaker=Руйнівник
+
+buildcraft.boardRobotPicker.desc=Підбирає предмети
+buildcraft.boardRobotLumberjack.desc=Зрубує колоди
+buildcraft.boardRobotPlanter.desc=Садить рослини
+buildcraft.boardRobotLeaveCutter.desc=Обрізає листя
+buildcraft.boardRobotCarrier.desc=Переміщує предмети між інвентарями
+buildcraft.boardRobotFluidCarrier.desc=Перекачує рідини між баками
+buildcraft.boardRobotBomber.desc=Бомбардує цілі
+buildcraft.boardRobotKnight.desc=Б’ється з мобами
+buildcraft.boardRobotMiner.desc=Добуває руди
+buildcraft.boardRobotFarmer.desc=Розпушує ґрунт
+buildcraft.boardRobotHarvester.desc=Збирає стиглі врожаї
+buildcraft.boardRobotShovelman.desc=Риє територію
+buildcraft.boardRobotButcher.desc=Полює на тварин
+buildcraft.boardRobotBuilder.desc=Будує споруди
+buildcraft.boardRobotCrafter.desc=Крафтить предмети
+buildcraft.boardRobotDelivery.desc=Доставляє предмети на вимогу
+buildcraft.boardRobotPump.desc=Викачує рідини
+buildcraft.boardRobotStripes.desc=Ем… Смуги!
+buildcraft.boardRobotBreaker.desc=Ламає камінь
+
+chat.gateCopier.clear=Інформацію про шлюз очищено.
+chat.gateCopier.gateCopied=Інформацію про шлюз скопійовано в копіювальник.
+chat.gateCopier.gatePasted=Скопійовані дані вставлено у шлюз.
+chat.gateCopier.noGate=Шлюз не знайдено з цього боку!
+chat.gateCopier.noInformation=Немає збереженої інформації про шлюз!
+chat.gateCopier.warning.actionParameters=§6Увага: У цілі менше параметрів дій!
+chat.gateCopier.warning.logic=§6Увага: У цілі інший тип логіки!
+chat.gateCopier.warning.load=§6Увага: Тригери/дії шлюзу можуть бути відсутні!
+chat.gateCopier.warning.slots=§6Увага: У цілі менше слотів!
+chat.gateCopier.warning.triggerParameters=§6Увага: У цілі менше параметрів тригерів!
+
+chat.pipe.power.iron.mode=Перемкнуто на обмеження %d MJ/т
+gate.action.pipe.power_limit=Перемкнути на обмеження %d MJ/т
+
+chat.pipe.rf.iron.mode=Перемкнуто на обмеження %d RF/т
+gate.action.pipe.rf_limit=Перемкнути на обмеження %d RF/т
+
+chat.pipe.power.iron.mode.numberless=Перемкнуто на обмеження: %s
+
+chat.pipe.power.iron.level.20=Дуже низьке
+chat.pipe.power.iron.level.40=Низьке
+chat.pipe.power.iron.level.80=Помірно низьке
+chat.pipe.power.iron.level.160=Середнє
+chat.pipe.power.iron.level.320=Помірно високе
+chat.pipe.power.iron.level.640=Високе
+chat.pipe.power.iron.level.1280=Дуже високе
+chat.pipe.power.iron.level.2560=Повна потужність
+
+color.clear=Без кольору
+
+color.black=Чорний
+color.blue=Синій
+color.brown=Коричневий
+color.cyan=Бірюзовий
+color.gray=Сірий
+color.green=Зелений
+color.light.blue=Світло-синій
+color.light.gray=Світло-сірий
+color.lime=Салатовий
+color.magenta=Пурпурний
+color.orange=Помаранчевий
+color.pink=Рожевий
+color.purple=Фіолетовий
+color.red=Червоний
+color.white=Білий
+color.yellow=Жовтий
+
+config.general=Загальні
+config.general.pipes=Труби
+config.blueprints=Креслення
+config.builders=Будівельники
+config.power=Використання енергії
+config.experimental=Експериментальне
+config.display=Відображення
+config.performance=Продуктивність
+config.worldgen=Генерація світу
+config.network=Мережа
+config.buildcraft=Налаштування BuildCraft
+
+config.blueprints.clientDatabaseDirectory=Директорія клієнта
+config.blueprints.excludedMods=Виключені моди
+config.blueprints.excludedBlocks=Виключені блоки
+
+config.builders.dropBrokenBlocks=Викидати зламані блоки
+
+config.display.colorBlindMode=Режим для дальтоніків
+config.display.hideFluidValues=Приховати значення рідин
+config.display.hidePowerValues=Приховати значення енергії
+
+config.experimental.kinesisPowerLossOnTravel=Втрати енергії в кінетичних трубах при передачі
+
+config.general.boards.blacklist=Чорний список роботів
+config.general.pumpsConsumeWater=Помпи споживають воду
+config.general.updateCheck=Перевірка оновлень
+
+config.general.fuel.fuel.combustion=Множник пального для двигунів згоряння
+config.general.fuel.oil.combustion=Множник нафти для двигунів згоряння
+config.general.fuel.fuel.combustion.energyOutput=Вихід енергії з пального
+config.general.fuel.oil.combustion.energyOutput=Вихід енергії з нафти
+
+config.general.itemLifespan=Час існування предмета (секунди)
+config.general.canEnginesExplode=Двигуни можуть вибухати
+config.general.oilCanBurn=Нафта горить
+config.general.oilIsDense=Нафта густа
+
+config.general.pipes.baseFluidRate=Базова швидкість потоку
+config.general.pipes.facadeBlacklist=Чорний список фасадів
+config.general.pipes.facadeBlacklistAsWhitelist=Інвертувати чорний список фасадів
+config.general.pipes.facadeNoLaserRecipe=Додати рецепт фасаду без лазера
+config.general.pipes.hardness=Міцність труб
+config.general.pipes.slimeballWaterproofRecipe=Додати рецепт герметика зі слизової кулі
+
+config.general.pumpsNeedRealPower=Помпам потрібне справжнє живлення
+config.general.quarry=Параметри кар'єру
+config.general.quarry.oneTimeUse=Одноразове використання
+config.general.quarry.doChunkLoading=Автоматичне завантаження чанків
+
+config.general.markerRange=Дальність маркерів
+config.general.miningDepth=Максимальна відносна глибина копання
+config.general.pumpDimensionControl=Обмеження вимірів для помп
+
+config.network.longUpdateFactor=Фактор синхронізації клієнта (тіки)
+config.network.updateFactor=Фактор надсилання пакетів (тіки)
+
+config.power.miningUsageMultiplier=Множник енергії на копання
+config.power.chipsetCostMultiplier=Множник вартості чипсетів
+config.power.gateCostMultiplier=Множник вартості шлюзів
+
+config.worldgen.enable=Увімкнути
+config.worldgen.generateWaterSprings=Генерація джерел води
+config.worldgen.oilWellGenerationRate=Частота появи нафтових свердловин
+config.worldgen.spawnOilSprings=Генерація нафтових джерел
+
+config.worldgen.biomes.biomeOilDesert=Біом «Нафтова пустеля»
+config.worldgen.biomes.biomeOilOcean=Біом «Нафтовий океан»
+config.worldgen.biomes.excessiveOilIDs=Біоми з надлишком нафти
+config.worldgen.biomes.excludeOilIDs=Біоми без нафти
+config.worldgen.biomes.increasedOilIDs=Біоми з підвищеним рівнем нафти
+
+direction.north=Північ
+direction.west=Захід
+direction.east=Схід
+direction.south=Південь
+direction.up=Вгору
+direction.down=Вниз
+direction.center=Центр
+
+direction.center.0=Північний захід
+direction.center.1=Північ
+direction.center.2=Північний схід
+direction.center.3=Захід
+direction.center.4=Центр
+direction.center.5=Схід
+direction.center.6=Південний захід
+direction.center.7=Південь
+direction.center.8=Південний схід
+
+buildcraft.fluid.empty=Порожньо
+
+buildcraft.fluid.static.milli.short=%s мБ
+buildcraft.fluid.static.bucket.short=%s В
+buildcraft.fluid.static.milli.long=%s мілівідер
+buildcraft.fluid.static.bucket.long=%s відер
+
+buildcraft.fluid.empty.milli.short=0 / %s мБ
+buildcraft.fluid.empty.bucket.short=0 / %s В
+buildcraft.fluid.empty.milli.long=Порожній бак на %s мілівідер
+buildcraft.fluid.empty.bucket.long=Порожній бак на %s відер
+
+buildcraft.fluid.full.milli.short=%1$s / %1$s мБ
+buildcraft.fluid.full.bucket.short=%1$s / %1$s В
+buildcraft.fluid.full.milli.long=Повний бак на %s мілівідер
+buildcraft.fluid.full.bucket.long=Повний бак на %s відер
+
+buildcraft.fluid.static.cap.milli.short=%s / %s мБ
+buildcraft.fluid.static.cap.bucket.short=%s / %s В
+buildcraft.fluid.static.cap.milli.long=%s мілівідер у баку на %s мілівідер
+buildcraft.fluid.static.cap.bucket.long=%s відер у баку на %s відер
+
+buildcraft.fluid.flow.milli.short=%s мБ/т
+buildcraft.fluid.flow.bucket.short=%s В/с
+buildcraft.fluid.flow.milli.long=%s мілівідер за тік
+buildcraft.fluid.flow.bucket.long=%s відер за секунду
+
+buildcraft.mj.static.long=%s Майнкрафт Джоулів
+buildcraft.mj.static.short=%s МДж
+buildcraft.mj.flow.long=%s Майнкрафт Джоулів за тік
+buildcraft.mj.flow.short=%s МДж/т
+buildcraft.mj.flow.seconds.long=%s Майнкрафт Джоулів за секунду
+buildcraft.mj.flow.seconds.short=%s МДж/с
+
+buildcraft.rf.static.long=%s Потоку Редстоуну
+buildcraft.rf.static.short=%s ПР
+buildcraft.rf.flow.long=%s Потоку Редстоуну за тік
+buildcraft.rf.flow.short=%s ПР/т
+buildcraft.rf.flow.seconds.long=%s Потоку Редстоуну за секунду
+buildcraft.rf.flow.seconds.short=%s ПР/с
+
+fillerpattern.clear=Очистити
+fillerpattern.fill=Заповнити
+fillerpattern.flatten=Вирівняти
+fillerpattern.horizon=Обрій
+fillerpattern.pyramid=Піраміда
+fillerpattern.stairs=Сходи
+fillerpattern.box=Коробка
+fillerpattern.frame=Каркас
+fillerpattern.none=Жодного
+fillerpattern.sphere_eighth=Одна восьма сфери
+fillerpattern.sphere_quarter=Чверть сфери
+fillerpattern.sphere_half=Півсфера
+fillerpattern.sphere=Сфера
+
+fillerpattern.2d_arc=Дуга
+fillerpattern.2d_semi_circle=Півколо
+fillerpattern.2d_circle=Коло
+fillerpattern.2d_triangle=Трикутник
+fillerpattern.2d_square=Квадрат
+fillerpattern.2d_pentagon=П’ятикутник
+fillerpattern.2d_hexagon=Шестикутник
+fillerpattern.2d_octagon=Восьмикутник
+
+fillerpattern.parameter.hollow=Порожнистий
+fillerpattern.parameter.filled=Заповнений
+fillerpattern.parameter.filled_outer=Оточений
+
+buildcraft.param.rotation.0=Без обертання
+buildcraft.param.rotation.1=Поворот на 90°
+buildcraft.param.rotation.2=Поворот на 180°
+buildcraft.param.rotation.3=Поворот на 270°
+
+buildcraft.param.axis.x=Вісь X
+buildcraft.param.axis.y=Вісь Y
+buildcraft.param.axis.z=Вісь Z
+
+fluid.oil=Нафта
+fluid.fuel=Легке паливо
+fluid.oil_distilled=Перегнана нафта
+fluid.oil_heavy=Важка нафта
+fluid.oil_dense=Густа нафта
+fluid.oil_residue=Осад
+fluid.tar=Смола
+fluid.fuel_mixed=Змішані палива
+fluid.fuel_mixed_heavy=Змішані важкі палива
+fluid.fuel_mixed_light=Змішані легкі палива
+fluid.fuel_dense=Густе паливо
+fluid.fuel_light=Легке паливо
+fluid.fuel_gaseous=Газоподібне паливо
+
+buildcraft.fluid.heat_0=%s (§bПрохолодне§r)
+buildcraft.fluid.heat_1=%s (§6Гаряче§r)
+buildcraft.fluid.heat_2=%s (§cОбпалююче§r)
+
+# Різдвяний жартівливий режим — адаптація з гумором:
+buildcraft.christmas.fluid.oil=Шоколадна суміш
+buildcraft.christmas.fluid.fuel=Молочний шоколад
+buildcraft.christmas.fluid.oil_distilled=Шоколадна мозаїка
+buildcraft.christmas.fluid.oil_heavy=Сира шоколадна маса
+buildcraft.christmas.fluid.oil_dense=Густа шоколадна маса
+buildcraft.christmas.fluid.oil_residue=Карамельний осад
+buildcraft.christmas.fluid.fuel_mixed_heavy=Темна шоколадна суміш
+buildcraft.christmas.fluid.fuel_mixed_light=Світла шоколадна суміш
+buildcraft.christmas.fluid.fuel_dense=Темний шоколад
+buildcraft.christmas.fluid.fuel_light=Молочний шоколад
+buildcraft.christmas.fluid.fuel_gaseous=Білий шоколад
+
+buildcraft.christmas.buildcraft.fluid.heat_0=§bРозтоплений§r %s
+buildcraft.christmas.buildcraft.fluid.heat_1=§6Булькаючий§r %s
+buildcraft.christmas.buildcraft.fluid.heat_2=§cОбпалюючий§r %s
+
+buildcraft.christmas.tile.engineIron.name=Шоколадний двигун
+
+gate.action.extraction=Пресет добування %s
+gate.action.pipe.item.color=Пофарбувати предмети у %s
+gate.action.machine.on=Увімкнути
+gate.action.machine.off=Вимкнути
+gate.action.machine.loop=Цикл
+gate.action.pulsar.constant=Постійний імпульс
+gate.action.pulsar.single=Одиночний імпульс
+gate.action.pipe.wire=Сигнал труби %s
+gate.action.redstone.signal=Сигнал редстоуну
+gate.action.robot.goto_station=До станції
+gate.action.pipe.valve.open=Відкрити
+gate.action.pipe.valve.input_only=Тільки вхід
+gate.action.pipe.valve.output_only=Тільки вихід
+gate.action.pipe.valve.closed=Закрито
+gate.action.station.provide_items=Видавати предмети
+gate.action.station.accept_items=Приймати предмети
+gate.action.station.request_items=Запит предметів
+gate.action.station.drop_items_in_pipe=Скинути предмети в трубу
+gate.action.station.allow_craft=Дозволити крафт
+gate.action.station.provide_machine_request=Запит необхідних предметів
+gate.action.station.accept_fluids=Приймати рідину
+gate.action.station.povide_fluids=Видавати рідину
+gate.action.robot.work_in_area=Працювати в області
+gate.action.robot.load_unload_area=Завантаження/розвантаження в області
+gate.action.robot.wakeup=Пробудити
+gate.action.station.forbid_robot=Заборонити робота
+gate.action.station.force_robot=Примусити робота
+gate.action.robot.filter=Фільтр
+gate.action.robot.filter_tool=Фільтр інструментів
+gate.action.pipe.direction=Повернути у напрямку %s
+
+gate.logic.and=І
+gate.logic.or=АБО
+
+gate.material.iron=Залізо
+gate.material.nether_brick=Незерцегла
+gate.material.gold=Золото
+
+gate.slots=%s слот(и)
+gate.params=%s параметр(и) слота
+gate.params.trigger=%s параметр(и) тригера
+gate.params.action=%s параметр(и) дії
+
+gate.side=§7на стороні: %s§7
+
+gate.name=Брама %s %s
+gate.name.basic=Базова брама
+
+gate.parameter.redstone.gateSideOnly=Лише зі сторони брами
+
+gate.trigger.true=Завжди активна
+gate.trigger.engine.blue=Мотор (синій)
+gate.trigger.engine.green=Мотор (зелений)
+gate.trigger.engine.yellow=Мотор (жовтий)
+gate.trigger.engine.red=Мотор (червоний)
+gate.trigger.engine.overheat=Перегрів мотора
+
+gate.trigger.fluid.empty=Бак порожній
+gate.trigger.fluid.contains=Є рідина в баку
+gate.trigger.fluid.space=Є місце для рідини
+gate.trigger.fluid.full=Бак заповнено
+
+gate.trigger.fluidlevel.below=Менше ніж %d%% рідини
+
+gate.trigger.inventory.empty=Інвентар порожній
+gate.trigger.inventory.contains=Є предмети в інвентарі
+gate.trigger.inventory.space=Є місце в інвентарі
+gate.trigger.inventory.full=Інвентар заповнений
+
+gate.trigger.inventorylevel.below=Менше ніж %d%% предметів
+
+gate.trigger.machine.done=Робота завершена
+gate.trigger.machine.scheduled=Є запланована робота
+
+gate.trigger.redstone.input.active=Редстоун сигнал увімкнено
+gate.trigger.redstone.input.equal=Редстоун сигнал дорівнює
+gate.trigger.redstone.input.inactive=Редстоун сигнал вимкнено
+gate.trigger.redstone.input.greater=Редстоун сигнал > ніж
+gate.trigger.redstone.input.less=Редстоун сигнал < ніж
+gate.trigger.redstone.input.level=Рівень редстоуну: %d
+
+gate.trigger.pipe.empty=Труба порожня
+gate.trigger.pipe.containsItems=Йдуть предмети
+gate.trigger.pipe.containsFluids=Йде рідина
+gate.trigger.pipe.containsEnergy=Йде енергія
+gate.trigger.pipe.requestsEnergy=Запит енергії
+gate.trigger.pipe.tooMuchEnergy=Перевантаження енергії
+
+gate.trigger.pipe.wire.active=Сигнал труби %s увімкнено
+gate.trigger.pipe.wire.inactive=Сигнал труби %s вимкнено
+
+gate.trigger.timer=Таймер: %s сек.
+
+gate.trigger.robot.sleep=Робот спить
+gate.trigger.robot.in.station=Робот на станції
+gate.trigger.robot.linked=Станція з'єднана
+gate.trigger.robot.reserved=Станція зарезервована
+
+gate.trigger.machine.energyStored.high=Високий рівень енергії
+gate.trigger.machine.energyStored.low=Низький рівень енергії
+gate.trigger.machine.energyStored.below25=Менше 25% енергії
+gate.trigger.machine.energyStored.below50=Менше 50% енергії
+gate.trigger.machine.energyStored.below75=Менше 75% енергії
+
+gate.trigger.light.bright=Світло
+gate.trigger.light.dark=Темрява
+
+gate.trigger.time.0=Ніч
+gate.trigger.time.6=Ранок
+gate.trigger.time.12=Полудень
+gate.trigger.time.18=Вечір
+
+gate.trigger.fuelLevelBelow=Рівень пального < %d%%
+gate.trigger.coolantLevelBelow=Рівень охолоджувача < %d%%
+
+gui.fluidtank.empty=Порожньо
+
+gui.building.resources=Ресурси для будівництва  
+gui.building.fluids=Резервуари з рідиною  
+gui.del=Видалити  
+gui.filling.resources=Ресурси для наповнення  
+gui.inventory=Інвентар  
+gui.lock=Заблокувати  
+gui.needed=Потрібно  
+gui.unlock=Розблокувати  
+gui.power=Енергія  
+gui.currentOutput=Поточна потужність  
+gui.stored=Запасено  
+gui.heat=Нагрів  
+gui.assemblyRate=Швидкість  
+gui.assemblyCurrentRequired=Потрібно  
+gui.clickcraft=-Клікни, щоб створити-  
+gui.list.nbt=Потребує точного збігу\n§7(Зачарування, імена та збережені дані мають повністю збігатися)  
+gui.list.metadata=Допуск варіацій\n§7(Один тип)  
+gui.list.oredict=Допуск аналогів\n§7(Один матеріал)  
+gui.pipes.emerald.title=Фільтри  
+gui.pipes.emerald.blocking=Блокування  
+gui.pipes.emerald.blocking.tip=Видобуток блокується, якщо один елемент із фільтра відсутній  
+gui.pipes.emerald.nonblocking=Без блокування  
+gui.pipes.emerald.nonblocking.tip=Видобуток триває за наступним елементом фільтра, якщо один елемент відсутній  
+gui.pipes.emzuli.title=Шаблони вилучення  
+gui.pipes.emzuli.paint=Фарбувати предмети %s  
+gui.pipes.emzuli.nopaint=Не фарбувати предмети  
+gui.ledger.ownership=Власник  
+gui.ledger.help=Допомога  
+gui.progress=Прогрес  
+gui.leftToBreak=Залишилось зламати  
+gui.leftToPlace=Залишилось розмістити  
+
+buildcraft.gui.rf_engine.upgrade_types=Сумісні покращення:
+
+item.bucketFuel.name=Відро пального  
+item.bucketOil.name=Відро нафти  
+item.diamondShard.name=Уламок діаманта  
+item.woodenGearItem.name=Дерев'яна шестерня  
+item.stoneGearItem.name=Кам’яна шестерня  
+item.ironGearItem.name=Залізна шестерня  
+item.goldGearItem.name=Золота шестерня  
+item.diamondGearItem.name=Діамантова шестерня  
+item.templateItem.name=Шаблон  
+item.wrenchItem.name=Гайковий ключ  
+item.paintbrush.name=Пензель  
+item.pipeWaterproof.name=Герметик для труб  
+item.pipeWire.name=Провід для труб  
+item.redstoneCrystal.name=Редстоуновий кристал  
+item.redstone_red_chipset.name=Редстоуновий чипсет  
+item.redstone_iron_chipset.name=Залізний чипсет  
+item.redstone_gold_chipset.name=Золотий чипсет  
+item.redstone_diamond_chipset.name=Діамантовий чипсет  
+item.redstone_emerald_chipset.name=Смарагдовий чипсет  
+item.redstone_pulsating_chipset.name=Пульсуючий чипсет  
+item.redstone_quartz_chipset.name=Кварцовий чипсет  
+item.redstone_comp_chipset.name=Композитний редстоуновий чипсет  
+item.redstone_board.name=Редстоунова плата  
+item.robot.name=Робот  
+item.tablet.name=Планшет  
+item.blueprintItem.name=Креслення  
+item.schematicSingle.name=Схема одного блока  
+item.list.name=Список  
+item.blueprint.unnamed=<без назви>  
+item.blueprint.author=автор  
+item.blueprint.blank=Порожній  
+item.blueprint.creative_only=Лише для творчого режиму  
+item.blueprint.no_build=Будівництво неможливе  
+item.blueprint.incomplete=Незавершено  
+item.mapLocation.name=Мапова мітка  
+item.gateCopier.name=Копіювальник воріт  
+item.plasticSheet.name=Пластикова пластина  
+item.markerConnector.name=З’єднувач маркерів  
+item.pulsar.name=Пульсатор труби  
+item.fragile_fluid_shard.name=Крихкий уламок %s  
+item.waterGel.name=Гелеватор води  
+item.gel.name=Гелева вода  
+
+item.buildcraft_pipe_wood_item.name=Дерев'яний предметопровід  
+item.buildcraft_pipe_cobblestone_item.name=Брукований предметопровід  
+item.buildcraft_pipe_stone_item.name=Кам'яний предметопровід  
+item.buildcraft_pipe_andersite_item.name=Андезитовий предметопровід  
+item.buildcraft_pipe_andersite_polished_item.name=Полірований андезитовий предметопровід  
+item.buildcraft_pipe_diorite_item.name=Діоритовий предметопровід  
+item.buildcraft_pipe_diorite_polished_item.name=Полірований діоритовий предметопровід  
+item.buildcraft_pipe_granite_item.name=Гранітний предметопровід  
+item.buildcraft_pipe_granite_polished_item.name=Полірований гранітний предметопровід  
+
+item.PipeItemsWood.name=Дерев'яний предметопровід  
+item.PipeItemsCobblestone.name=Брукований предметопровід  
+item.PipeItemsStone.name=Кам'яний предметопровід  
+item.PipeItemsAndesite.name=Андезитовий предметопровід  
+item.PipeItemsDiorite.name=Діоритовий предметопровід  
+item.PipeItemsGranite.name=Гранітний предметопровід  
+item.PipeItemsQuartz.name=Кварцовий предметопровід  
+item.PipeItemsIron.name=Залізний предметопровід  
+item.PipeItemsGold.name=Золотий предметопровід  
+item.PipeItemsDiamond.name=Діамантовий предметопровід  
+item.PipeItemsObsidian.name=Обсидіановий предметопровід  
+item.PipeItemsWoodenDiamond.name=Дерев'яно-діамантовий предметопровід  
+item.PipeItemsLapis.name=Лазуритовий предметопровід  
+item.PipeItemsDaizuli.name=Дайзулітовий предметопровід  
+item.PipeItemsEmzuli.name=Емзулітовий предметопровід  
+item.PipeItemsClay.name=Глиняний предметопровід  
+
+item.PipeFluidsWood.name=Дерев'яний рідинопровід  
+item.PipeFluidsCobblestone.name=Брукований рідинопровід  
+item.PipeFluidsStone.name=Кам'яний рідинопровід  
+item.PipeFluidsAndesite.name=Андезитовий рідинопровід  
+item.PipeFluidsDiorite.name=Діоритовий рідинопровід  
+item.PipeFluidsGranite.name=Гранітний рідинопровід  
+item.PipeFluidsIron.name=Залізний рідинопровід  
+item.PipeFluidsQuartz.name=Кварцовий рідинопровід  
+item.PipeFluidsGold.name=Золотий рідинопровід  
+item.PipeFluidsWoodenDiamond.name=Дерев'яно-діамантовий рідинопровід  
+item.PipeFluidsDiamond.name=Діамантовий рідинопровід  
+item.PipeFluidsClay.name=Глиняний рідинопровід  
+
+item.PipePowerWood.name=Дерев'яний енергопровід  
+item.PipePowerCobblestone.name=Брукований енергопровід  
+item.PipePowerStone.name=Кам'яний енергопровід  
+item.PipePowerQuartz.name=Кварцовий енергопровід  
+item.PipePowerIron.name=Залізний енергопровід  
+item.PipePowerGold.name=Золотий енергопровід  
+item.PipePowerDiamond.name=Діамантовий енергопровід  
+item.PipePowerEmerald.name=Смарагдовий енергопровід  
+item.PipePowerWoodenDiamond.name=Дерев'яно-діамантовий енергопровід  
+
+item.PipeRedstoneFluxWood.name=Дерев'яний потікопровід редстоуну  
+item.PipeRedstoneFluxCobblestone.name=Брукований потікопровід редстоуну  
+item.PipeRedstoneFluxStone.name=Кам'яний потікопровід редстоуну  
+item.PipeRedstoneFluxQuartz.name=Кварцовий потікопровід редстоуну  
+item.PipeRedstoneFluxIron.name=Залізний потікопровід редстоуну  
+item.PipeRedstoneFluxGold.name=Золотий потікопровід редстоуну  
+item.PipeRedstoneFluxDiamond.name=Діамантовий потікопровід редстоуну  
+item.PipeRedstoneFluxEmerald.name=Смарагдовий потікопровід редстоуну  
+item.PipeRedstoneFluxWoodenDiamond.name=Дерев'яно-діамантовий потікопровід редстоуну  
+
+item.PipeItemsStripes.name=Смугастий предметопровід  
+item.PipeStructureCobblestone.name=Брукований структуропровід  
+item.PipeItemsVoid.name=Порожній предметопровід  
+item.PipeFluidsVoid.name=Порожній рідинопровід  
+item.PipeItemsSandstone.name=Піщаниковий предметопровід  
+item.PipeFluidsSandstone.name=Піщаниковий рідинопровід  
+item.PipePowerSandstone.name=Піщаниковий енергопровід  
+
+item.PipeRobotStation.name=Станція Докінгу  
+item.Facade.name=Фасад  
+item.Facade.state_hollow=Порожній  
+item.FacadePhased.name=Фазований фасад  
+item.FacadePhased.state=%s: %s  
+item.FacadePhased.state_default=Типово: %s  
+item.FacadePhased.state_transparent=Прозорий  
+item.PipePlug.name=Заглушка трубопроводу  
+item.light_sensor.name=Світловий сенсор  
+item.Lens.name=Лінза  
+item.Filter.name=Фільтр  
+item.timer.name=Таймер  
+item.PipePowerAdapter.name=Адаптер живлення  
+item.debugger.name=Зневаджувач  
+item.debugger.warning=Лише для тестування! Містить секрети.  
+item.package.name=Пакунок  
+item.buildcraft.guide.name=Путівник BuildCraft  
+item.buildcraft.guide_note.name=Примітка до путівника BuildCraft  
+item.buildcraft.robot_goggles.name=Окуляри робототехніка  
+item.buildcraft.filler_planner.name=Планувальник заповнювача  
+
+itemGroup.buildcraft.boards=BuildCraft: Роботи  
+itemGroup.buildcraft.main=BuildCraft  
+itemGroup.buildcraft.pipes=BuildCraft: Трубопроводи  
+itemGroup.buildcraft.facades=BuildCraft: Фасади  
+itemGroup.buildcraft.plugs=BuildCraft: Заглушки  
+
+tile.architectBlock.name=Стіл архітектора  
+tile.architectBlock.tip=Недоступний у виживанні  
+tile.assemblyTableBlock.name=Стіл складання  
+tile.assemblyWorkbenchBlock.name=Розширений верстак  
+tile.autoWorkbenchBlock.name=Автоматичний верстак  
+tile.blockFuel.name=Паливо  
+tile.chuteBlock.name=Жолоб  
+tile.blockOil.name=Нафта  
+tile.builderBlock.name=Будівник  
+tile.builderBlock.tip=Недоступний у виживанні  
+tile.chargingTableBlock.name=Стіл заряджання  
+tile.chargingTableBlock.tip=Нічого не можна зарядити!  
+tile.constructionMarkerBlock.name=Будівельна мітка  
+tile.engineCreative.name=Креативний двигун  
+tile.engineCreative.tip=Клацни ключем, щоб змінити рівень потужності.  
+tile.engineIron.name=Двигун внутрішнього згоряння  
+tile.engineStone.name=Стерлінговий двигун  
+tile.engineWood.name=Редстоуновий двигун  
+tile.engineRf.name=RF-двигун  
+tile.engineRf.tip=Конвертує Redstone Flux у Minecraft Джоулі  
+tile.mjDynamo.name=MJ-динамо  
+tile.mjDynamo.tip=Конвертує Minecraft Джоулі в Redstone Flux  
+tile.fillerBlock.name=Заповнювач  
+tile.fillerBlock.tip=Недоступний у виживанні.  
+tile.filteredBufferBlock.name=Буфер із фільтром  
+tile.floodGateBlock.name=Шлюз  
+tile.frameBlock.name=Рама  
+tile.integrationTableBlock.name=Стіл інтеграції  
+tile.integrationTableBlock.tip=Жоден рецепт не використовує його!  
+tile.laserBlock.name=Лазер  
+tile.libraryBlock.name=Електронна бібліотека  
+tile.libraryBlock.tip=Недоступна у виживанні  
+tile.quarryBlock.name=Кар'єр  
+tile.markerBlock.name=Орієнтир  
+tile.miningWellBlock.name=Бурова свердловина  
+tile.packagerBlock.name=Пакувальний автомат  
+tile.pathMarkerBlock.name=Мітка шляху  
+tile.plainPipeBlock.name=Шахтна труба  
+tile.programmingTableBlock.name=Стіл програмування  
+tile.programmingTableBlock.tip=Роботів у 1.12.2 не буде, тож ця штука — для краси :(  
+tile.pumpBlock.name=Помпа  
+tile.refineryBlock.name=Нафтопереробка  
+tile.requester.name=Запитувач  
+tile.spring.oil.name=Джерело нафти  
+tile.spring.water.name=Джерело води  
+tile.stampingTableBlock.name=Стіл штампування  
+tile.tankBlock.name=Бак  
+tile.zonePlannerBlock.name=Планувальник зон  
+tile.zonePlannerBlock.tip=Роботів у 1.12.2 не буде, тож і ця річ марна :(  
+tile.distiller.name=Дистилятор  
+tile.heat_exchange.name=Теплообмінник  
+tile.decorated.blueprint.name=Креслення (Декор)  
+tile.decorated.template.name=Шаблон (Декор)  
+tile.decorated.laser_back.name=Лазер (Декор)  
+
+tile.architect.rotate=Обертання: Увімкнено  
+tile.architect.norotate=Обертання: Вимкнено  
+tile.architect.allowCreative=Режим: Креатив  
+tile.architect.noallowCreative=Режим: Виживання  
+tile.architect.tooltip.allowCreative.1=Креатив дозволяє всі блоки — лише для творчого режиму!  
+tile.architect.tooltip.allowCreative.2=У виживанні ігноруються всі непідтримувані блоки  
+tile.architect.excavate=Викопування: Увімкнено  
+tile.architect.noexcavate=Викопування: Вимкнено  
+
+tip.gate.wires=§9§oСумісні дроти:  
+tip.gate.wires.redstone=Червоний  
+tip.gate.wires.iron=Червоний, Синій  
+tip.gate.wires.gold=Червоний, Синій, Зелений  
+tip.gate.wires.quartz=Червоний, Синій, Зелений  
+tip.gate.wires.diamond=Червоний, Синій, Зелений, Жовтий  
+tip.gate.wires.emerald=Червоний, Синій, Зелений, Жовтий  
+tip.gate.expansions=§9§oВстановлені розширення:  
+
+tip.PipeFluidsClay=Труба введення  
+tip.PipeFluidsDiamond=Сортує рідини  
+tip.PipeFluidsEmerald=Труба вилучення  
+tip.PipeFluidsIron=Клапанна труба  
+tip.PipeFluidsSandstone=З’єднується лише з трубами  
+tip.PipeFluidsVoid=Знищує рідини  
+tip.PipeFluidsWood=Труба вилучення  
+
+tip.PipeItemsClay=Труба введення  
+tip.PipeItemsDaizuli=Маршрутизує пофарбовані предмети  
+tip.PipeItemsDiamond=Сортує предмети  
+tip.PipeItemsEmerald=Чергове вилучення предметів  
+tip.PipeItemsEmzuli=Кероване гейтом вилучення  
+tip.PipeItemsGold=Прискорює предмети  
+tip.PipeItemsIron=Маршрутизує предмети  
+tip.PipeItemsLapis=Фарбує предмети  
+tip.PipeItemsObsidian=Всмоктує предмети  
+tip.PipeItemsSandstone=З’єднується лише з трубами  
+tip.PipeItemsVoid=Знищує предмети  
+tip.PipeItemsWood=Труба вилучення  
+
+tip.PipePowerWoodenDiamond=Труба подачі енергії  
+tip.PipeRedstoneFluxWoodenDiamond=Труба подачі Redstone Flux  
+tip.PipePowerIron=Обмежувач потужності  
+tip.PipePowerDiamond=Обмежувач потужності  
+tip.PipeRedstoneFluxIron=Обмежувач Redstone Flux  
+tip.PipeRedstoneFluxDiamond=Обмежувач Redstone Flux  
+tip.PipePowerSandstone=З’єднується лише з трубами  
+tip.PipeRedstoneFluxSandstone=З’єднується лише з трубами  
+tip.PipePowerWood=Труба подачі енергії  
+tip.PipeStructureCobblestone=Опорна труба  
+tip.deprecated=Застаріле  
+
+tip.gate.charged=Заряджено  
+tip.gate.fullcharge=Повний заряд  
+tip.gate.nocharge=Без заряду  
+
+tip.filler.excavate.on=Викопування  
+tip.filler.excavate.off=Не копати  
+
+tip.filler.invert.on=Інверсія  
+tip.filler.invert.off=Не інвертувати  
+
+tip.list.matches=Відповідає
+
+tip.shift.PipeFluidsDiamond=Інтерфейс приймає будь-які резервуари з рідиною  
+tip.shift.PipeFluidsEmerald=Інтерфейс приймає будь-який резервуар з рідиною  
+tip.shift.PipeItemsClay=Пріоритет — механізми та скрині\nперед сусідніми трубами  
+tip.shift.PipeItemsDaizuli=Присісти + натиснути для зміни кольору  
+tip.shift.PipeItemsEmzuli=У GUI налаштуй шаблони вилучення\nШаблон може фарбувати предмети\nПеремикай шаблони за допомогою гейтів  
+tip.shift.PipeItemsLapis=Присісти + натиснути для зміни кольору  
+tip.shift.PipeItemsObsidian=Потрібне джерело енергії\nБільше енергії — більша дальність  
+tip.shift.PipePowerDiamond=Зміни обмеження гайковим ключем або гейтами  
+
+tip.PipeItemsEmerald.whitelist=Білий список  
+tip.PipeItemsEmerald.blacklist=Чорний список  
+tip.PipeItemsEmerald.roundrobin=По черзі (в порядку)
+
+tip.tool.add=Додати  
+tip.tool.fullscreen=На весь екран  
+tip.tool.remove=Видалити
+
+achievement.woodenGearAchievement=Трохи грубувато  
+achievement.woodenGearAchievement.desc=Створи дерев’яну шестерню  
+achievement.stoneGearAchievement=Міцний як скеля  
+achievement.stoneGearAchievement.desc=Онови дерев’яну шестерню до кам’яної  
+achievement.ironGearAchievement=Іржі не боїшся?  
+achievement.ironGearAchievement.desc=Онови кам’яну шестерню до залізної  
+achievement.goldGearAchievement=Ні, це не з меду  
+achievement.goldGearAchievement.desc=Онови залізну шестерню до золотої  
+achievement.diamondGearAchievement=Блищить!  
+achievement.diamondGearAchievement.desc=Онови золоту шестерню до діамантової  
+achievement.wrenchAchievement=Просто гепни цим!  
+achievement.wrenchAchievement.desc=Створи гайковий ключ  
+achievement.engineAchievement1=Початок чогось великого  
+achievement.engineAchievement1.desc=Створи редстоуновий двигун  
+achievement.engineAchievement2=Висока ефективність  
+achievement.engineAchievement2.desc=Створи двигун на стерлінгу  
+achievement.engineAchievement3=Сила у тобі  
+achievement.engineAchievement3.desc=Створи двигун внутрішнього згоряння  
+achievement.aLotOfCraftingAchievement=Багато крафту  
+achievement.aLotOfCraftingAchievement.desc=Створи автоматичний верстак  
+achievement.straightDownAchievement=Просто вниз  
+achievement.straightDownAchievement.desc=Створи бурову установку  
+achievement.chunkDestroyerAchievement=Руйнівник чанків  
+achievement.chunkDestroyerAchievement.desc=Створи кар’єр  
+achievement.fasterFillingAchievement=Швидше заповнення  
+achievement.fasterFillingAchievement.desc=Створи заповнювач  
+achievement.timeForSomeLogicAchievement=Час для логіки  
+achievement.timeForSomeLogicAchievement.desc=Створи логічну схему (assembly table)  
+achievement.refineAndRedefineAchievement=Очищай і вдосконалюй  
+achievement.refineAndRedefineAchievement.desc=Створи нафтопереробний завод  
+achievement.tinglyLaserAchievement=Лоскочучий лазер  
+achievement.tinglyLaserAchievement.desc=Створи лазер  
+achievement.architectAchievement=Архітектура  
+achievement.architectAchievement.desc=Створи стіл архітектора  
+achievement.builderAchievement=Є справи важливіші  
+achievement.builderAchievement.desc=Створи будівельника  
+achievement.blueprintAchievement=Будівельна схема  
+achievement.blueprintAchievement.desc=Створи креслення  
+achievement.templateAchievement=Основа  
+achievement.templateAchievement.desc=Створи шаблон  
+achievement.blueprintLibraryAchievement=Ідеї живуть вічно  
+achievement.blueprintLibraryAchievement.desc=Створи електронну бібліотеку
+
+bc_update.new_version=§cДоступна нова версія BuildCraft: %s для Minecraft %s  
+bc_update.download=§cЗавантажити можна з http://www.mod-buildcraft.com/download  
+bc_update.once=Це повідомлення відображається лише один раз  
+bc_update.again=Введи '/buildcraft version', щоб знову побачити це повідомлення  
+bc_update.changelog=Введи '/buildcraft changelog', щоб переглянути список змін
+
+chat.buildcraft.quarry.tooSmall=[BuildCraft] Розмір кар’єру занадто малий або виходить за межі завантаження чанків: %d %d (%d)  
+chat.buildcraft.quarry.chunkloadInfo=[BuildCraft] Кар’єр у точці %d %d %d підтримує завантаження %d чанків
+
+command.buildcraft.version=BuildCraft %s для Minecraft %s (Остання: %s)  
+command.buildcraft.changelog_header=Список змін для BuildCraft %s:  
+command.buildcraft.version.fail=Не вдалося перевірити версію! Деталі — у логах.  
+command.buildcraft.version.prerelease=Ви використовуєте попередню (pre-release) версію
+
+command.buildcraft.aliases=Аліаси: %s  
+command.buildcraft.help=Введіть '%s' для довідки  
+command.buildcraft.list=Доступні команди:  
+command.buildcraft.permlevel=Рівень дозволу: %s  
+command.buildcraft.noperms=У вас немає дозволу на цю команду
+
+command.buildcraft.buildcraft.help=Різні команди, пов’язані з BuildCraft  
+command.buildcraft.buildcraft.format=Формат: /%s <підкоманда>
+
+command.buildcraft.buildcraft.version.desc=- %s : Інформація про версію  
+command.buildcraft.buildcraft.version.help=Показує поточну та останню версію BuildCraft  
+command.buildcraft.buildcraft.version.format=Формат: /%s
+
+command.buildcraft.buildcraft.changelog.desc=- %s : Список змін  
+command.buildcraft.buildcraft.changelog.help=Показує останній список змін BuildCraft  
+command.buildcraft.buildcraft.changelog.format=Формат: /%s
+
+buildcraft.item.nonclean.usage=Shift + ПКМ — очистити
+
+buildcraft.guide.book.meta.name=Гід по конфігурації BuildCraft  
+buildcraft.guide_book.reloaded=Гід перезавантажено  
+buildcraft.guide.too_many_results=Занадто багато результатів: %s  
+buildcraft.guide.chapter_list=Розділи  
+buildcraft.guide.contents.loaded_modules=Завантажені модулі:  
+buildcraft.guide.contents.missing_modules=Відсутні модулі:  
+buildcraft.guide.order.type_subtype=Сортувати за типом  
+buildcraft.guide.order.mod_type=Сортувати за модом  
+buildcraft.guide.order.alphabetical=Сортувати за алфавітом
+
+buildcraft.guide.recipe.create=Рецепт  
+buildcraft.guide.recipe.create.plural=Рецепти  
+buildcraft.guide.recipe.use=Використання  
+buildcraft.guide.recipe.use.plural=Використання
+
+buildcraft.guide.chapter.contents=Зміст
+
+buildcraft.guide.contents.all_group=Інше  
+buildcraft.guide.contents.item_stacks=Предмети та блоки  
+buildcraft.guide.contents.triggers=Тригери  
+buildcraft.guide.contents.actions=Дії
+
+buildcraft.guide.chapter.type.unknown=Невідомий тип!  
+buildcraft.guide.chapter.subtype.unknown=Невідомий підтип!  
+buildcraft.guide.chapter.mod.unknown=Невідомий мод!  
+buildcraft.guide.chapter.submod.unknown=Невідомий підмодуль!
+
+buildcraft.guide.meta.group.linking_to=Пов’язано з  
+buildcraft.guide.meta.group.linked_from=Пов’язано з  
+buildcraft.guide.group.to.buildcraft.pipe_power_providers=Джерела енергії (труби)  
+buildcraft.guide.group.from.buildcraft.pipe_power_providers=Споживачі енергії (труби)  
+buildcraft.guide.group.to.buildcraft.full_power_providers=Повні джерела енергії  
+buildcraft.guide.group.from.buildcraft.full_power_providers=Повні споживачі енергії  
+buildcraft.guide.group.to.buildcraft.laser_power_providers=Джерела лазерної енергії  
+buildcraft.guide.group.from.buildcraft.laser_power_providers=Отримувачі лазерної енергії  
+buildcraft.guide.group.to.buildcraft.area_markers=Маркери області  
+buildcraft.guide.group.from.buildcraft.area_markers=Блоки, що залежать від області
+
+buildcraft.help.tank.generic=Клік порожнім відром — вилити\nКлік повним відром — наповнити бак  
+buildcraft.help.tank.title.tankFuel=Бак пального  
+buildcraft.help.tank.title.tankCoolant=Бак охолодження  
+buildcraft.help.tank.title.tankResidue=Бак залишків  
+buildcraft.help.tank.fuel=Цей бак приймає будь-яке паливо  
+buildcraft.help.tank.coolant=Приймає охолоджувальні рідини\nабо крижані блоки  
+buildcraft.help.tank.residue=Виводить залишки, якщо паливо\nне було оброблене (наприклад, нафта)
+
+buildcraft.help.stone_engine.flame.title=Залишок пального  
+buildcraft.help.stone_engine.fuel.title=Вхід пального  
+buildcraft.help.stone_engine.flame=ГОРИТЬ, А ПОЯСНЕННЯ ЩЕ НЕ ГОТОВЕ  
+buildcraft.help.stone_engine.fuel=Працює на будь-якому паливі, що приймає піч
+
+buildcraft.help.rf_engine.upgrades.title=Покращення  
+buildcraft.help.rf_engine.upgrades.desc=Додайте сумісні шестерні, щоб\nзбільшити коефіцієнт конверсії.\n\nМаксимум 1 шестерня на слот.
+
+buildcraft.help.rf_engine.rf_battery.title=RF-батарея  
+buildcraft.help.rf_engine.rf_battery.desc=Конвертує %s\nу %s  
+buildcraft.help.mj_dynamo.rf_battery.title=RF-батарея  
+buildcraft.help.mj_dynamo.rf_battery.desc=Конвертує %s\nу %s
+
+command.buildcraft.buildcraft.op.desc=- %s : Дати OP для FakePlayer  
+command.buildcraft.buildcraft.op.help=Надає OP-права віртуальному гравцю BuildCraft (від імені кар’єрів, роботів тощо)  
+command.buildcraft.buildcraft.op.format=Формат: /%s
+
+command.buildcraft.buildcraft.deop.desc=- %s : Забрати OP у FakePlayer  
+command.buildcraft.buildcraft.deop.help=Забирає OP-права у віртуального гравця BuildCraft (кар’єри, роботи тощо)  
+command.buildcraft.buildcraft.deop.format=Формат: /%s
+
+#advancements
+advancements.buildcraftcore.root.title=BuildCraft  
+advancements.buildcraftcore.root.description=Інженерні рішення — на будь-який випадок
+
+advancements.buildcraftcore.guide.title=А як воно працює?  
+advancements.buildcraftcore.guide.description=Зазирніть до гіда
+
+advancements.buildcraftcore.gears.title=Передачка пішла!  
+advancements.buildcraftcore.gears.description=Отримайте по одному з кожного типу шестерні
+
+advancements.buildcraftcore.wrenched.title=Гайковий герой  
+advancements.buildcraftcore.wrenched.description=Скористайтесь гайковим ключем
+
+advancements.buildcraftcore.freePowar.title=Безкоштовна енергія!  
+advancements.buildcraftcore.freePowar.description=Генеруйте дармову енергію
+
+advancements.buildcraftcore.list.title=Сортування по-феншую  
+advancements.buildcraftcore.list.description=Освойте розширені можливості списків
+
+advancements.buildcraftcore.engine.title=Мій перший двигун  
+advancements.buildcraftcore.engine.description=Створіть свій перший двигун
+
+advancements.buildcraftcore.markers.title=Мітимо територію  
+advancements.buildcraftcore.markers.description=Встановіть об’ємні маркери для області
+
+advancements.buildcraftcore.path_markers.title=Прокладаємо маршрут  
+advancements.buildcraftcore.path_markers.description=Визначте шлях
+
+advancements.buildcraftcore.paper.title=Колекціонер паперу  
+advancements.buildcraftcore.paper.description=Скористайтесь усім папером, що знайдете
+
+advancements.buildcraftenergy.poweringUp.title=Дамо струму!  
+advancements.buildcraftenergy.poweringUp.description=Активуйте двигун (Стерлінга або Згоряння) за допомогою редстоуну
+
+advancements.buildcraftenergy.lava_power.title=Лавовий привід
+advancements.buildcraftenergy.lava_power.description=Запустіть двигун Стерлінга за допомогою відра лави
+
+advancements.buildcraftenergy.to_much_power.title=Перегрів!
+advancements.buildcraftenergy.to_much_power.description=Перегрійте двигун і влупіть по ньому гайковим ключем
+
+advancements.buildcraftenergy.ice_cool.title=Крижаний спокій
+advancements.buildcraftenergy.ice_cool.description=Охолодіть двигун згоряння чимось іншим, ніж вода (якщо можливо)
+
+advancements.buildcraftenergy.sticky_dipping.title=Масляний сюрприз
+advancements.buildcraftenergy.sticky_dipping.description=Відкрийте клейку сутність нафти
+
+advancements.buildcraftenergy.fine_riches.title=Нафтові багатства
+advancements.buildcraftenergy.fine_riches.description=Знайдіть біом з нафтою
+
+advancements.buildcraftenergy.refine_and_redefine.title=Рафінуй усе!
+advancements.buildcraftenergy.refine_and_redefine.description=Заповніть резервуар кожним типом нафти й пального
+
+advancements.buildcraftfactory.fluid_storage.title=Зберігання рідини
+advancements.buildcraftfactory.fluid_storage.description=Збережіть рідину у резервуарі
+
+advancements.buildcraftfactory.lazy_crafting.title=Крафт для лінивих
+advancements.buildcraftfactory.lazy_crafting.description=Змусьте автоматичний верстак працювати за вас
+
+advancements.buildcraftfactory.retired_hopper.title=На пенсії? Не сьогодні!
+advancements.buildcraftfactory.retired_hopper.description=Поверніть жолоб до роботи
+
+advancements.buildcraftfactory.flooding_the_world.title=Потоп — це стиль
+advancements.buildcraftfactory.flooding_the_world.description=Затопіть територію за допомогою шлюзу
+
+advancements.buildcraftfactory.draining_the_world.title=Сухо як в пустелі
+advancements.buildcraftfactory.draining_the_world.description=Викачайте рідину з світу за допомогою насоса
+
+advancements.buildcraftfactory.oil_platform.title=Нафтова платформа
+advancements.buildcraftfactory.oil_platform.description=Розпочніть видобуток нафти з гейзера
+
+advancements.buildcraftfactory.heating_and_distilling.title=Нагрій — переганяй
+advancements.buildcraftfactory.heating_and_distilling.description=Створіть повний цикл переробки нафти з Дистилятором та Теплообмінником
+
+advancements.buildcraftfactory.black_gold.title=Чорне золото
+advancements.buildcraftfactory.black_gold.description=Повністю викачайте великий нафтовий гейзер
+
+advancements.buildcraftsilicon.laser_power.title=Лазерна сила
+advancements.buildcraftsilicon.laser_power.description=Створіть лазер
+
+advancements.buildcraftsilicon.precision_crafting.title=Точне крафтування
+advancements.buildcraftsilicon.precision_crafting.description=Почніть крафтити за допомогою асемблерного стола
+
+advancements.buildcrafttransport.pipe_dream.title=Труба мрії
+advancements.buildcrafttransport.pipe_dream.description=Встановіть трубу
+
+advancements.buildcrafttransport.pipe_diversification.title=Трубопровідна диверсифікація
+advancements.buildcrafttransport.pipe_diversification.description=Встановіть трубу для предметів, рідин, енергії та структурну трубу
+
+advancements.buildcrafttransport.plugging_the_gap.title=Затикаємо дірки
+advancements.buildcrafttransport.plugging_the_gap.description=Заткніть трубу заглушкою
+
+advancements.buildcrafttransport.logic_transportation.title=Розумна доставка
+advancements.buildcrafttransport.logic_transportation.description=Під’єднайте сигнальні дроти до труб
+
+advancements.buildcrafttransport.extended_logic.title=Розширена логіка
+advancements.buildcrafttransport.extended_logic.description=Використайте шлюз з додатковими слотами
+
+advancements.buildcrafttransport.sealing_fluids.title=Герметизація труб
+advancements.buildcrafttransport.sealing_fluids.description=Переплавте кактус і використайте барвник для створення ущільнювача
+
+advancements.buildcrafttransport.pipe_logic.title=Логіка труб
+advancements.buildcrafttransport.pipe_logic.description=Встановіть шлюз на трубу
+
+advancements.buildcrafttransport.all_plugged_up.title=Усе заглушено
+advancements.buildcrafttransport.all_plugged_up.description=Приєднайте кожен унікальний компонент до труби
+
+advancements.buildcrafttransport.pipe_fanatic.title=Фанат труб
+advancements.buildcrafttransport.pipe_fanatic.description=Розмістіть кожен тип труби
+
+advancements.buildcrafttransport.categorizing_with_colors.title=Сортування кольорами
+advancements.buildcrafttransport.categorizing_with_colors.description=Налаштуйте систему сортування за допомогою кольорів
+
+advancements.buildcrafttransport.colorful_electrician.title=Кольоровий електрик
+advancements.buildcrafttransport.colorful_electrician.description=Використайте по 16 проводів кожного кольору, щоб посилити систему труб
+
+advancements.buildcraftbuilders.shaping_the_world.title=Формування світу
+advancements.buildcraftbuilders.shaping_the_world.description=Створіть і розмістіть кар’єр
+
+advancements.buildcraftbuilders.architect.title=Архітектор
+advancements.buildcraftbuilders.architect.description=Скануйте ділянку столом архітектора і запишіть у креслення/шаблон
+
+advancements.buildcraftbuilders.paving_the_way.title=Прокладання шляху
+advancements.buildcraftbuilders.paving_the_way.description=Використайте будівника разом із маркерами шляху для створення дороги
+
+advancements.buildcraftbuilders.diggy.title=Копати глибше!
+advancements.buildcraftbuilders.diggy.description=Завершіть роботу кар’єру 64x64
+
+advancements.buildcraftbuilders.start_of_something_big.title=Початок чогось великого
+advancements.buildcraftbuilders.start_of_something_big.description=Побудуйте надвелику структуру за допомогою будівника
+
+advancements.buildcraftbuilders.building_for_the_future.title=Будівництво для майбутнього
+advancements.buildcraftbuilders.building_for_the_future.description=Запустіть заповнювач на цикл для довготривалої автоматизації
+
+advancements.buildcraftbuilders.destroying_the_world.title=Руйнівник світів
+advancements.buildcraftbuilders.destroying_the_world.description=Запустіть два або більше кар’єрів розміром 64x64 на повну потужність

@@ -1,0 +1,184 @@
+﻿# Creative Tab
+itemGroup.ThaumicEnergistics=Thaumic Energistics
+
+# Blocks
+tile.thaumicenergistics.infusion_provider.name=Постачальник інфузії есенції
+tile.thaumicenergistics.arcane_assembler.name=Арканічний збирач
+tile.thaumicenergistics.super_arcane_assembler.name=Покращений арканічний збирач
+# Items
+item.thaumicenergistics.diffusion_core.name=Ядро розсіювання
+item.thaumicenergistics.coalescence_core.name=Ядро злиття
+
+item.thaumicenergistics.essentia_component_1k.name=Компонент есенції ME 1k
+item.thaumicenergistics.essentia_component_4k.name=Компонент есенції ME 4k
+item.thaumicenergistics.essentia_component_16k.name=Компонент есенції ME 16k
+item.thaumicenergistics.essentia_component_64k.name=Компонент есенції ME 64k
+item.thaumicenergistics.essentia_component_256k.name=Компонент есенції ME 256k
+item.thaumicenergistics.essentia_component_1024k.name=Компонент есенції ME 1024k
+item.thaumicenergistics.essentia_component_4096k.name=Компонент есенції ME 4096k
+item.thaumicenergistics.essentia_component_16384k.name=Компонент есенції ME 16384k
+item.thaumicenergistics.essentia_component_65536k.name=Компонент есенції ME 65536k
+item.thaumicenergistics.essentia_component_262144k.name=Компонент есенції ME 262144k
+item.thaumicenergistics.essentia_component_1048576k.name=Компонент есенції ME 1048576k
+
+item.thaumicenergistics.primal_ingot.name=Праматеріяний злиток
+item.thaumicenergistics.adv_casing.name=Покращений корпус комірки
+
+item.thaumicenergistics.essentia_cell_1k.name=ME-комірка есенції 1k
+item.thaumicenergistics.essentia_cell_4k.name=ME-комірка есенції 4k
+item.thaumicenergistics.essentia_cell_16k.name=ME-комірка есенції 16k
+item.thaumicenergistics.essentia_cell_64k.name=ME-комірка есенції 64k
+item.thaumicenergistics.essentia_cell_256k.name=ME-комірка есенції 256k
+item.thaumicenergistics.essentia_cell_1024k.name=ME-комірка есенції 1024k
+item.thaumicenergistics.essentia_cell_4096k.name=ME-комірка есенції 4096k
+item.thaumicenergistics.essentia_cell_16384k.name=ME-комірка есенції 16384k
+item.thaumicenergistics.essentia_cell_65536k.name=ME-комірка есенції 65536k
+item.thaumicenergistics.essentia_cell_262144k.name=ME-комірка есенції 262144k
+item.thaumicenergistics.essentia_cell_1048576k.name=ME-комірка есенції 1048576k
+
+
+
+item.thaumicenergistics.essentia_cell_creative.name=Креативна ME-комірка есенції
+
+item.thaumicenergistics.essentia_import.name=ME-шина імпорту есенції
+item.thaumicenergistics.essentia_export.name=ME-шина експорту есенції
+item.thaumicenergistics.essentia_storage.name=ME-шина зберігання есенції
+item.thaumicenergistics.essentia_terminal.name=ME-термінал есенції
+item.thaumicenergistics.arcane_terminal.name=Арканічний крафт-термінал
+item.thaumicenergistics.arcane_inscriber.name=Арканічний штампер
+item.thaumicenergistics.upgrade_arcane.name=Арканічне покращення зарядки
+item.thaumicenergistics.knowledge_core.name=Ядро знань
+item.thaumicenergistics.blank_knowledge_core.name=Порожнє ядро знань
+
+# Tooltips
+tooltip.thaumicenergistics.wip=В РОЗРОБЦІ, НЕ ВИКОРИСТОВУЙ
+tooltip.thaumicenergistics.device_online=Пристрій активний
+tooltip.thaumicenergistics.device_offline=Пристрій вимкнений
+tooltip.thaumicenergistics.device_missing_channel=Відсутній канал пристрою
+tooltip.thaumicenergistics.arcane_assembler.idle=Статус: простоює
+tooltip.thaumicenergistics.arcane_assembler.prep=Статус: підготовка
+tooltip.thaumicenergistics.arcane_assembler.busy=Статус: працює
+tooltip.thaumicenergistics.arcane_assembler.progress=Прогрес:
+tooltip.thaumicenergistics.arcane_assembler.no_aspect=Помилка: відсутній аспект
+tooltip.thaumicenergistics.arcane_assembler.no_vis=Помилка: нестача вісу
+
+# GUI
+gui.thaumicenergistics.essentia_import_bus=ME-шина імпорту есенції
+gui.thaumicenergistics.essentia_export_bus=ME-шина експорту есенції
+gui.thaumicenergistics.essentia_storage_bus=ME-шина зберігання есенції
+gui.thaumicenergistics.essentia_terminal=Термінал есенції
+gui.thaumicenergistics.arcane_terminal=Арканічний термінал
+gui.thaumicenergistics.arcane_inscriber=Арканічний штампер
+
+gui.thaumicenergistics.vis_required=Вартість вісу: %s
+gui.thaumicenergistics.vis_required_out_of=Вартість вісу: %s/%s
+gui.thaumicenergistics.vis_available=%s доступно
+gui.thaumicenergistics.vis_discount=Знижка вісу: %s%%
+
+gui.thaumicenergistics.insert_knowledge_core=Вставте ядро знань
+gui.thaumicenergistics.knowledge_core_is_blank=Ядро знань порожнє
+gui.thaumicenergistics.recipe_already_stored=Рецепт уже збережено
+gui.thaumicenergistics.recipe_not_arcane=Рецепт не є арканічним
+gui.thaumicenergistics.no_recipe=Рецепт не обрано
+
+gui.thaumicenergistics.out_of_aspect=Аспекти закінчилися!
+gui.thaumicenergistics.out_of_vis=Вісу не вистачає!
+
+card.tinkerae.name=Маніпуляції з Речовиною/Енергією
+card.tinkerae.text=Експериментуй із перетворенням есенції в енергію, подібно до твоєї нинішньої мережі Речовини/Енергії. Отримай 10–25 Енергетики.
+
+# FROM THAUMCRAFT en_US.lang
+# BEST TO RECHECK THE LATEST LANG FILE FOR CHANGED FORMATTING
+#
+# Special formatting codes:
+# <BR> or <BR/>         Paragraph break (<BR/> is included for people using XML for their localization)
+# <LINE> or <LINE/>     Insert a fancy centered linebreak between sections of text.
+# <DIV> or <DIV/>     Insert a fancy left-justified linebreak between sections of text.
+# <PAGE> or <PAGE/>     Skip to a new page.
+# <IMG>...</IMG>  Insert a centered image into text. Parameters are separated by ':' and are:
+#                    - mod resource location name
+#                    - png file location (assumed to be a 256x256 texture, a sub-image will be grabbed from this png as specified below)
+#                    - x location of sub-image in png
+#                    - y location of sub-image in png
+#                    - x size of sub-image (255 if full x size of png must be used)
+#                    - y size of sub-image (255 if full y size of png must be used)
+#                    - scaling - 1.0 for normal 256x256 images, or smaller for proportionately smaller .png files (a 16x16 image will be 0.0625)
+#               Examples:
+#                   <IMG>thaumcraft:textures/gui/gui_researchbook.png:24:184:96:4:1.0</IMG>   <-- line break image as used in <LINE> above
+#                   <IMG>thaumcraft:textures/items/alumentum.png:0:0:255:255:0.0625</IMG>     <-- alumentum item icon
+
+# Research Category
+tc.research_category.THAUMICENERGISTICS=Енергетика
+
+# Research Basics
+research.base_energistics.title=Таумічна Енергетика
+research.base_energistics.stage.1=Як учений і адепт аркан, я припустив, що можливо стабільно й продуктивно поєднати технології та магію.<BR>Я маю детально вивчити принципи перетворення матерії в енергію, щоб досягти цього. Ймовірно, існують аспекти Тауматургії, які можуть це забезпечити, так само як і відповідні технології.<BR>Це вимагатиме ґрунтовних досліджень, але я певен, що це буде вартісне вкладення мого часу.
+
+# Research Digisentia
+research.digisentia.title=Дігі-Сентія
+research.digisentia.stage.1=З’ясувавши, як дистилювати есенцію, я замислився: а чи можливо зберігати її в цифровому вигляді?<BR>Оглядаючи §lЯдро Формування§r та §lЯдро Анігіляції§r, я усвідомив, що з певними модифікаціями вони можуть служити засобом для перетворення есенції в цифровий формат і назад.<BR>Однак через корозійну природу деяких видів есенції, навколо схем потрібно нанести шар ртуті, щоб запобігти руйнуванню.
+
+research.digisentia.stage.2=§lЯдро Розсіювання§r<BR>Через відносно високу летючість та величезну енергію дистильованої есенції її спершу потрібно розсіяти, а вже потім — оцифрувати. Імовірно, знадобиться буферна камера для зберігання розсіяної есенції.<PAGE><LINE>§lЯдро Злиття§r<BR>Стискає та зв’язує рематеріалізовану розсіяну есенцію назад у її сировинну форму. Також, ймовірно, буде потрібна буферна камера.
+
+# Research Digisentia Storage
+# 1k
+research.essentiastorage1k.title=Сховище Дігі-Сентії
+research.essentiastorage1k.stage.1=Оглянувши наявні цифрові носії даних, я дійшов висновку, що цілком можу зберігати оцифровану есенцію.<BR>Настроївши §lЦертусовий Кварц§r §lСалісом Мундусом§r, я надаю йому здатність зберігати есенцію, яка лишається напрочуд активною навіть у цифровому вигляді.<BR>Я припускаю, що чим вища концентрація §lСаліс Мундуса§r, тим більше есенції він зможе втримати, хоча кварц має певні межі.
+
+research.essentiastorage1k.stage.2=Мені вдалося створити носій, здатний зберігати невелику кількість есенції в цифровому вигляді. Можливо, якщо поєднати кілька компонентів — вийде більше?
+
+# 4k
+research.essentiastorage4k.title=Більше Сховище Дігі-Сентії
+research.essentiastorage4k.stage.1=Можливо, я зможу використати інші процесори для поєднання декількох сховищ воєдино.
+
+research.essentiastorage4k.stage.2=Я вже можу зберігати пристойну кількість есенції в цифровому вигляді, використовуючи обчислювальні процесори, які забезпечують взаємодію компонентів.
+
+# 16k
+research.essentiastorage16k.title=Ще Більше Сховище Дігі-Сентії
+research.essentiastorage16k.stage.1=Як і в попередній спробі збільшити обсяг сховища, я можу використати потужніші процесори для об’єднання компонентів.
+
+research.essentiastorage16k.stage.2=Завдяки іншому типу процесора, тепер я можу зберігати у 16 разів більше есенції на одному компоненті, ніж у своєму першому грубому варіанті.
+
+# 64k
+research.essentiastorage64k.title=Величезне Сховище Дігі-Сентії
+research.essentiastorage64k.stage.1=Мої поточні потреби в сховищі вже не задовольняються. Сподіваюсь, я ще зможу об’єднати кілька компонентів, зберігаючи той самий розмір...
+
+research.essentiastorage64k.stage.2=Тепер я можу зберігати колосальні обсяги есенції на одному компоненті, але здається, це вже межа технології.
+
+# Research Essentia Buses
+research.essentiabuses.title=Транспортування Дігі-Сентії
+research.essentiabuses.stage.1=Тепер, коли я маю компоненти для безпечного транспортування есенції через мою систему МЕ, я можу почати створювати шини для есенції.
+research.essentiabuses.stage.2=Я можу створювати шини імпорту, експорту та зберігання. Всі вони працюють так само, як і їхні предметні аналоги.
+
+# Research Essentia Terminal
+research.essentiaterminal.title=Моніторинг Есенції
+research.essentiaterminal.stage.1=Тепер, коли я можу оцифровувати есенцію, я зрозумів, що більше не можу відстежувати її кількість — це термінова проблема.
+research.essentiaterminal.stage.2=Термінал Есенції МЕ дозволяє бачити всю есенцію, до якої має доступ мережа МЕ. Крім того, через нього можна вставляти й витягувати есенцію за допомогою фіалів.
+
+# Research Infusion Provider
+research.infusionprovider.title=Постачальник Інфузії
+research.infusionprovider.stage.1=Хоча керування есенцією через систему МЕ надзвичайно корисне, мене дратує процес інфузії — я мушу витягувати всю есенцію в баночки прямо на місці. А що, якби я міг надати доступ до есенції безпосередньо Матриці Інфузії, як це робить термінал есенції?
+research.infusionprovider.stage.2=Успіх! Постачальник Інфузії надає доступ до всієї есенції з мережі МЕ для процесу інфузії! Бонусом він також сумісний із шинами зберігання есенції, дозволяючи створювати підмережі, якщо це буде потрібно.
+
+# Research Arcane Crafting Terminal
+research.arcaneterminal.title=Арканічний Крафтовий Термінал
+research.arcaneterminal.stage.1=Мене вже задовбало постійно бігати між системою МЕ та Арканічним Верстатом для кожного крафту. Хоча це набагато складніше, ніж звичайний крафтовий термінал, але за схожими принципами я зможу під’єднати Арканічний Верстат до мережі МЕ.
+research.arcaneterminal.stage.2=Арканічний Крафтовий Термінал дозволяє моєму Арканічному Верстату повною мірою скористатися всіма перевагами системи МЕ.
+research.arcaneterminal.addenda.1=Я можу проапгрейдити Арканічний Крафтовий Термінал за допомогою Покращення Заряджання, щоб дати йому змогу тягнути віс із навколишніх чанків.
+
+# Research Arcane Assembler
+research.arcaneassembler.title=Арканічний Збирач
+research.arcaneassembler.stage.1=Можливість вручну створювати арканічні предмети через МЕ — це зручно, але справжня сила МЕ в автоматичному крафті. Треба знайти спосіб, щоб зробити Молекулярний Збирач здатним створювати арканічні речі.
+research.arcaneassembler.stage.2=Все ніби готово — і предмети, і віс, і кристали есенції, і живлення. Але він навіть не намагається крафтити! Я винайшов не що інше, як довбаний паперовий прес-пап’є, хоч і важкий. Але його можна прокачати Картами Прискорення. Все одно — повне розчарування.
+research.arcaneassembler.addenda.1=Я можу проапгрейдити Арканічного Збирача за допомогою Покращення Заряджання, щоб дати йому доступ до вісу з навколишніх чанків.
+research.arcaneassembler.addenda.2=Після того, як я побачив Арканічного Збирача в дії, я виявив дві проблеми: по-перше, віс споживається з шаленою швидкістю, що сильно гальмує процес; по-друге, кристали вісу не відображаються у вартості рецепту. Треба якось обійти ці проблеми для ефективного авто-крафту.
+
+# Research Knowledge Core
+research.knowledgecore.title=Ядро Знань
+research.knowledgecore.stage.1=Я розмірковую над своїм теперішнім прес-пап’є — Арканічним Збирачем. Можливо, він просто не знає, як крафтити — бо не проводив годин у дослідженнях. Мені слід знайти спосіб навчити його.
+research.knowledgecore.stage.2=Еврика! Мені не треба, щоб Збирач сам проводив дослідження — це ж нереально. Треба просто створити щось, що запам’ятає рецепт і зможе повторити його точно. Зомбі-мізки ідеально підійдуть — варто лише навчити їх повторювати побачене.
+
+# Research Arcane Inscriber
+research.arcaneinscriber.title=Арканічний штампер
+research.arcaneinscriber.stage.1=Виявляється, зомбі не дуже тямущі. Я намагаюсь навчити Ядро Знань крафту вже деякий час — і нічого. Треба знайти спосіб змусити це ядро вивчати рецепти.
+research.arcaneinscriber.stage.2=Взявши за основу Термінал Шаблонів МЕ, я створив пристрій, здатний навчати Ядро Знань рецептам. Просто завантажую рецепт у сітку й зберігаю! Я також можу переглядати збережені рецепти й за потреби видаляти їх із пам’яті зомбі. Хоча один зомбі-мозок має обмежену кількість комірок, на щастя, зомбі не бракує.
